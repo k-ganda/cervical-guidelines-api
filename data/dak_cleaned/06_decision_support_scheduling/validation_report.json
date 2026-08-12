@@ -1,0 +1,40 @@
+{
+  "artifact_id": "KEN.CC.DAK.L2.DECISION_SUPPORT_AND_SCHEDULING_LOGIC",
+  "generated_at": "2026-06-22T16:12:24Z",
+  "fatal_errors": [],
+  "warnings": [],
+  "information": [
+    "row without _provenance in decision_tables"
+  ],
+  "counts": {
+    "decision_table_register": 12,
+    "schedule_register": 7,
+    "references": 1,
+    "decision_tables": 116,
+    "schedules": 31
+  },
+  "worksheet_row_counts": {
+    "Decision Table Register": 12,
+    "Schedule Register": 7,
+    "References": 1,
+    "CC.DT.01 Eligibility": 40,
+    "CC.DT.02 Method selection": 7,
+    "CC.DT.03 HPV result": 9,
+    "CC.DT.04 VIA result": 8,
+    "CC.DT.05 Cytology result": 13,
+    "CC.DT.06 Colposcopy biopsy": 8,
+    "CC.DT.07 Ablation eligibility": 4,
+    "CC.DT.08 Treatment selection": 7,
+    "CC.DT.09 Cancer referral": 3,
+    "CC.DT.10 Post-treatment": 7,
+    "CC.DT.11 Invalid results": 4,
+    "CC.DT.12 Defaulter action": 6,
+    "CC.S.01 Routine rescreen": 4,
+    "CC.S.02 HPV triage": 7,
+    "CC.S.03 Cytology follow-up": 8,
+    "CC.S.04 Treatment": 5,
+    "CC.S.05 Post-treatment": 5,
+    "CC.S.06 Cancer referral": 1,
+    "CC.S.07 Result notification": 1
+  }
+}

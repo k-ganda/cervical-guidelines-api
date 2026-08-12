@@ -1,0 +1,159 @@
+{
+  "generated_at": "2026-06-22T16:12:25Z",
+  "source": "[{\"source_document_id\": \"SRC.001\", \"file_name\": \"kenya_cervical_guideline.pdf\", \"title\": \"Kenya National Cancer Screening and Early Diagnosis Guidelines - Cervical Cancer\", \"issuing_organization\": \"Ministry of Health Kenya\", \"edition\": \"Second edition\", \"year\": 2024}]",
+  "artifacts": [
+    {
+      "id": "01_health_interventions",
+      "artifact_id": "KEN.CC.DAK.L2.HEALTH_INTERVENTIONS_AND_RECOMMENDATIONS",
+      "counts": {
+        "L1 Recommendations": 54,
+        "Health Interventions": 16,
+        "Recommendation-Intervention": 22,
+        "References": 6
+      },
+      "fatal": 0,
+      "warnings": 0
+    },
+    {
+      "id": "02_personas",
+      "artifact_id": "KEN.CC.DAK.L2.PERSONAS",
+      "counts": {
+        "Actors": 11,
+        "Personas": 11,
+        "Persona-Activity Map": 13,
+        "References": 1
+      },
+      "fatal": 0,
+      "warnings": 0
+    },
+    {
+      "id": "03_user_scenarios",
+      "artifact_id": "KEN.CC.DAK.L2.USER_SCENARIOS",
+      "counts": {
+        "Scenario Register": 8,
+        "References": 1,
+        "CC.US.01 Routine screening": 5,
+        "CC.US.02 HPV positive": 6,
+        "CC.US.03 VIA screen-treat": 8,
+        "CC.US.04 Cytology pathway": 12,
+        "CC.US.05 Suspected cancer": 2,
+        "CC.US.06 Post-treatment": 7,
+        "CC.US.07 Result follow-up": 8,
+        "CC.US.08 Defaulter tracing": 3
+      },
+      "fatal": 0,
+      "warnings": 51
+    },
+    {
+      "id": "04_workflows",
+      "artifact_id": "KEN.CC.DAK.L2.BUSINESS_PROCESSES_AND_WORKFLOWS",
+      "counts": {
+        "Workflow Register": 8,
+        "Actors": 10,
+        "Workflow Transitions": 32,
+        "References": 1,
+        "CC.A Registration": 0,
+        "CC.B Eligibility": 5,
+        "CC.C Screening method": 15,
+        "CC.D HPV testing": 10,
+        "CC.E VIA triage": 10,
+        "CC.F Cytology": 20,
+        "CC.G Colposcopy biopsy": 5,
+        "CC.H Histopathology": 6,
+        "CC.I Precancer treatment": 6,
+        "CC.J Cancer referral": 5,
+        "CC.K Follow-up": 6,
+        "CC.L Record closure": 1
+      },
+      "fatal": 0,
+      "warnings": 78
+    },
+    {
+      "id": "05_core_data_dictionary",
+      "artifact_id": "KEN.CC.DAK.L2.CORE_DATA_DICTIONARY",
+      "counts": {
+        "Overview": 14,
+        "References": 1,
+        "CC.A Registration": 23,
+        "CC.B Eligibility history": 25,
+        "CC.C Symptoms examination": 17,
+        "CC.D HPV testing": 25,
+        "CC.E VIA": 26,
+        "CC.F Cytology": 27,
+        "CC.G Colposcopy biopsy": 19,
+        "CC.H Histopathology": 6,
+        "CC.I Treatment eligibility": 22,
+        "CC.J Precancer treatment": 26,
+        "CC.K Referral navigation": 16,
+        "CC.L Follow-up surveillance": 22,
+        "CC.M Record closure": 7,
+        "CC.Configuration": 26
+      },
+      "fatal": 0,
+      "warnings": 180
+    },
+    {
+      "id": "06_decision_support_scheduling",
+      "artifact_id": "KEN.CC.DAK.L2.DECISION_SUPPORT_AND_SCHEDULING_LOGIC",
+      "counts": {
+        "Decision Table Register": 12,
+        "Schedule Register": 7,
+        "References": 1,
+        "CC.DT.01 Eligibility": 40,
+        "CC.DT.02 Method selection": 7,
+        "CC.DT.03 HPV result": 9,
+        "CC.DT.04 VIA result": 8,
+        "CC.DT.05 Cytology result": 13,
+        "CC.DT.06 Colposcopy biopsy": 8,
+        "CC.DT.07 Ablation eligibility": 4,
+        "CC.DT.08 Treatment selection": 7,
+        "CC.DT.09 Cancer referral": 3,
+        "CC.DT.10 Post-treatment": 7,
+        "CC.DT.11 Invalid results": 4,
+        "CC.DT.12 Defaulter action": 6,
+        "CC.S.01 Routine rescreen": 4,
+        "CC.S.02 HPV triage": 7,
+        "CC.S.03 Cytology follow-up": 8,
+        "CC.S.04 Treatment": 5,
+        "CC.S.05 Post-treatment": 5,
+        "CC.S.06 Cancer referral": 1,
+        "CC.S.07 Result notification": 1
+      },
+      "fatal": 0,
+      "warnings": 0
+    },
+    {
+      "id": "07_indicators",
+      "artifact_id": "KEN.CC.DAK.L2.INDICATORS_AND_PERFORMANCE_METRICS",
+      "counts": {
+        "Indicator table": 22,
+        "Indicator-DE Map": 41,
+        "References": 7
+      },
+      "fatal": 0,
+      "warnings": 0
+    },
+    {
+      "id": "08_requirements",
+      "artifact_id": "KEN.CC.DAK.L2.FUNCTIONAL_AND_NONFUNCTIONAL_REQUIREMENTS",
+      "counts": {
+        "Functional": 15,
+        "Non-functional": 8,
+        "Requirement Traceability": 23,
+        "References": 1
+      },
+      "fatal": 0,
+      "warnings": 0
+    }
+  ],
+  "total_fatal": 0,
+  "total_warnings": 309,
+  "cleanup_status": "cleaned_CDS_ready",
+  "cleanup_run_date": "2026-07-06",
+  "canonical_l1_source": "l1_recommendations_clinician_validated(1).xlsx",
+  "cleanup_outputs": [
+    "improvement_master_log.json",
+    "cross_artifact_validation_cleaned.json",
+    "l1_clinician_change_tracking.json"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "validation_date": "2026-07-06",
+  "canonical_l1_source": "l1_recommendations_clinician_validated(1).xlsx",
+  "unique_l1_ids_used_in_l2": 120,
+  "valid_l1_ids": 120,
+  "invalid_l1_ids": 0,
+  "invalid_l1_id_list": [],
+  "internal_reference_issues_count": 0,
+  "internal_reference_issues": [],
+  "data_element_coverage_summary": {
+    "cds_rules_reviewed": 116,
+    "cds_rules_with_unresolved_data_elements": 0
+  },
+  "notes": "Validation focuses on cleaned DAK artifacts and excludes legacy/provenance-only fields and LLM cache files."
+}

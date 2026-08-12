@@ -1,0 +1,15 @@
+{
+  "artifact_id": "KEN.CC.DAK.L2.INDICATORS_AND_PERFORMANCE_METRICS",
+  "model": "gpt-5.4-mini",
+  "provider": "openai",
+  "model_calls": 2,
+  "input_tokens": 161641,
+  "output_tokens": 18247,
+  "elapsed_sec": 0.3,
+  "generated_at": "2026-06-22T16:12:25Z",
+  "sheets_written": {
+    "Indicator table": 22,
+    "Indicator-DE Map": 41,
+    "References": 7
+  }
+}

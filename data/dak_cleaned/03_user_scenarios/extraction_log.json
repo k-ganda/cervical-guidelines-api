@@ -1,0 +1,22 @@
+{
+  "artifact_id": "KEN.CC.DAK.L2.USER_SCENARIOS",
+  "model": "gpt-5.4-mini",
+  "provider": "openai",
+  "model_calls": 9,
+  "input_tokens": 728764,
+  "output_tokens": 31427,
+  "elapsed_sec": 0.6,
+  "generated_at": "2026-06-22T16:12:19Z",
+  "sheets_written": {
+    "Scenario Register": 8,
+    "References": 1,
+    "CC.US.01 Routine screening": 5,
+    "CC.US.02 HPV positive": 6,
+    "CC.US.03 VIA screen-treat": 8,
+    "CC.US.04 Cytology pathway": 12,
+    "CC.US.05 Suspected cancer": 2,
+    "CC.US.06 Post-treatment": 7,
+    "CC.US.07 Result follow-up": 8,
+    "CC.US.08 Defaulter tracing": 3
+  }
+}

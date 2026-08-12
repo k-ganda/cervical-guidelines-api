@@ -1,0 +1,1101 @@
+{
+  "artifact_folder": "08_requirements",
+  "artifact_name": "08_requirements",
+  "source_artifact_json": "artifact.json",
+  "cleaned_artifact_json": "08_requirements_artifact.json",
+  "source_artifact_xlsx": "artifact.xlsx",
+  "cleaned_artifact_xlsx": "08_requirements_artifact.xlsx",
+  "l1_source_of_truth": "l1_recommendations_clinician_validated(1).xlsx",
+  "l1_comparison_source": "l1_recommendations.xlsx",
+  "improvement_run_date": "2026-07-06",
+  "overall_change_summary": {
+    "records_reviewed": 143,
+    "records_updated": 45,
+    "records_added": 0,
+    "records_retired": 0,
+    "recommendation_links_corrected": 32,
+    "unresolved_items_remaining": 22,
+    "clinical_review_required": 15
+  },
+  "changes": [
+    {
+      "change_id": "08_requirements.CHANGE.001",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.003",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-a32e131633",
+          "KEN-CC-L1-87cb84e421"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-a32e131633"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-a32e131633",
+        "validated_l1_text": "In the HPV test screen-and-treat strategy, women who are HPV-negative are not treated, nor evaluated further. do not treat, do not evaluate further In the HPV test screen-and-treat strategy, women\nwho are HPV-negative are not treated, nor evaluated further."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "08_requirements.CHANGE.002",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.005",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-aa03884194",
+          "KEN-CC-L1-46a1532a80"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-aa03884194"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-aa03884194",
+        "validated_l1_text": "Implement a screen-triage-and-treat strategy for efficient management, in a single-visit approach if practical. Implement a screen-triage-and-treat strategy, Use a single-visit approach if practical •\t Implement a screen-triage-and-treat strategy for efficient management, in a\nsingle-visit approach if practical."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "08_requirements.CHANGE.003",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.006",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-49c280a525",
+          "KEN-CC-L1-73f280f8eb"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-73f280f8eb"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-73f280f8eb",
+        "validated_l1_text": "ALL women suspected to be having cancer should be referred immediately for colposcopy with biopsy and further management by a gynecologic oncologist. Refer immediately for colposcopy with biopsy, Arrange further management by a gynecologic oncologist Immediate Referral:  ALL women suspected to be having cancer should be referred immediately for  colposcopy with biopsy  and further management by a gynecologic oncologist."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "08_requirements.CHANGE.004",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.008",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-2804bd92b4",
+          "KEN-CC-L1-55a08bcc17",
+          "KEN-CC-L1-aa41664a5f"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": []
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "08_requirements.CHANGE.005",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.009",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-2e4f00a4d4",
+          "KEN-CC-L1-8cb770562f",
+          "KEN-CC-L1-659118f131",
+          "KEN-CC-L1-75f62bd020"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-2e4f00a4d4",
+          "KEN-CC-L1-8cb770562f"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-2e4f00a4d4",
+        "validated_l1_text": "Visual inspection with acetic acid (VIA) is a method for detecting early cell changes that are visible when using a speculum to inspect the cervix with the naked eye after applying 5% acetic acid to it. inspect the cervix with a speculum, apply 5% acetic acid to the cervix, detect early cell changes visible on inspection Visual inspection with acetic acid (VIA) is a method for detecting early cell changes that\nare visible when using a speculum to inspect the cervix with the naked eye after applying\n5% acetic acid to it."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "08_requirements.CHANGE.006",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.010",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-a4cdf92d9a",
+          "KEN-CC-L1-7ac8e0e7e6",
+          "KEN-CC-L1-e91a9d6522",
+          "KEN-CC-L1-5365233d31"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-a4cdf92d9a",
+          "KEN-CC-L1-5365233d31"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-a4cdf92d9a",
+        "validated_l1_text": "Cytology-based screening involves taking a sample of cells from the entire transformation zone. take a sample of cells from the entire transformation zone Cytology-based screening involves taking a sample of cells from the entire transformation zone."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "08_requirements.CHANGE.007",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.011",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-efa86cab3b",
+          "KEN-CC-L1-87e49c886d",
+          "KEN-CC-L1-1ac807ee56",
+          "KEN-CC-L1-7d64cec275",
+          "KEN-CC-FC-925f2cfdd7"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-efa86cab3b",
+          "KEN-CC-L1-87e49c886d",
+          "KEN-CC-L1-1ac807ee56",
+          "KEN-CC-L1-7d64cec275"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-efa86cab3b",
+        "validated_l1_text": "The first follow-up visit should be scheduled 1 year after treatment where re-testing is done preferably with HPV test to assess for clearance or cytology/VIA to check for a lesion if HPV is unavailable. Schedule first follow-up visit 1 year after treatment, Perform re-testing preferably with HPV test, If HPV is unavailable, use cytology/VIA to check for a lesion The first follow-up visit should be scheduled 1 year after treatment where re-testing is\ndone preferably with HPV test to assess for clearance or cytology/VIA to check for a\nlesion if HPV is unavailable."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.008",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.013",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-5717a7ca5b",
+          "KEN-CC-L1-ef261707a7"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": []
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "08_requirements.CHANGE.009",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.015",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-7db35db5ee",
+          "KEN-CC-L1-a64b8e770e",
+          "KEN-CC-L1-db3063c529",
+          "KEN-CC-L1-dc3fec394c"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-a64b8e770e"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-a64b8e770e",
+        "validated_l1_text": "Women with a positive test and an entirely visible lesion on the ectocervix, not extending to the vaginal wall or into the endocervix Women with a positive test and an\nentirely visible lesion on the ectocervix,\nnot extending to the vaginal wall or\ninto the endocervix"
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "08_requirements.CHANGE.010",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.001",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-3dcff33642"
+      },
+      "after": {
+        "source_recommendation_id": [
+          "KEN-CC-L1-3dcff33642"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-3dcff33642",
+        "validated_l1_text": "Screening all women in the target age group, followed by treatment of detected precancerous lesions, can prevent the majority of cervical cancers. Screen women in the target age group, Treat detected precancerous lesions •\t Screening all women in the target age group, followed by treatment of detected\nprecancerous lesions, can prevent the majority of cervical cancers."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.011",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.002",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-3b4850a337"
+      },
+      "after": {
+        "source_recommendation_id": [
+          "KEN-CC-L1-3b4850a337"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-3b4850a337",
+        "validated_l1_text": "HPV testing is recommended as the primary screening method. Use HPV testing as the primary screening method •\t HPV testing is recommended as the primary screening method."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.012",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.003",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-a32e131633"
+      },
+      "after": {
+        "source_recommendation_id": [
+          "KEN-CC-L1-a32e131633"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-a32e131633",
+        "validated_l1_text": "In the HPV test screen-and-treat strategy, women who are HPV-negative are not treated, nor evaluated further. do not treat, do not evaluate further In the HPV test screen-and-treat strategy, women\nwho are HPV-negative are not treated, nor evaluated further."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.013",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.004",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-15a7f9454b"
+      },
+      "after": {
+        "source_recommendation_id": [
+          "KEN-CC-L1-15a7f9454b"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-15a7f9454b",
+        "validated_l1_text": "Women who are HPV-positive should all be treated but first eligibility for ablative treatment must be assessed through the application of acetic acid and visual evaluation using the naked eye or with a colposcope (or Automated visual evaluation/AVE where available). treat, assess eligibility for ablative treatment, apply acetic acid, perform visual evaluation using the naked eye, perform visual evaluation with a colposcope, use Automated visual evaluation/AVE where available Women who are HPV-\npositive should all be treated but first eligibility for ablative treatment must be assessed\nthrough the application of acetic acid and visual evaluation using the naked eye or with\na colposcope (or Automated visual evaluation/AVE where available)."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.014",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.005",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-aa03884194"
+      },
+      "after": {
+        "source_recommendation_id": [
+          "KEN-CC-L1-aa03884194"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-aa03884194",
+        "validated_l1_text": "Implement a screen-triage-and-treat strategy for efficient management, in a single-visit approach if practical. Implement a screen-triage-and-treat strategy, Use a single-visit approach if practical •\t Implement a screen-triage-and-treat strategy for efficient management, in a\nsingle-visit approach if practical."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.015",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.006",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-49c280a525"
+      },
+      "after": {
+        "source_recommendation_id": []
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "08_requirements.CHANGE.016",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.007",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-3141662ec6"
+      },
+      "after": {
+        "source_recommendation_id": [
+          "KEN-CC-L1-3141662ec6"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-3141662ec6",
+        "validated_l1_text": "Strengthen the health information system •\t The health information system should be strengthened to ensure an effective\nfail-safe mechanism (linkage to treatment for those testing positive)"
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.017",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.008",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-2804bd92b4"
+      },
+      "after": {
+        "source_recommendation_id": []
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "08_requirements.CHANGE.018",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.009",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-2e4f00a4d4"
+      },
+      "after": {
+        "source_recommendation_id": [
+          "KEN-CC-L1-2e4f00a4d4"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-2e4f00a4d4",
+        "validated_l1_text": "Visual inspection with acetic acid (VIA) is a method for detecting early cell changes that are visible when using a speculum to inspect the cervix with the naked eye after applying 5% acetic acid to it. inspect the cervix with a speculum, apply 5% acetic acid to the cervix, detect early cell changes visible on inspection Visual inspection with acetic acid (VIA) is a method for detecting early cell changes that\nare visible when using a speculum to inspect the cervix with the naked eye after applying\n5% acetic acid to it."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.019",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.010",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-a4cdf92d9a"
+      },
+      "after": {
+        "source_recommendation_id": [
+          "KEN-CC-L1-a4cdf92d9a"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-a4cdf92d9a",
+        "validated_l1_text": "Cytology-based screening involves taking a sample of cells from the entire transformation zone. take a sample of cells from the entire transformation zone Cytology-based screening involves taking a sample of cells from the entire transformation zone."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.020",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.S.01",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-efa86cab3b"
+      },
+      "after": {
+        "source_recommendation_id": [
+          "KEN-CC-L1-efa86cab3b"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-efa86cab3b",
+        "validated_l1_text": "The first follow-up visit should be scheduled 1 year after treatment where re-testing is done preferably with HPV test to assess for clearance or cytology/VIA to check for a lesion if HPV is unavailable. Schedule first follow-up visit 1 year after treatment, Perform re-testing preferably with HPV test, If HPV is unavailable, use cytology/VIA to check for a lesion The first follow-up visit should be scheduled 1 year after treatment where re-testing is\ndone preferably with HPV test to assess for clearance or cytology/VIA to check for a\nlesion if HPV is unavailable."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.021",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.012",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-60360824e4"
+      },
+      "after": {
+        "source_recommendation_id": [
+          "KEN-CC-L1-60360824e4"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-60360824e4",
+        "validated_l1_text": "Women living with HIV (WLHIV) have higher risk of developing cervical cancer, hence the need for cervical cancer screen and treatment to be part of standard package of HIV care. Provide cervical cancer screening and treatment as part of standard HIV care. Women living with HIV (WLHIV) have higher risk of developing cervical cancer, hence\nthe need for cervical cancer screen and treatment to be part of standard package of\nHIV care."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.022",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.013",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-5717a7ca5b"
+      },
+      "after": {
+        "source_recommendation_id": []
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "08_requirements.CHANGE.023",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.014",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-dd15866ff1"
+      },
+      "after": {
+        "source_recommendation_id": [
+          "KEN-CC-L1-dd15866ff1"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-dd15866ff1",
+        "validated_l1_text": "Screening facilities must be accessible with adjustable examination tables and adequate space for mobility aids. ensure screening facilities are accessible, provide adjustable examination tables, provide adequate space for mobility aids Screening facilities must be accessible with adjustable examination tables and adequate space for mobility aids."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.024",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.FXNREQ.015",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-7db35db5ee"
+      },
+      "after": {
+        "source_recommendation_id": []
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "08_requirements.CHANGE.025",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.NFXNREQ.001",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-55a08bcc17"
+      },
+      "after": {
+        "source_recommendation_id": []
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "08_requirements.CHANGE.026",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.NFXNREQ.002",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-3141662ec6"
+      },
+      "after": {
+        "source_recommendation_id": [
+          "KEN-CC-L1-3141662ec6"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-3141662ec6",
+        "validated_l1_text": "Strengthen the health information system •\t The health information system should be strengthened to ensure an effective\nfail-safe mechanism (linkage to treatment for those testing positive)"
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.027",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.NFXNREQ.003",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-fc44789677"
+      },
+      "after": {
+        "source_recommendation_id": [
+          "KEN-CC-L1-fc44789677"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-fc44789677",
+        "validated_l1_text": "It is quite inexpensive, utilizes locally sourced supplies (vinegar and cotton), and does not require laboratory services. use locally sourced supplies such as vinegar and cotton, perform VIA without laboratory services It is quite inexpensive, utilizes locally sourced supplies (vinegar and cotton), and does not require laboratory services."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.028",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.NFXNREQ.004",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-dd15866ff1"
+      },
+      "after": {
+        "source_recommendation_id": [
+          "KEN-CC-L1-dd15866ff1"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-dd15866ff1",
+        "validated_l1_text": "Screening facilities must be accessible with adjustable examination tables and adequate space for mobility aids. ensure screening facilities are accessible, provide adjustable examination tables, provide adequate space for mobility aids Screening facilities must be accessible with adjustable examination tables and adequate space for mobility aids."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.029",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.NFXNREQ.005",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-659118f131"
+      },
+      "after": {
+        "source_recommendation_id": []
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "08_requirements.CHANGE.030",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.NFXNREQ.006",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-31df0f3e5e"
+      },
+      "after": {
+        "source_recommendation_id": []
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "08_requirements.CHANGE.031",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.NFXNREQ.007",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-aa03884194"
+      },
+      "after": {
+        "source_recommendation_id": [
+          "KEN-CC-L1-aa03884194"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-aa03884194",
+        "validated_l1_text": "Implement a screen-triage-and-treat strategy for efficient management, in a single-visit approach if practical. Implement a screen-triage-and-treat strategy, Use a single-visit approach if practical •\t Implement a screen-triage-and-treat strategy for efficient management, in a\nsingle-visit approach if practical."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.032",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.NFXNREQ.008",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "source_recommendation_id": "KEN-CC-L1-61d253af8e"
+      },
+      "after": {
+        "source_recommendation_id": [
+          "KEN-CC-L1-61d253af8e"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-61d253af8e",
+        "validated_l1_text": "To avoid test result misinterpretation, gender-based violence and proper adherence to post-treatment instructions (e.g., avoidance of coital activity after LEEP/Thermal ablation), encourage partner involvement and engagement in the screening & treatment process Encourage partner involvement and engagement in the screening and treatment process, Support proper adherence to post-treatment instructions, Advise avoidance of coital activity after LEEP/Thermal ablation To avoid test result misinterpretation, gender-based violence and proper\nadherence to post-treatment instructions (e.g., avoidance of coital activity\nafter LEEP/Thermal ablation), encourage partner involvement and\nengagement in the screening & \ttreatment process"
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.033",
+      "sheet_or_section": "requirement_traceability",
+      "record_id": "CC.FXNREQ.001",
+      "change_type": "resolved_legacy_workflow_step_traceability",
+      "severity": "major",
+      "before": {
+        "workflow_step_id": "CC.WF.01.STEP.001"
+      },
+      "after": {
+        "workflow_step_id": "CC.A.01.STEP.001"
+      },
+      "reason": "Mapped legacy CC.WF.01.STEP.* traceability IDs to actual workflow step IDs in 04_workflows.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.034",
+      "sheet_or_section": "requirement_traceability",
+      "record_id": "CC.FXNREQ.002",
+      "change_type": "resolved_legacy_workflow_step_traceability",
+      "severity": "major",
+      "before": {
+        "workflow_step_id": "CC.WF.01.STEP.003"
+      },
+      "after": {
+        "workflow_step_id": "CC.B.STEP.001"
+      },
+      "reason": "Mapped legacy CC.WF.01.STEP.* traceability IDs to actual workflow step IDs in 04_workflows.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.035",
+      "sheet_or_section": "requirement_traceability",
+      "record_id": "CC.FXNREQ.003",
+      "change_type": "resolved_legacy_workflow_step_traceability",
+      "severity": "major",
+      "before": {
+        "workflow_step_id": "CC.WF.01.STEP.005"
+      },
+      "after": {
+        "workflow_step_id": "CC.D.STEP.005"
+      },
+      "reason": "Mapped legacy CC.WF.01.STEP.* traceability IDs to actual workflow step IDs in 04_workflows.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.036",
+      "sheet_or_section": "requirement_traceability",
+      "record_id": "CC.FXNREQ.004",
+      "change_type": "resolved_legacy_workflow_step_traceability",
+      "severity": "major",
+      "before": {
+        "workflow_step_id": "CC.WF.01.STEP.006"
+      },
+      "after": {
+        "workflow_step_id": "CC.D.STEP.006"
+      },
+      "reason": "Mapped legacy CC.WF.01.STEP.* traceability IDs to actual workflow step IDs in 04_workflows.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.037",
+      "sheet_or_section": "requirement_traceability",
+      "record_id": "CC.FXNREQ.005",
+      "change_type": "resolved_legacy_workflow_step_traceability",
+      "severity": "major",
+      "before": {
+        "workflow_step_id": "CC.WF.01.STEP.008"
+      },
+      "after": {
+        "workflow_step_id": "CC.C.01.STEP.005"
+      },
+      "reason": "Mapped legacy CC.WF.01.STEP.* traceability IDs to actual workflow step IDs in 04_workflows.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.038",
+      "sheet_or_section": "requirement_traceability",
+      "record_id": "CC.FXNREQ.006",
+      "change_type": "resolved_legacy_workflow_step_traceability",
+      "severity": "major",
+      "before": {
+        "workflow_step_id": "CC.WF.01.STEP.009"
+      },
+      "after": {
+        "workflow_step_id": "CC.J.STEP.001"
+      },
+      "reason": "Mapped legacy CC.WF.01.STEP.* traceability IDs to actual workflow step IDs in 04_workflows.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.039",
+      "sheet_or_section": "requirement_traceability",
+      "record_id": "CC.FXNREQ.008",
+      "change_type": "resolved_legacy_workflow_step_traceability",
+      "severity": "major",
+      "before": {
+        "workflow_step_id": "CC.WF.01.STEP.010"
+      },
+      "after": {
+        "workflow_step_id": "CC.C.01.STEP.006"
+      },
+      "reason": "Mapped legacy CC.WF.01.STEP.* traceability IDs to actual workflow step IDs in 04_workflows.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.040",
+      "sheet_or_section": "requirement_traceability",
+      "record_id": "CC.FXNREQ.009",
+      "change_type": "resolved_legacy_workflow_step_traceability",
+      "severity": "major",
+      "before": {
+        "workflow_step_id": "CC.WF.01.STEP.011"
+      },
+      "after": {
+        "workflow_step_id": "CC.E.STEP.005"
+      },
+      "reason": "Mapped legacy CC.WF.01.STEP.* traceability IDs to actual workflow step IDs in 04_workflows.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.041",
+      "sheet_or_section": "requirement_traceability",
+      "record_id": "CC.FXNREQ.010",
+      "change_type": "resolved_legacy_workflow_step_traceability",
+      "severity": "major",
+      "before": {
+        "workflow_step_id": "CC.WF.01.STEP.014"
+      },
+      "after": {
+        "workflow_step_id": "CC.F.STEP.006"
+      },
+      "reason": "Mapped legacy CC.WF.01.STEP.* traceability IDs to actual workflow step IDs in 04_workflows.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.042",
+      "sheet_or_section": "requirement_traceability",
+      "record_id": "CC.S.01",
+      "change_type": "resolved_legacy_workflow_step_traceability",
+      "severity": "major",
+      "before": {
+        "workflow_step_id": "CC.WF.01.STEP.015"
+      },
+      "after": {
+        "workflow_step_id": "CC.K.STEP.001"
+      },
+      "reason": "Mapped legacy CC.WF.01.STEP.* traceability IDs to actual workflow step IDs in 04_workflows.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.043",
+      "sheet_or_section": "requirement_traceability",
+      "record_id": "CC.FXNREQ.012",
+      "change_type": "resolved_legacy_workflow_step_traceability",
+      "severity": "major",
+      "before": {
+        "workflow_step_id": "CC.WF.01.STEP.017"
+      },
+      "after": {
+        "workflow_step_id": "CC.B.STEP.001"
+      },
+      "reason": "Mapped legacy CC.WF.01.STEP.* traceability IDs to actual workflow step IDs in 04_workflows.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.044",
+      "sheet_or_section": "requirement_traceability",
+      "record_id": "CC.FXNREQ.013",
+      "change_type": "resolved_legacy_workflow_step_traceability",
+      "severity": "major",
+      "before": {
+        "workflow_step_id": "CC.WF.01.STEP.019"
+      },
+      "after": {
+        "workflow_step_id": "CC.B.STEP.001"
+      },
+      "reason": "Mapped legacy CC.WF.01.STEP.* traceability IDs to actual workflow step IDs in 04_workflows.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "08_requirements.CHANGE.045",
+      "sheet_or_section": "requirement_traceability",
+      "record_id": "CC.NFXNREQ.003",
+      "change_type": "resolved_legacy_workflow_step_traceability",
+      "severity": "major",
+      "before": {
+        "workflow_step_id": "CC.WF.01.STEP.011"
+      },
+      "after": {
+        "workflow_step_id": "CC.E.STEP.005"
+      },
+      "reason": "Mapped legacy CC.WF.01.STEP.* traceability IDs to actual workflow step IDs in 04_workflows.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    }
+  ],
+  "unresolved_items": [
+    {
+      "record_id": "CC.FXNREQ.003",
+      "issue": "Unresolved L1 reference KEN-CC-L1-87cb84e421",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.FXNREQ.005",
+      "issue": "Unresolved L1 reference KEN-CC-L1-46a1532a80",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.FXNREQ.006",
+      "issue": "Unresolved L1 reference KEN-CC-L1-49c280a525",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.FXNREQ.008",
+      "issue": "Unresolved L1 reference KEN-CC-L1-2804bd92b4",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.FXNREQ.008",
+      "issue": "Unresolved L1 reference KEN-CC-L1-55a08bcc17",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.FXNREQ.008",
+      "issue": "Unresolved L1 reference KEN-CC-L1-aa41664a5f",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.FXNREQ.009",
+      "issue": "Unresolved L1 reference KEN-CC-L1-659118f131",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.FXNREQ.009",
+      "issue": "Unresolved L1 reference KEN-CC-L1-75f62bd020",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.FXNREQ.010",
+      "issue": "Unresolved L1 reference KEN-CC-L1-7ac8e0e7e6",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.FXNREQ.010",
+      "issue": "Unresolved L1 reference KEN-CC-L1-e91a9d6522",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.FXNREQ.013",
+      "issue": "Unresolved L1 reference KEN-CC-L1-5717a7ca5b",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.FXNREQ.013",
+      "issue": "Unresolved L1 reference KEN-CC-L1-ef261707a7",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.FXNREQ.015",
+      "issue": "Unresolved L1 reference KEN-CC-L1-7db35db5ee",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.FXNREQ.015",
+      "issue": "Unresolved L1 reference KEN-CC-L1-db3063c529",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.FXNREQ.015",
+      "issue": "Unresolved L1 reference KEN-CC-L1-dc3fec394c",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.FXNREQ.006",
+      "issue": "Unresolved L1 reference KEN-CC-L1-49c280a525",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.FXNREQ.008",
+      "issue": "Unresolved L1 reference KEN-CC-L1-2804bd92b4",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.FXNREQ.013",
+      "issue": "Unresolved L1 reference KEN-CC-L1-5717a7ca5b",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.FXNREQ.015",
+      "issue": "Unresolved L1 reference KEN-CC-L1-7db35db5ee",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.NFXNREQ.001",
+      "issue": "Unresolved L1 reference KEN-CC-L1-55a08bcc17",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.NFXNREQ.005",
+      "issue": "Unresolved L1 reference KEN-CC-L1-659118f131",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.NFXNREQ.006",
+      "issue": "Unresolved L1 reference KEN-CC-L1-31df0f3e5e",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    }
+  ]
+}

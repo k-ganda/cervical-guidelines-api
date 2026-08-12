@@ -1,0 +1,19 @@
+{
+  "artifact_id": "KEN.CC.DAK.L2.HEALTH_INTERVENTIONS_AND_RECOMMENDATIONS",
+  "generated_at": "2026-06-22T16:12:19Z",
+  "fatal_errors": [],
+  "warnings": [],
+  "information": [],
+  "counts": {
+    "l1_recommendations": 54,
+    "health_interventions": 16,
+    "recommendation_intervention_mappings": 22,
+    "references": 6
+  },
+  "worksheet_row_counts": {
+    "L1 Recommendations": 54,
+    "Health Interventions": 16,
+    "Recommendation-Intervention": 22,
+    "References": 6
+  }
+}

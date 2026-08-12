@@ -1,0 +1,2538 @@
+{
+  "artifact_folder": "01_health_interventions",
+  "artifact_name": "01_health_interventions",
+  "source_artifact_json": "artifact.json",
+  "cleaned_artifact_json": "01_health_interventions_artifact.json",
+  "source_artifact_xlsx": "artifact.xlsx",
+  "cleaned_artifact_xlsx": "01_health_interventions_artifact.xlsx",
+  "l1_source_of_truth": "l1_recommendations_clinician_validated(1).xlsx",
+  "l1_comparison_source": "l1_recommendations.xlsx",
+  "improvement_run_date": "2026-07-06",
+  "overall_change_summary": {
+    "records_reviewed": 430,
+    "records_updated": 108,
+    "records_added": 0,
+    "records_retired": 0,
+    "recommendation_links_corrected": 92,
+    "unresolved_items_remaining": 87,
+    "clinical_review_required": 73
+  },
+  "changes": [
+    {
+      "change_id": "01_health_interventions.CHANGE.001",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.001",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.001"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.002",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.002",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.002"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.003",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.003",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.003"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.004",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.004",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.004"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.005",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.005",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.005"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.006",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.006",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.006"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.007",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.007",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.007"
+      },
+      "after": {
+        "recommendation_id": "KEN-CC-L1-3141662ec6"
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-3141662ec6",
+        "validated_l1_text": "Strengthen the health information system •\t The health information system should be strengthened to ensure an effective\nfail-safe mechanism (linkage to treatment for those testing positive)"
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.008",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.008",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.008"
+      },
+      "after": {
+        "recommendation_id": "KEN-CC-L1-e4bf0eaafe"
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-e4bf0eaafe",
+        "validated_l1_text": "The 2030 target as per WHO Cervical Cancer Elimination Strategy is to achieve 70%\nof women screened by a high-performance test [Human Papillomavirus (HPV) test]"
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.009",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.009",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.009"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.010",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.010",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.010"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.011",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.011",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.011"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.012",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.012",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.012"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.013",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.013",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.013"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.014",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.014",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.014"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.015",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.015",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.015"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.016",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.016",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.016"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.017",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.017",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.017"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.018",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.018",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.018"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.019",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.019",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.019"
+      },
+      "after": {
+        "recommendation_id": "KEN-CC-L1-7d010d9bd3"
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-7d010d9bd3",
+        "validated_l1_text": "Frequency of HPV testing is 5-yearly for HIV uninfected women but 3 yearly for HIV\ninfected women"
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.020",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.020",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.020"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.021",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.021",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.021"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.022",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.022",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.022"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.023",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.023",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.023"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.024",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.024",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.024"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.025",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.025",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.025"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.026",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.026",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.026"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.027",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.027",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.027"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.028",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.028",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.028"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.029",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.029",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.029"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.030",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.030",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.030"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.031",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.031",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.031"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.032",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.032",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.032"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.033",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.033",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.033"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.034",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.034",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.034"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.035",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.035",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.035"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.036",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.036",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.036"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.037",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.037",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.037"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.038",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.038",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.038"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.039",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.039",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.039"
+      },
+      "after": {
+        "recommendation_id": "KEN-CC-L1-97f11d0991"
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-97f11d0991",
+        "validated_l1_text": "Collect a punch biopsy. If the cervix shows any unusual signs or the provider suspects cancer, a punch\nbiopsy should be collected or the patient can be referred for further diagnostic tests\n(colposcopy and biopsy)."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.040",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.040",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.040"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.041",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.041",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.041"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.042",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.042",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.042"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.043",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.043",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.043"
+      },
+      "after": {
+        "recommendation_id": "KEN-CC-L1-d3fb1f4ecf"
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-d3fb1f4ecf",
+        "validated_l1_text": "Cryotherapy is highly effective with cure rates of 85-90% for lesions occupying less\nthan 75% of the cervix; however, for larger lesions the cure rate is reduced."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.044",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.044",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.044"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.045",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.045",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.045"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.046",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.046",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.046"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.047",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.047",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.047"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.048",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.048",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.048"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.049",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.049",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.049"
+      },
+      "after": {
+        "recommendation_id": "KEN-CC-L1-5b2634be44"
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-5b2634be44",
+        "validated_l1_text": "Women with a history of prior treatment\nfor precancer"
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.050",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.050",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.050"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.051",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.051",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.051"
+      },
+      "after": {
+        "recommendation_id": "KEN-CC-L1-4ba7b234be"
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-4ba7b234be",
+        "validated_l1_text": "Women with known pregnancy and\nuntil 6 weeks postpartum"
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.052",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.052",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.052"
+      },
+      "after": {
+        "recommendation_id": "KEN-CC-L1-1ec9b1be19"
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-1ec9b1be19",
+        "validated_l1_text": "Women with a lesion occupying more\nthan 75% of the surface area of the\ncervix"
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.053",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.053",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.053"
+      },
+      "after": {
+        "recommendation_id": "KEN-CC-L1-c31fbd5ffa"
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-c31fbd5ffa",
+        "validated_l1_text": "The cryotherapy probe does not cover\nthe lesion or leaves space of more\nthan 2mm"
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.054",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.L1.REC.054",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.054"
+      },
+      "after": {
+        "recommendation_id": "KEN-CC-L1-5f6dc56575"
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-5f6dc56575",
+        "validated_l1_text": "The lesion extends more than 2mm into\ncervical canal or onto the vaginal wall"
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.055",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.001",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_l1_recommendation_ids": "KEN-CC-L1-3b4850a337; KEN-CC-L1-e1bc4a5522; KEN-CC-L1-1798235ee4; KEN-CC-L1-8b3dfbb428"
+      },
+      "after": {
+        "linked_l1_recommendation_ids": [
+          "KEN-CC-L1-3b4850a337",
+          "KEN-CC-L1-e1bc4a5522",
+          "KEN-CC-L1-1798235ee4",
+          "KEN-CC-L1-8b3dfbb428"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-3b4850a337",
+        "validated_l1_text": "HPV testing is recommended as the primary screening method. Use HPV testing as the primary screening method •\t HPV testing is recommended as the primary screening method."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.056",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.002",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_l1_recommendation_ids": "KEN-CC-L1-b6346355ba; KEN-CC-L1-2e4f00a4d4; KEN-CC-L1-afb0c3d6be; KEN-CC-L1-f11e0355f1; KEN-CC-L1-8cb770562f"
+      },
+      "after": {
+        "linked_l1_recommendation_ids": [
+          "KEN-CC-L1-b6346355ba",
+          "KEN-CC-L1-2e4f00a4d4",
+          "KEN-CC-L1-afb0c3d6be",
+          "KEN-CC-L1-f11e0355f1",
+          "KEN-CC-L1-8cb770562f"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-b6346355ba",
+        "validated_l1_text": "Where HPV testing is not yet available, or loss-to-follow-up is a risk, then Visual Inspection with Acetic acid (VIA; Naked or Enhanced) is an acceptable primary screening method. perform Visual Inspection with Acetic acid (VIA) as primary screening method Where HPV testing is not yet available, or loss-to-follow-up is a risk, then\nVisual In spection with Acetic acid (VIA; Naked or Enhanced) is an\nacceptable primary screening method."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.057",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.003",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_l1_recommendation_ids": "KEN-CC-L1-a774061043; KEN-CC-L1-3686fcd69f; KEN-CC-L1-6960cbeb97; KEN-CC-L1-e91a9d6522; KEN-CC-L1-5365233d31"
+      },
+      "after": {
+        "linked_l1_recommendation_ids": [
+          "KEN-CC-L1-a774061043",
+          "KEN-CC-L1-3686fcd69f",
+          "KEN-CC-L1-6960cbeb97",
+          "KEN-CC-L1-5365233d31"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-a774061043",
+        "validated_l1_text": "Pap smear is recommended as a primary screening method in the following situations: For women not eligible for VIA because of a type 3 transformation zone (see Fig.4) and HPV screening not accessible; As a primary test in women between <30 years of age perform Pap smear as primary screening method Pap smear is recommended as a primary screening method in the following\nsituations:\n•    For women not eligible for VIA because of a type 3 transformation zone\n(see Fig.4) and HPV screening not accessible\n•     As a primary test in women between <30 years of age"
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.058",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.004",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_l1_recommendation_ids": "KEN-CC-L1-aac993dd60; KEN-CC-L1-46a1532a80; KEN-CC-L1-d677004e38; KEN-CC-L1-f086e91726; KEN-CC-L1-0a842c066a"
+      },
+      "after": {
+        "linked_l1_recommendation_ids": [
+          "KEN-CC-L1-aac993dd60",
+          "KEN-CC-L1-0a842c066a"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-aac993dd60",
+        "validated_l1_text": "These guidelines recommend the screen, triage and treat approach, as depicted in the algorithm. Use the screen, triage and treat approach These guidelines recommend the screen, triage and treat approach, as depicted in the algorithm."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.059",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.005",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_l1_recommendation_ids": "KEN-CC-L1-2804bd92b4; KEN-CC-L1-55a08bcc17; KEN-CC-L1-a9274e0a3d; KEN-CC-L1-aa41664a5f"
+      },
+      "after": {
+        "linked_l1_recommendation_ids": []
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.060",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.006",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_l1_recommendation_ids": "KEN-CC-L1-effb1be109; KEN-CC-L1-efa86cab3b; KEN-CC-L1-1ac807ee56; KEN-CC-L1-7d64cec275; KEN-CC-L1-834a98103d; KEN-CC-L1-202a6142ab; KEN-CC-L1-925f2cfdd7"
+      },
+      "after": {
+        "linked_l1_recommendation_ids": [
+          "KEN-CC-L1-effb1be109",
+          "KEN-CC-L1-efa86cab3b",
+          "KEN-CC-L1-1ac807ee56",
+          "KEN-CC-L1-7d64cec275",
+          "KEN-CC-L1-834a98103d",
+          "KEN-CC-L1-202a6142ab"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-effb1be109",
+        "validated_l1_text": "Women who have undergone treatment for precancerous lesions should receive post-treatment follow-up screening at one year after the treatment. Provide post-treatment follow-up screening Women who have undergone treatment for precancerous lesions should receive post-treatment follow-up screening at one year after the treatment"
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.061",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.007",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_l1_recommendation_ids": "KEN-CC-L1-f6df74edfa; KEN-CC-L1-08cf140146; KEN-CC-L1-5c8e4890d4; KEN-CC-L1-7c45071e7f; KEN-CC-L1-2fbded308b; KEN-CC-L1-d8d21b7ba1"
+      },
+      "after": {
+        "linked_l1_recommendation_ids": [
+          "KEN-CC-L1-f6df74edfa",
+          "KEN-CC-L1-08cf140146",
+          "KEN-CC-L1-5c8e4890d4",
+          "KEN-CC-L1-7c45071e7f",
+          "KEN-CC-L1-2fbded308b"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-f6df74edfa",
+        "validated_l1_text": "Eligible for ablative treatment Provide ablative treatment Eligible for\nablative\ntreatment"
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.062",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.008",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_l1_recommendation_ids": "KEN-CC-L1-0a842c066a; KEN-CC-L1-8836aedb01; KEN-CC-L1-134ee7a600; KEN-CC-L1-0457d98764; KEN-CC-L1-cfae4da3c2; KEN-CC-L1-7240081cfe; KEN-CC-L1-c93204c489"
+      },
+      "after": {
+        "linked_l1_recommendation_ids": [
+          "KEN-CC-L1-0a842c066a",
+          "KEN-CC-L1-8836aedb01",
+          "KEN-CC-L1-134ee7a600",
+          "KEN-CC-L1-0457d98764",
+          "KEN-CC-L1-cfae4da3c2",
+          "KEN-CC-L1-7240081cfe",
+          "KEN-CC-L1-c93204c489"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-0a842c066a",
+        "validated_l1_text": "Those who are ineligible for ablative treatment should be referred for excisional treatment or further evaluation. refer Those who are ineligible for ablative treatment should be referred for excisional treatment or further evaluation."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.063",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.009",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_l1_recommendation_ids": "KEN-CC-L1-49c280a525; KEN-CC-L1-75f62bd020; KEN-CC-L1-26f957b598; KEN-CC-L1-73f280f8eb; KEN-CC-L1-7efb044310; KEN-CC-L1-b238460481"
+      },
+      "after": {
+        "linked_l1_recommendation_ids": [
+          "KEN-CC-L1-73f280f8eb"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-73f280f8eb",
+        "validated_l1_text": "ALL women suspected to be having cancer should be referred immediately for colposcopy with biopsy and further management by a gynecologic oncologist. Refer immediately for colposcopy with biopsy, Arrange further management by a gynecologic oncologist Immediate Referral:  ALL women suspected to be having cancer should be referred immediately for  colposcopy with biopsy  and further management by a gynecologic oncologist."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.064",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.010",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_l1_recommendation_ids": "KEN-CC-L1-60360824e4; KEN-CC-L1-bb102911ba; KEN-CC-L1-ef53636137; KEN-CC-L1-37b38016a6; KEN-CC-L1-1ac2613c87; KEN-CC-L1-c7ffc4c711; KEN-CC-L1-e8c84a6267; KEN-CC-L1-31df0f3e5e; KEN-CC-L1-5c2d8603ce; KEN-CC-L1-bb5566f9d1"
+      },
+      "after": {
+        "linked_l1_recommendation_ids": [
+          "KEN-CC-L1-60360824e4",
+          "KEN-CC-L1-bb102911ba",
+          "KEN-CC-L1-ef53636137",
+          "KEN-CC-L1-37b38016a6",
+          "KEN-CC-L1-1ac2613c87",
+          "KEN-CC-L1-c7ffc4c711"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-60360824e4",
+        "validated_l1_text": "Women living with HIV (WLHIV) have higher risk of developing cervical cancer, hence the need for cervical cancer screen and treatment to be part of standard package of HIV care. Provide cervical cancer screening and treatment as part of standard HIV care. Women living with HIV (WLHIV) have higher risk of developing cervical cancer, hence\nthe need for cervical cancer screen and treatment to be part of standard package of\nHIV care."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.065",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.011",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_l1_recommendation_ids": "KEN-CC-L1-5717a7ca5b"
+      },
+      "after": {
+        "linked_l1_recommendation_ids": []
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.066",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.012",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_l1_recommendation_ids": "KEN-CC-L1-ef261707a7"
+      },
+      "after": {
+        "linked_l1_recommendation_ids": []
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.067",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.013",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_l1_recommendation_ids": "KEN-CC-L1-a5202d2e03; KEN-CC-L1-be3564c5d4; KEN-CC-L1-cb3c13da42"
+      },
+      "after": {
+        "linked_l1_recommendation_ids": []
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.068",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.014",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_l1_recommendation_ids": "KEN-CC-L1-90711d2c91"
+      },
+      "after": {
+        "linked_l1_recommendation_ids": [
+          "KEN-CC-L1-90711d2c91"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-90711d2c91",
+        "validated_l1_text": "Women who have received the HPV vaccine should receive routine cervical cancer screening as per the national guidelines receive routine cervical cancer screening as per the national guidelines Women who have received the HPV vaccine should receive routine cervical cancer screening as per the national guidelines"
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.069",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.015",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_l1_recommendation_ids": "KEN-CC-L1-dd15866ff1; KEN-CC-L1-a98650925c; KEN-CC-L1-db57f8cf81; KEN-CC-L1-23c0b12575"
+      },
+      "after": {
+        "linked_l1_recommendation_ids": [
+          "KEN-CC-L1-dd15866ff1",
+          "KEN-CC-L1-a98650925c",
+          "KEN-CC-L1-db57f8cf81",
+          "KEN-CC-L1-23c0b12575"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-dd15866ff1",
+        "validated_l1_text": "Screening facilities must be accessible with adjustable examination tables and adequate space for mobility aids. ensure screening facilities are accessible, provide adjustable examination tables, provide adequate space for mobility aids Screening facilities must be accessible with adjustable examination tables and adequate space for mobility aids."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.070",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.016",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_l1_recommendation_ids": "KEN-CC-L1-37b38016a6; KEN-CC-L1-1ac2613c87; KEN-CC-L1-c7ffc4c711"
+      },
+      "after": {
+        "linked_l1_recommendation_ids": [
+          "KEN-CC-L1-37b38016a6",
+          "KEN-CC-L1-1ac2613c87",
+          "KEN-CC-L1-c7ffc4c711"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-37b38016a6",
+        "validated_l1_text": "Women who turn screen positive, should be followed up with appropriate triaging strategy using either HPV16/18 genotyping, colposcopy, cytology, or VIA) to reduce the overall burden in this group (WHO, 2023). Follow up screen-positive women with an appropriate triaging strategy., Use HPV16/18 genotyping, colposcopy, cytology, or VIA for triage. Women who turn screen positive, should be followed up with\nappropriate triaging strategy using either HPV16/18 genotyping, colposcopy, cytology,\nor VIA) to reduce the overall burden in this group (WHO, 2023)."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.071",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.001",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.001"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.072",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.002",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.002"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.073",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.003",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.003"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.074",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.004",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.004"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.075",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.005",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.005"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.076",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.006",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.006"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.077",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.007",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.007"
+      },
+      "after": {
+        "recommendation_id": "KEN-CC-L1-3141662ec6"
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-3141662ec6",
+        "validated_l1_text": "Strengthen the health information system •\t The health information system should be strengthened to ensure an effective\nfail-safe mechanism (linkage to treatment for those testing positive)"
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.078",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.008",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.008"
+      },
+      "after": {
+        "recommendation_id": "KEN-CC-L1-e4bf0eaafe"
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-e4bf0eaafe",
+        "validated_l1_text": "The 2030 target as per WHO Cervical Cancer Elimination Strategy is to achieve 70%\nof women screened by a high-performance test [Human Papillomavirus (HPV) test]"
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.079",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.009",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.009"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.080",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.010",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.010"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.081",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.011",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.011"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.082",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.012",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.012"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.083",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.013",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.013"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.084",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.014",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.014"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.085",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.015",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.015"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.086",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.016",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.016"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.087",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.017",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.017"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.088",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.018",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.018"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.089",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.019",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.019"
+      },
+      "after": {
+        "recommendation_id": "KEN-CC-L1-7d010d9bd3"
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-7d010d9bd3",
+        "validated_l1_text": "Frequency of HPV testing is 5-yearly for HIV uninfected women but 3 yearly for HIV\ninfected women"
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.090",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.020",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.020"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.091",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.021",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.021"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.092",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.INT.022",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "recommendation_id": "CC.L1.REC.022"
+      },
+      "after": {
+        "recommendation_id": null
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.093",
+      "sheet_or_section": "health_interventions",
+      "record_id": "CC.INT.001",
+      "change_type": "added_cds_relevance_classification",
+      "severity": "minor",
+      "before": {
+        "cds_relevance": null
+      },
+      "after": {
+        "cds_relevance": "direct"
+      },
+      "reason": "Classified intervention by CDS relevance for CDS Hooks implementation.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.094",
+      "sheet_or_section": "health_interventions",
+      "record_id": "CC.INT.002",
+      "change_type": "added_cds_relevance_classification",
+      "severity": "minor",
+      "before": {
+        "cds_relevance": null
+      },
+      "after": {
+        "cds_relevance": "direct"
+      },
+      "reason": "Classified intervention by CDS relevance for CDS Hooks implementation.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.095",
+      "sheet_or_section": "health_interventions",
+      "record_id": "CC.INT.003",
+      "change_type": "added_cds_relevance_classification",
+      "severity": "minor",
+      "before": {
+        "cds_relevance": null
+      },
+      "after": {
+        "cds_relevance": "direct"
+      },
+      "reason": "Classified intervention by CDS relevance for CDS Hooks implementation.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.096",
+      "sheet_or_section": "health_interventions",
+      "record_id": "CC.INT.004",
+      "change_type": "added_cds_relevance_classification",
+      "severity": "minor",
+      "before": {
+        "cds_relevance": null
+      },
+      "after": {
+        "cds_relevance": "direct"
+      },
+      "reason": "Classified intervention by CDS relevance for CDS Hooks implementation.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.097",
+      "sheet_or_section": "health_interventions",
+      "record_id": "CC.INT.005",
+      "change_type": "added_cds_relevance_classification",
+      "severity": "minor",
+      "before": {
+        "cds_relevance": null
+      },
+      "after": {
+        "cds_relevance": "indirect"
+      },
+      "reason": "Classified intervention by CDS relevance for CDS Hooks implementation.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.098",
+      "sheet_or_section": "health_interventions",
+      "record_id": "CC.INT.006",
+      "change_type": "added_cds_relevance_classification",
+      "severity": "minor",
+      "before": {
+        "cds_relevance": null
+      },
+      "after": {
+        "cds_relevance": "direct"
+      },
+      "reason": "Classified intervention by CDS relevance for CDS Hooks implementation.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.099",
+      "sheet_or_section": "health_interventions",
+      "record_id": "CC.INT.007",
+      "change_type": "added_cds_relevance_classification",
+      "severity": "minor",
+      "before": {
+        "cds_relevance": null
+      },
+      "after": {
+        "cds_relevance": "indirect"
+      },
+      "reason": "Classified intervention by CDS relevance for CDS Hooks implementation.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.100",
+      "sheet_or_section": "health_interventions",
+      "record_id": "CC.INT.008",
+      "change_type": "added_cds_relevance_classification",
+      "severity": "minor",
+      "before": {
+        "cds_relevance": null
+      },
+      "after": {
+        "cds_relevance": "direct"
+      },
+      "reason": "Classified intervention by CDS relevance for CDS Hooks implementation.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.101",
+      "sheet_or_section": "health_interventions",
+      "record_id": "CC.INT.009",
+      "change_type": "added_cds_relevance_classification",
+      "severity": "minor",
+      "before": {
+        "cds_relevance": null
+      },
+      "after": {
+        "cds_relevance": "direct"
+      },
+      "reason": "Classified intervention by CDS relevance for CDS Hooks implementation.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.102",
+      "sheet_or_section": "health_interventions",
+      "record_id": "CC.INT.010",
+      "change_type": "added_cds_relevance_classification",
+      "severity": "minor",
+      "before": {
+        "cds_relevance": null
+      },
+      "after": {
+        "cds_relevance": "direct"
+      },
+      "reason": "Classified intervention by CDS relevance for CDS Hooks implementation.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.103",
+      "sheet_or_section": "health_interventions",
+      "record_id": "CC.INT.011",
+      "change_type": "added_cds_relevance_classification",
+      "severity": "minor",
+      "before": {
+        "cds_relevance": null
+      },
+      "after": {
+        "cds_relevance": "direct"
+      },
+      "reason": "Classified intervention by CDS relevance for CDS Hooks implementation.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.104",
+      "sheet_or_section": "health_interventions",
+      "record_id": "CC.INT.012",
+      "change_type": "added_cds_relevance_classification",
+      "severity": "minor",
+      "before": {
+        "cds_relevance": null
+      },
+      "after": {
+        "cds_relevance": "indirect"
+      },
+      "reason": "Classified intervention by CDS relevance for CDS Hooks implementation.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.105",
+      "sheet_or_section": "health_interventions",
+      "record_id": "CC.INT.013",
+      "change_type": "added_cds_relevance_classification",
+      "severity": "minor",
+      "before": {
+        "cds_relevance": null
+      },
+      "after": {
+        "cds_relevance": "indirect"
+      },
+      "reason": "Classified intervention by CDS relevance for CDS Hooks implementation.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.106",
+      "sheet_or_section": "health_interventions",
+      "record_id": "CC.INT.014",
+      "change_type": "added_cds_relevance_classification",
+      "severity": "minor",
+      "before": {
+        "cds_relevance": null
+      },
+      "after": {
+        "cds_relevance": "indirect"
+      },
+      "reason": "Classified intervention by CDS relevance for CDS Hooks implementation.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.107",
+      "sheet_or_section": "health_interventions",
+      "record_id": "CC.INT.015",
+      "change_type": "added_cds_relevance_classification",
+      "severity": "minor",
+      "before": {
+        "cds_relevance": null
+      },
+      "after": {
+        "cds_relevance": "indirect"
+      },
+      "reason": "Classified intervention by CDS relevance for CDS Hooks implementation.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "01_health_interventions.CHANGE.108",
+      "sheet_or_section": "health_interventions",
+      "record_id": "CC.INT.016",
+      "change_type": "added_cds_relevance_classification",
+      "severity": "minor",
+      "before": {
+        "cds_relevance": null
+      },
+      "after": {
+        "cds_relevance": "indirect"
+      },
+      "reason": "Classified intervention by CDS relevance for CDS Hooks implementation.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    }
+  ],
+  "unresolved_items": [
+    {
+      "record_id": "CC.L1.REC.001",
+      "issue": "Unresolved L1 reference CC.L1.REC.001",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.002",
+      "issue": "Unresolved L1 reference CC.L1.REC.002",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.003",
+      "issue": "Unresolved L1 reference CC.L1.REC.003",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.004",
+      "issue": "Unresolved L1 reference CC.L1.REC.004",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.005",
+      "issue": "Unresolved L1 reference CC.L1.REC.005",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.006",
+      "issue": "Unresolved L1 reference CC.L1.REC.006",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.009",
+      "issue": "Unresolved L1 reference CC.L1.REC.009",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.010",
+      "issue": "Unresolved L1 reference CC.L1.REC.010",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.011",
+      "issue": "Unresolved L1 reference CC.L1.REC.011",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.012",
+      "issue": "Unresolved L1 reference CC.L1.REC.012",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.013",
+      "issue": "Unresolved L1 reference CC.L1.REC.013",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.014",
+      "issue": "Unresolved L1 reference CC.L1.REC.014",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.015",
+      "issue": "Unresolved L1 reference CC.L1.REC.015",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.016",
+      "issue": "Unresolved L1 reference CC.L1.REC.016",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.017",
+      "issue": "Unresolved L1 reference CC.L1.REC.017",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.018",
+      "issue": "Unresolved L1 reference CC.L1.REC.018",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.020",
+      "issue": "Unresolved L1 reference CC.L1.REC.020",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.021",
+      "issue": "Unresolved L1 reference CC.L1.REC.021",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.022",
+      "issue": "Unresolved L1 reference CC.L1.REC.022",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.023",
+      "issue": "Unresolved L1 reference CC.L1.REC.023",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.024",
+      "issue": "Unresolved L1 reference CC.L1.REC.024",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.025",
+      "issue": "Unresolved L1 reference CC.L1.REC.025",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.026",
+      "issue": "Unresolved L1 reference CC.L1.REC.026",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.027",
+      "issue": "Unresolved L1 reference CC.L1.REC.027",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.028",
+      "issue": "Unresolved L1 reference CC.L1.REC.028",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.029",
+      "issue": "Unresolved L1 reference CC.L1.REC.029",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.030",
+      "issue": "Unresolved L1 reference CC.L1.REC.030",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.031",
+      "issue": "Unresolved L1 reference CC.L1.REC.031",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.032",
+      "issue": "Unresolved L1 reference CC.L1.REC.032",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.033",
+      "issue": "Unresolved L1 reference CC.L1.REC.033",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.034",
+      "issue": "Unresolved L1 reference CC.L1.REC.034",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.035",
+      "issue": "Unresolved L1 reference CC.L1.REC.035",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.036",
+      "issue": "Unresolved L1 reference CC.L1.REC.036",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.037",
+      "issue": "Unresolved L1 reference CC.L1.REC.037",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.038",
+      "issue": "Unresolved L1 reference CC.L1.REC.038",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.040",
+      "issue": "Unresolved L1 reference CC.L1.REC.040",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.041",
+      "issue": "Unresolved L1 reference CC.L1.REC.041",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.042",
+      "issue": "Unresolved L1 reference CC.L1.REC.042",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.044",
+      "issue": "Unresolved L1 reference CC.L1.REC.044",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.045",
+      "issue": "Unresolved L1 reference CC.L1.REC.045",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.046",
+      "issue": "Unresolved L1 reference CC.L1.REC.046",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.047",
+      "issue": "Unresolved L1 reference CC.L1.REC.047",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.048",
+      "issue": "Unresolved L1 reference CC.L1.REC.048",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.L1.REC.050",
+      "issue": "Unresolved L1 reference CC.L1.REC.050",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.003",
+      "issue": "Unresolved L1 reference KEN-CC-L1-e91a9d6522",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.004",
+      "issue": "Unresolved L1 reference KEN-CC-L1-46a1532a80",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.004",
+      "issue": "Unresolved L1 reference KEN-CC-L1-d677004e38",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.004",
+      "issue": "Unresolved L1 reference KEN-CC-L1-f086e91726",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.005",
+      "issue": "Unresolved L1 reference KEN-CC-L1-2804bd92b4",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.005",
+      "issue": "Unresolved L1 reference KEN-CC-L1-55a08bcc17",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.005",
+      "issue": "Unresolved L1 reference KEN-CC-L1-a9274e0a3d",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.005",
+      "issue": "Unresolved L1 reference KEN-CC-L1-aa41664a5f",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.006",
+      "issue": "Unresolved L1 reference KEN-CC-L1-925f2cfdd7",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.007",
+      "issue": "Unresolved L1 reference KEN-CC-L1-d8d21b7ba1",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.009",
+      "issue": "Unresolved L1 reference KEN-CC-L1-49c280a525",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.009",
+      "issue": "Unresolved L1 reference KEN-CC-L1-75f62bd020",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.009",
+      "issue": "Unresolved L1 reference KEN-CC-L1-26f957b598",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.009",
+      "issue": "Unresolved L1 reference KEN-CC-L1-7efb044310",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.009",
+      "issue": "Unresolved L1 reference KEN-CC-L1-b238460481",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.010",
+      "issue": "Unresolved L1 reference KEN-CC-L1-e8c84a6267",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.010",
+      "issue": "Unresolved L1 reference KEN-CC-L1-31df0f3e5e",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.010",
+      "issue": "Unresolved L1 reference KEN-CC-L1-5c2d8603ce",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.010",
+      "issue": "Unresolved L1 reference KEN-CC-L1-bb5566f9d1",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.011",
+      "issue": "Unresolved L1 reference KEN-CC-L1-5717a7ca5b",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.012",
+      "issue": "Unresolved L1 reference KEN-CC-L1-ef261707a7",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.013",
+      "issue": "Unresolved L1 reference KEN-CC-L1-a5202d2e03",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.013",
+      "issue": "Unresolved L1 reference KEN-CC-L1-be3564c5d4",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.013",
+      "issue": "Unresolved L1 reference KEN-CC-L1-cb3c13da42",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.001",
+      "issue": "Unresolved L1 reference CC.L1.REC.001",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.002",
+      "issue": "Unresolved L1 reference CC.L1.REC.002",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.003",
+      "issue": "Unresolved L1 reference CC.L1.REC.003",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.004",
+      "issue": "Unresolved L1 reference CC.L1.REC.004",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.005",
+      "issue": "Unresolved L1 reference CC.L1.REC.005",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.006",
+      "issue": "Unresolved L1 reference CC.L1.REC.006",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.009",
+      "issue": "Unresolved L1 reference CC.L1.REC.009",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.010",
+      "issue": "Unresolved L1 reference CC.L1.REC.010",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.011",
+      "issue": "Unresolved L1 reference CC.L1.REC.011",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.012",
+      "issue": "Unresolved L1 reference CC.L1.REC.012",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.013",
+      "issue": "Unresolved L1 reference CC.L1.REC.013",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.014",
+      "issue": "Unresolved L1 reference CC.L1.REC.014",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.015",
+      "issue": "Unresolved L1 reference CC.L1.REC.015",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.016",
+      "issue": "Unresolved L1 reference CC.L1.REC.016",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.017",
+      "issue": "Unresolved L1 reference CC.L1.REC.017",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.018",
+      "issue": "Unresolved L1 reference CC.L1.REC.018",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.020",
+      "issue": "Unresolved L1 reference CC.L1.REC.020",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.021",
+      "issue": "Unresolved L1 reference CC.L1.REC.021",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.INT.022",
+      "issue": "Unresolved L1 reference CC.L1.REC.022",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    }
+  ]
+}

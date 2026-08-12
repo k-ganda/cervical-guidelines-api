@@ -1,0 +1,28 @@
+{
+  "artifact_id": "KEN.CC.DAK.L2.BUSINESS_PROCESSES_AND_WORKFLOWS",
+  "model": "gpt-5.4-mini",
+  "provider": "openai",
+  "model_calls": 13,
+  "input_tokens": 1054217,
+  "output_tokens": 62121,
+  "elapsed_sec": 1.1,
+  "generated_at": "2026-06-22T16:12:20Z",
+  "sheets_written": {
+    "Workflow Register": 8,
+    "Actors": 10,
+    "Workflow Transitions": 32,
+    "References": 1,
+    "CC.A Registration": 0,
+    "CC.B Eligibility": 5,
+    "CC.C Screening method": 15,
+    "CC.D HPV testing": 10,
+    "CC.E VIA triage": 10,
+    "CC.F Cytology": 20,
+    "CC.G Colposcopy biopsy": 5,
+    "CC.H Histopathology": 6,
+    "CC.I Precancer treatment": 6,
+    "CC.J Cancer referral": 5,
+    "CC.K Follow-up": 6,
+    "CC.L Record closure": 1
+  }
+}

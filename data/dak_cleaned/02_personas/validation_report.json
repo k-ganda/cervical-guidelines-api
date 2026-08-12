@@ -1,0 +1,19 @@
+{
+  "artifact_id": "KEN.CC.DAK.L2.PERSONAS",
+  "generated_at": "2026-06-22T16:12:19Z",
+  "fatal_errors": [],
+  "warnings": [],
+  "information": [],
+  "counts": {
+    "actors": 11,
+    "personas": 11,
+    "persona_activity_mappings": 13,
+    "references": 1
+  },
+  "worksheet_row_counts": {
+    "Actors": 11,
+    "Personas": 11,
+    "Persona-Activity Map": 13,
+    "References": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "artifact_id": "KEN.CC.DAK.L2.FUNCTIONAL_AND_NONFUNCTIONAL_REQUIREMENTS",
+  "model": "gpt-5.4-mini",
+  "provider": "openai",
+  "model_calls": 1,
+  "input_tokens": 81301,
+  "output_tokens": 12561,
+  "elapsed_sec": 0.4,
+  "generated_at": "2026-06-22T16:12:25Z",
+  "sheets_written": {
+    "Functional": 15,
+    "Non-functional": 8,
+    "Requirement Traceability": 23,
+    "References": 1
+  }
+}

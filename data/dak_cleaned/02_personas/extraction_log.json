@@ -1,0 +1,16 @@
+{
+  "artifact_id": "KEN.CC.DAK.L2.PERSONAS",
+  "model": "gpt-5.4-mini",
+  "provider": "openai",
+  "model_calls": 1,
+  "input_tokens": 81254,
+  "output_tokens": 10454,
+  "elapsed_sec": 0.3,
+  "generated_at": "2026-06-22T16:12:19Z",
+  "sheets_written": {
+    "Actors": 11,
+    "Personas": 11,
+    "Persona-Activity Map": 13,
+    "References": 1
+  }
+}

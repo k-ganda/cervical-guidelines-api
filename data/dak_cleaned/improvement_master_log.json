@@ -1,0 +1,80 @@
+{
+  "package_name": "Kenya Cervical Cancer Template DAK",
+  "cleanup_run_date": "2026-07-06",
+  "canonical_l1_source": "l1_recommendations_clinician_validated(1).xlsx",
+  "l1_comparison_source": "l1_recommendations.xlsx",
+  "dak_elements_cleaned": 8,
+  "total_records_reviewed": 4143,
+  "total_records_updated": 1338,
+  "total_records_added": 1,
+  "total_records_retired_from_cds": 0,
+  "total_recommendation_links_corrected": 886,
+  "total_unresolved_items_remaining": 813,
+  "total_items_needing_clinical_review": 591,
+  "major_findings": [
+    "Final L1 links were normalized to clinician-validated L1 IDs where a mapping was available.",
+    "L1 IDs incorrectly used in data element fields were replaced with core data dictionary IDs where resolvable.",
+    "Scenario/persona links were repaired using valid CC.PER.* IDs.",
+    "Decision rules and schedules were annotated with CDS Hooks candidate metadata.",
+    "Indicator rows were marked reporting-only and mapped to core data dictionary IDs where possible.",
+    "Temporary office lock files were removed from the cleaned ZIP."
+  ],
+  "dak_element_logs": [
+    {
+      "dak_element": "01_health_interventions",
+      "improvements_log": "01_health_interventions/improvements_log.json",
+      "records_updated": 108,
+      "records_retired": 0,
+      "unresolved_items_remaining": 87
+    },
+    {
+      "dak_element": "02_personas",
+      "improvements_log": "02_personas/improvements_log.json",
+      "records_updated": 11,
+      "records_retired": 0,
+      "unresolved_items_remaining": 0
+    },
+    {
+      "dak_element": "03_user_scenarios",
+      "improvements_log": "03_user_scenarios/improvements_log.json",
+      "records_updated": 160,
+      "records_retired": 0,
+      "unresolved_items_remaining": 112
+    },
+    {
+      "dak_element": "04_workflows",
+      "improvements_log": "04_workflows/improvements_log.json",
+      "records_updated": 154,
+      "records_retired": 0,
+      "unresolved_items_remaining": 122
+    },
+    {
+      "dak_element": "05_core_data_dictionary",
+      "improvements_log": "05_core_data_dictionary/improvements_log.json",
+      "records_updated": 538,
+      "records_retired": 0,
+      "unresolved_items_remaining": 213
+    },
+    {
+      "dak_element": "06_decision_support_scheduling",
+      "improvements_log": "06_decision_support_scheduling/improvements_log.json",
+      "records_updated": 305,
+      "records_retired": 0,
+      "unresolved_items_remaining": 235
+    },
+    {
+      "dak_element": "07_indicators",
+      "improvements_log": "07_indicators/improvements_log.json",
+      "records_updated": 17,
+      "records_retired": 0,
+      "unresolved_items_remaining": 22
+    },
+    {
+      "dak_element": "08_requirements",
+      "improvements_log": "08_requirements/improvements_log.json",
+      "records_updated": 45,
+      "records_retired": 0,
+      "unresolved_items_remaining": 22
+    }
+  ]
+}

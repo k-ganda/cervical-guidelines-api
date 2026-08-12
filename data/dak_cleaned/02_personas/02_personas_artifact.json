@@ -1,0 +1,1575 @@
+{
+  "artifact": {
+    "artifact_id": "KEN.CC.DAK.L2.PERSONAS",
+    "artifact_name": "Personas",
+    "dak_layer": "L2",
+    "country_or_adaptation": null,
+    "version": "0.1-draft",
+    "status": "Draft",
+    "generated_at": "2026-06-22T00:00:00Z"
+  },
+  "source_documents": [
+    {
+      "source_document_id": "SRC.001",
+      "file_name": "kenya_cervical_guideline.pdf",
+      "title": "Kenya National Cancer Screening and Early Diagnosis Guidelines - Cervical Cancer",
+      "issuing_organization": "Ministry of Health Kenya",
+      "edition": "Second edition",
+      "year": 2024,
+      "document_type": "normative guidance"
+    }
+  ],
+  "sheets": {
+    "actors": [
+      {
+        "actor_id": "CC.ACTOR.001",
+        "actor_name": "Client / woman / woman eligible for cervical cancer screening",
+        "actor_category": "client",
+        "description": "Woman or client eligible for cervical cancer screening, including special populations described in the guideline.",
+        "core_responsibilities": "Attend screening; provide history and consent; participate in triage, treatment, and follow-up; self-collect sample where offered.",
+        "typical_setting": "Facility or community screening settings",
+        "minimum_competency_authorization": "null",
+        "data_access_level": "Own health information as provided by the service",
+        "linked_workflow_ids": [
+          "CC.WF.01",
+          "CC.WF.02",
+          "CC.WF.03",
+          "CC.WF.04"
+        ],
+        "notes": "Source uses multiple terms including women, clients, WLHIV, pregnant women, post-partum women, women with disability, and women with prior hysterectomy.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 4,
+            "printed_page": "14",
+            "section_path": [
+              "Screening at various Healthcare Levels"
+            ],
+            "table_figure_id": "Table 8",
+            "evidence_excerpt": "Sample collection: Client, Nurse, Clinical officer, medical officer",
+            "evidence_type": "table",
+            "extraction_method": "text",
+            "confidence": 0.93
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Normalized from multiple guideline references to women/clients as the screening population and sample collection actor."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "actor_id": "CC.ACTOR.002",
+        "actor_name": "Nurse",
+        "actor_category": "health_worker",
+        "description": "Trained nurse involved in screening, sample collection, and treatment where authorized.",
+        "core_responsibilities": "Perform screening; collect samples; perform VIA; perform cryotherapy when trained; support follow-up and referral.",
+        "typical_setting": "Level 1-6 facilities",
+        "minimum_competency_authorization": "Trained nurse; trained in cryotherapy where cryotherapy is performed",
+        "data_access_level": "Clinical access to screening and treatment records as needed",
+        "linked_workflow_ids": [
+          "CC.WF.01",
+          "CC.WF.02",
+          "CC.WF.03",
+          "CC.WF.04"
+        ],
+        "notes": "Explicitly listed in screening levels and personnel requirements.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 22,
+            "printed_page": "30",
+            "section_path": [
+              "Ablative procedures",
+              "Cryotherapy"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "only healthcare providers (including nurses or midwives) trained in cryotherapy should perform the procedure",
+            "evidence_type": "narrative",
+            "extraction_method": "text",
+            "confidence": 0.96
+          }
+        ],
+        " _derivation": {
+          "type": "direct",
+          "explanation": "Directly extracted actor role from the guideline."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "actor_id": "CC.ACTOR.003",
+        "actor_name": "Clinical officer",
+        "actor_category": "health_worker",
+        "description": "Clinical officer involved in screening and sample collection.",
+        "core_responsibilities": "Perform screening; collect samples; support referral and follow-up.",
+        "typical_setting": "Level 1-6 facilities",
+        "minimum_competency_authorization": "Trained clinical officer",
+        "data_access_level": "Clinical access to screening and treatment records as needed",
+        "linked_workflow_ids": [
+          "CC.WF.01",
+          "CC.WF.02",
+          "CC.WF.03",
+          "CC.WF.04"
+        ],
+        "notes": "Explicitly listed in Table 8.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 23,
+            "printed_page": "33",
+            "section_path": [
+              "Screening at various Healthcare Levels"
+            ],
+            "table_figure_id": "Table 8",
+            "evidence_excerpt": "Sample collection: Client, Nurse, Clinical officer, medical officer",
+            "evidence_type": "table",
+            "extraction_method": "text",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "direct",
+          "explanation": "Directly extracted actor role from Table 8."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "actor_id": "CC.ACTOR.004",
+        "actor_name": "Medical officer",
+        "actor_category": "health_worker",
+        "description": "Medical officer involved in screening and sample collection.",
+        "core_responsibilities": "Perform screening; collect samples; support referral and follow-up.",
+        "typical_setting": "Level 1-6 facilities",
+        "minimum_competency_authorization": "Trained medical officer",
+        "data_access_level": "Clinical access to screening and treatment records as needed",
+        "linked_workflow_ids": [
+          "CC.WF.01",
+          "CC.WF.02",
+          "CC.WF.03",
+          "CC.WF.04"
+        ],
+        "notes": "Explicitly listed in Table 8.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 23,
+            "printed_page": "33",
+            "section_path": [
+              "Screening at various Healthcare Levels"
+            ],
+            "table_figure_id": "Table 8",
+            "evidence_excerpt": "Sample collection: Client, Nurse, Clinical officer, medical officer",
+            "evidence_type": "table",
+            "extraction_method": "text",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "direct",
+          "explanation": "Directly extracted actor role from Table 8."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "actor_id": "CC.ACTOR.005",
+        "actor_name": "Gynecologist",
+        "actor_category": "specialist_clinician",
+        "description": "Gynecologist involved in screening, biopsy, excisional procedures, and management of complex cases.",
+        "core_responsibilities": "Perform screening where applicable; perform cone biopsy; manage complications; manage suspected cancer and advanced lesions.",
+        "typical_setting": "Higher-level hospitals and equipped surgical facilities",
+        "minimum_competency_authorization": "Trained gynecologist",
+        "data_access_level": "Clinical access to relevant records",
+        "linked_workflow_ids": [
+          "CC.WF.02",
+          "CC.WF.03",
+          "CC.WF.04"
+        ],
+        "notes": "Spelled 'gynaecologist' in Table 8 and 'gynecologist' elsewhere.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 23,
+            "printed_page": "33",
+            "section_path": [
+              "Screening at various Healthcare Levels"
+            ],
+            "table_figure_id": "Table 8",
+            "evidence_excerpt": "Trained nurse, clinical officers, medical officers, gynaecologist",
+            "evidence_type": "table",
+            "extraction_method": "text",
+            "confidence": 0.94
+          }
+        ],
+        " _derivation": {
+          "type": "direct",
+          "explanation": "Directly extracted specialist role from Table 8 and supported by cone biopsy guidance."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "actor_id": "CC.ACTOR.006",
+        "actor_name": "Gynecologic oncologist",
+        "actor_category": "specialist_clinician",
+        "description": "Specialist clinician for diagnosis and treatment of suspected cancer and advanced disease.",
+        "core_responsibilities": "Receive immediate referrals for suspected cancer; diagnose and treat cervical cancer; manage advanced cases.",
+        "typical_setting": "Referral hospitals / oncology centers",
+        "minimum_competency_authorization": "Gynecologic oncologist",
+        "data_access_level": "Clinical access to referred patient records",
+        "linked_workflow_ids": [
+          "CC.WF.03",
+          "CC.WF.04"
+        ],
+        "notes": "Explicitly named in referral guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 1,
+            "printed_page": "11",
+            "section_path": [
+              "Key messages"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Any suspected cancer case after screening should be immediately referred to a gynecologic oncologist for diagnosis and treatment.",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          }
+        ],
+        " _derivation": {
+          "type": "direct",
+          "explanation": "Directly extracted from referral recommendation."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "actor_id": "CC.ACTOR.007",
+        "actor_name": "Laboratory staff / cytotechnologist",
+        "actor_category": "laboratory_staff",
+        "description": "Laboratory personnel who process and interpret cytology samples.",
+        "core_responsibilities": "Process cytology samples; interpret microscopic findings; support reporting.",
+        "typical_setting": "Accredited laboratory",
+        "minimum_competency_authorization": "Cytotechnologist or equivalent trained laboratory staff",
+        "data_access_level": "Laboratory results and specimen data",
+        "linked_workflow_ids": [
+          "CC.WF.02"
+        ],
+        "notes": "The guideline explicitly mentions cytotechnologists in the laboratory.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 14,
+            "printed_page": "24",
+            "section_path": [
+              "How to screen using cytology"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Cytotechnologists in the laboratory process and interpret it.",
+            "evidence_type": "narrative",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "direct",
+          "explanation": "Directly extracted from cytology workflow text."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "actor_id": "CC.ACTOR.008",
+        "actor_name": "Accredited laboratory by MOH",
+        "actor_category": "laboratory_service",
+        "description": "Accredited laboratory responsible for sample processing.",
+        "core_responsibilities": "Process samples for HPV/cytology where applicable.",
+        "typical_setting": "Accredited laboratory",
+        "minimum_competency_authorization": "Accredited by MOH",
+        "data_access_level": "Laboratory processing data",
+        "linked_workflow_ids": [
+          "CC.WF.01",
+          "CC.WF.02"
+        ],
+        "notes": "Table 8 specifies sample processing by accredited lab by MOH.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 23,
+            "printed_page": "33",
+            "section_path": [
+              "Screening at various Healthcare Levels"
+            ],
+            "table_figure_id": "Table 8",
+            "evidence_excerpt": "Sample processing: Accredited lab by MOH",
+            "evidence_type": "table",
+            "extraction_method": "text",
+            "confidence": 0.96
+          }
+        ],
+        " _derivation": {
+          "type": "direct",
+          "explanation": "Directly extracted from Table 8."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "actor_id": "CC.ACTOR.009",
+        "actor_name": "Peer navigator",
+        "actor_category": "navigator",
+        "description": "Peer navigator supporting linkage and continuity of care for WLHIV and screening-positive clients.",
+        "core_responsibilities": "Support triage follow-up; reduce loss to follow-up; assist navigation to treatment and HIV services.",
+        "typical_setting": "HIV care and community-based models",
+        "minimum_competency_authorization": "null",
+        "data_access_level": "Limited care-navigation information",
+        "linked_workflow_ids": [
+          "CC.WF.03",
+          "CC.WF.04"
+        ],
+        "notes": "Explicitly mentioned as a strategy for WLHIV.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 16,
+            "printed_page": "26",
+            "section_path": [
+              "Recommendations for screening in special populations",
+              "HIV-infected women with CIN2+ have high rates of treatment at 1-year following"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "we can leverage peer navigators",
+            "evidence_type": "narrative",
+            "extraction_method": "text",
+            "confidence": 0.93
+          }
+        ],
+        " _derivation": {
+          "type": "direct",
+          "explanation": "Directly extracted from WLHIV service delivery guidance."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "actor_id": "CC.ACTOR.010",
+        "actor_name": "Community health worker / CHP / mentor mother / peer educator",
+        "actor_category": "community_health_worker",
+        "description": "Community-based support personnel mentioned for capacity building and continuity of care.",
+        "core_responsibilities": "Support client navigation, awareness, and linkage to services.",
+        "typical_setting": "Community and HIV service platforms",
+        "minimum_competency_authorization": "null",
+        "data_access_level": "Limited care-navigation information",
+        "linked_workflow_ids": [
+          "CC.WF.03",
+          "CC.WF.04"
+        ],
+        "notes": "Grouped because the guideline lists these roles together.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 17,
+            "printed_page": "27",
+            "section_path": [
+              "Recommendations for screening in special populations"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Capacity building for client navigators, CHPs, mentor mothers, peer educators, etc.",
+            "evidence_type": "narrative",
+            "extraction_method": "text",
+            "confidence": 0.92
+          }
+        ],
+        " _derivation": {
+          "type": "direct",
+          "explanation": "Directly extracted grouped community support roles from systems-based approach text."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "actor_id": "CC.ACTOR.011",
+        "actor_name": "Programme manager / health system planner",
+        "actor_category": "programme_manager",
+        "description": "Programme-level role responsible for screening program design, service delivery, and system strengthening.",
+        "core_responsibilities": "Plan screening strategy; choose approach based on context/resources; strengthen information systems; expand devices and navigation.",
+        "typical_setting": "Programme / health system level",
+        "minimum_competency_authorization": "null",
+        "data_access_level": "Programme and aggregate service data",
+        "linked_workflow_ids": [
+          "CC.WF.01",
+          "CC.WF.02",
+          "CC.WF.03",
+          "CC.WF.04"
+        ],
+        "notes": "Derived from recommendations about programmatic decisions and systems-based approach.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 1,
+            "printed_page": "11",
+            "section_path": [
+              "Key messages"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Decisions on screening and treatment approaches depend on factors such as risk of loss to follow-up, cost, and resource availability.",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Derived persona based on programmatic decision-making and systems-strengthening guidance."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      }
+    ],
+    "personas": [
+      {
+        "persona_id": "CC.PER.001",
+        "persona_name_label": "Woman eligible for cervical cancer screening",
+        "actor_id": "CC.ACTOR.001",
+        "persona_type": "derived",
+        "role_and_context": "A woman in the target screening population who may attend facility-based or community-based screening, receive triage, treatment, and follow-up, or self-collect a sample where offered.",
+        "typical_setting": "Facility or community screening setting",
+        "digital_literacy": null,
+        "clinical_competencies": "Understands screening purpose and follow-up instructions as provided by the service.",
+        "goals": "Get screened; understand results; receive timely treatment or referral; avoid loss to follow-up.",
+        "key_tasks": "Attend screening; provide consent and history; self-collect sample if offered; return for follow-up.",
+        "pain_points_barriers": "Risk of loss to follow-up; possible stigma or misunderstanding of HPV results; access barriers for disability or postpartum/pregnancy contexts.",
+        "information_needs": "Screening schedule; meaning of HPV/VIA/cytology results; treatment and follow-up instructions; referral instructions.",
+        "device_and_connectivity_context": null,
+        "language_accessibility_needs": "May need clear communication and accessibility support; sign language interpreter may be needed for deaf women.",
+        "privacy_and_safeguarding_considerations": "Partner involvement should be encouraged carefully to avoid misinterpretation and gender-based violence concerns.",
+        "linked_scenario_ids": null,
+        "notes": "Derived from client-facing guidance and disability/partner-involvement notes.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 8,
+            "printed_page": "18",
+            "section_path": [
+              "Sample collection for HPV test"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Self-collected samples provide women with a sample-collection kit and usage instructions",
+            "evidence_type": "narrative",
+            "extraction_method": "text",
+            "confidence": 0.94
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Derived from client-facing screening, self-collection, and follow-up guidance."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_user_type": "client",
+        "cds_output_role": "subject_of_care",
+        "clinical_review_status": "validated",
+        "cds_executable": false
+      },
+      {
+        "persona_id": "CC.PER.002",
+        "persona_name_label": "Screening nurse",
+        "actor_id": "CC.ACTOR.002",
+        "persona_type": "derived",
+        "role_and_context": "A trained nurse who performs screening, sample collection, VIA, and some treatment tasks where authorized.",
+        "typical_setting": "Primary care and screening facilities",
+        "digital_literacy": null,
+        "clinical_competencies": "Trained in cervical cancer screening; trained in cryotherapy where applicable; able to perform VIA and collect samples.",
+        "goals": "Provide efficient screening and treatment; minimize loss to follow-up; document findings accurately.",
+        "key_tasks": "Collect samples; perform VIA; support triage; perform cryotherapy if trained; document findings; refer suspicious cancer.",
+        "pain_points_barriers": "Need for training, supervision, quality assurance, and access to equipment/reagents.",
+        "information_needs": "Eligibility criteria; screening algorithms; treatment eligibility; referral criteria; documentation requirements.",
+        "device_and_connectivity_context": null,
+        "language_accessibility_needs": null,
+        "privacy_and_safeguarding_considerations": "Must communicate clearly and support partner involvement without increasing GBV risk.",
+        "linked_scenario_ids": null,
+        "notes": "Derived from VIA, cryotherapy, and screening-level guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 11,
+            "printed_page": "21",
+            "section_path": [
+              "Visual inspection methods"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "It requires training and supervision of primary care providers",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.96
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Derived from provider training, VIA performance, and cryotherapy guidance."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_user_type": "clinician",
+        "cds_output_role": "triggers_or_consumes_cds",
+        "clinical_review_status": "validated",
+        "cds_executable": true
+      },
+      {
+        "persona_id": "CC.PER.003",
+        "persona_name_label": "Clinical officer screening provider",
+        "actor_id": "CC.ACTOR.003",
+        "persona_type": "derived",
+        "role_and_context": "A clinical officer who performs screening and sample collection and may support triage and referral.",
+        "typical_setting": "Facility-based screening services",
+        "digital_literacy": null,
+        "clinical_competencies": "Trained in cervical cancer screening and sample collection.",
+        "goals": "Deliver screening services and ensure appropriate follow-up.",
+        "key_tasks": "Collect samples; perform screening; support referral and documentation.",
+        "pain_points_barriers": "Need for clear algorithms and access to tests and referral pathways.",
+        "information_needs": "Screening method selection; triage and referral criteria; follow-up intervals.",
+        "device_and_connectivity_context": null,
+        "language_accessibility_needs": null,
+        "privacy_and_safeguarding_considerations": null,
+        "linked_scenario_ids": null,
+        "notes": "Derived from Table 8 and screening workflows.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 23,
+            "printed_page": "33",
+            "section_path": [
+              "Screening at various Healthcare Levels"
+            ],
+            "table_figure_id": "Table 8",
+            "evidence_excerpt": "Sample collection: Client, Nurse, Clinical officer, medical officer",
+            "evidence_type": "table",
+            "extraction_method": "text",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Derived from explicit actor listing and screening workflow responsibilities."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_user_type": "clinician",
+        "cds_output_role": "triggers_or_consumes_cds",
+        "clinical_review_status": "validated",
+        "cds_executable": true
+      },
+      {
+        "persona_id": "CC.PER.004",
+        "persona_name_label": "Medical officer screening provider",
+        "actor_id": "CC.ACTOR.004",
+        "persona_type": "derived",
+        "role_and_context": "A medical officer who performs screening and sample collection and supports referral and follow-up.",
+        "typical_setting": "Facility-based screening services",
+        "digital_literacy": null,
+        "clinical_competencies": "Trained in cervical cancer screening and sample collection.",
+        "goals": "Deliver screening services and ensure appropriate follow-up.",
+        "key_tasks": "Collect samples; perform screening; support referral and documentation.",
+        "pain_points_barriers": "Need for clear algorithms and access to tests and referral pathways.",
+        "information_needs": "Screening method selection; triage and referral criteria; follow-up intervals.",
+        "device_and_connectivity_context": null,
+        "language_accessibility_needs": null,
+        "privacy_and_safeguarding_considerations": null,
+        "linked_scenario_ids": null,
+        "notes": "Derived from Table 8 and screening workflows.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 23,
+            "printed_page": "33",
+            "section_path": [
+              "Screening at various Healthcare Levels"
+            ],
+            "table_figure_id": "Table 8",
+            "evidence_excerpt": "Sample collection: Client, Nurse, Clinical officer, medical officer",
+            "evidence_type": "table",
+            "extraction_method": "text",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Derived from explicit actor listing and screening workflow responsibilities."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_user_type": "clinician",
+        "cds_output_role": "triggers_or_consumes_cds",
+        "clinical_review_status": "validated",
+        "cds_executable": true
+      },
+      {
+        "persona_id": "CC.PER.005",
+        "persona_name_label": "Gynecologist managing precancer and procedures",
+        "actor_id": "CC.ACTOR.005",
+        "persona_type": "derived",
+        "role_and_context": "A gynecologist who performs or supports excisional procedures, cone biopsy, and management of complex lesions.",
+        "typical_setting": "Higher-level hospitals and surgical facilities",
+        "digital_literacy": null,
+        "clinical_competencies": "Trained in LEEP and cone biopsy; able to recognize and manage complications.",
+        "goals": "Treat lesions appropriately and manage complex or advanced disease.",
+        "key_tasks": "Perform cone biopsy; support LEEP referral and management; manage complications.",
+        "pain_points_barriers": "Need for equipment, anesthesia, and surgical facility readiness.",
+        "information_needs": "Eligibility for ablation vs excision; pathology and margin status; referral criteria.",
+        "device_and_connectivity_context": null,
+        "language_accessibility_needs": null,
+        "privacy_and_safeguarding_considerations": null,
+        "linked_scenario_ids": null,
+        "notes": "Derived from excisional treatment guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 20,
+            "printed_page": "30",
+            "section_path": [
+              "Loop electrosurgical excision procedure (LEEP)"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "It is usually done under general or regional anesthesia by gynecologists and gynecologic oncologists trained in the procedure",
+            "evidence_type": "narrative",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Derived from cone biopsy and LEEP guidance."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_user_type": "clinician",
+        "cds_output_role": "triggers_or_consumes_cds",
+        "clinical_review_status": "validated",
+        "cds_executable": true
+      },
+      {
+        "persona_id": "CC.PER.006",
+        "persona_name_label": "Gynecologic oncologist receiving referrals",
+        "actor_id": "CC.ACTOR.006",
+        "persona_type": "derived",
+        "role_and_context": "A specialist who receives immediate referrals for suspected cancer and manages diagnosis and treatment.",
+        "typical_setting": "Referral oncology center",
+        "digital_literacy": null,
+        "clinical_competencies": "Specialist oncology assessment and treatment.",
+        "goals": "Confirm diagnosis and provide definitive treatment.",
+        "key_tasks": "Receive referrals; diagnose; treat; coordinate further management.",
+        "pain_points_barriers": "Delayed referral or incomplete diagnostic workup.",
+        "information_needs": "Referral details; screening results; biopsy findings; prior treatment history.",
+        "device_and_connectivity_context": null,
+        "language_accessibility_needs": null,
+        "privacy_and_safeguarding_considerations": null,
+        "linked_scenario_ids": null,
+        "notes": "Derived from immediate referral guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 1,
+            "printed_page": "11",
+            "section_path": [
+              "Key messages"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "immediately referred to a gynecologic oncologist for diagnosis and treatment",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Derived from referral and cancer management guidance."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_user_type": "referral_provider",
+        "cds_output_role": "triggers_or_consumes_cds",
+        "clinical_review_status": "validated",
+        "cds_executable": true
+      },
+      {
+        "persona_id": "CC.PER.007",
+        "persona_name_label": "Laboratory cytotechnologist",
+        "actor_id": "CC.ACTOR.007",
+        "persona_type": "derived",
+        "role_and_context": "A laboratory professional who processes and interprets cytology samples.",
+        "typical_setting": "Accredited laboratory",
+        "digital_literacy": null,
+        "clinical_competencies": "Cytology processing and interpretation; Bethesda classification awareness.",
+        "goals": "Provide accurate cytology results.",
+        "key_tasks": "Process samples; interpret microscopy; classify abnormalities.",
+        "pain_points_barriers": "Need for skilled personnel and logistics.",
+        "information_needs": "Specimen labeling; cytology workflow; reporting standards.",
+        "device_and_connectivity_context": null,
+        "language_accessibility_needs": null,
+        "privacy_and_safeguarding_considerations": null,
+        "linked_scenario_ids": null,
+        "notes": "Derived from cytology workflow.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 14,
+            "printed_page": "24",
+            "section_path": [
+              "How to screen using cytology"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Cytotechnologists in the laboratory process and interpret it.",
+            "evidence_type": "narrative",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Derived from laboratory cytology workflow."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_user_type": "lab_user",
+        "cds_output_role": "triggers_or_consumes_cds",
+        "clinical_review_status": "validated",
+        "cds_executable": false
+      },
+      {
+        "persona_id": "CC.PER.008",
+        "persona_name_label": "Accredited laboratory processor",
+        "actor_id": "CC.ACTOR.008",
+        "persona_type": "derived",
+        "role_and_context": "An accredited laboratory that processes screening samples.",
+        "typical_setting": "MOH-accredited laboratory",
+        "digital_literacy": null,
+        "clinical_competencies": "Accredited sample processing capability.",
+        "goals": "Process samples reliably and report results.",
+        "key_tasks": "Receive and process samples.",
+        "pain_points_barriers": "Need for accreditation and specimen transport integrity.",
+        "information_needs": "Sample transport and processing requirements.",
+        "device_and_connectivity_context": null,
+        "language_accessibility_needs": null,
+        "privacy_and_safeguarding_considerations": null,
+        "linked_scenario_ids": null,
+        "notes": "Derived from Table 8.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 23,
+            "printed_page": "33",
+            "section_path": [
+              "Screening at various Healthcare Levels"
+            ],
+            "table_figure_id": "Table 8",
+            "evidence_excerpt": "Sample processing: Accredited lab by MOH",
+            "evidence_type": "table",
+            "extraction_method": "text",
+            "confidence": 0.96
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Derived from sample processing requirement in Table 8."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_user_type": "lab_user",
+        "cds_output_role": "triggers_or_consumes_cds",
+        "clinical_review_status": "validated",
+        "cds_executable": false
+      },
+      {
+        "persona_id": "CC.PER.009",
+        "persona_name_label": "Peer navigator for WLHIV",
+        "actor_id": "CC.ACTOR.009",
+        "persona_type": "derived",
+        "role_and_context": "A peer navigator supporting WLHIV through screening, triage, and treatment linkage.",
+        "typical_setting": "HIV care and community support settings",
+        "digital_literacy": null,
+        "clinical_competencies": "Navigation and linkage support; understands HIV service flow.",
+        "goals": "Reduce loss to follow-up and improve continuity of care.",
+        "key_tasks": "Support appointments; coordinate visits; encourage follow-up.",
+        "pain_points_barriers": "Separate visits and clinics increase loss to follow-up.",
+        "information_needs": "Appointment timing; referral status; service integration points.",
+        "device_and_connectivity_context": null,
+        "language_accessibility_needs": null,
+        "privacy_and_safeguarding_considerations": "Must protect confidentiality of HIV and cervical screening status.",
+        "linked_scenario_ids": null,
+        "notes": "Derived from WLHIV continuity-of-care guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 16,
+            "printed_page": "26",
+            "section_path": [
+              "Recommendations for screening in special populations"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "we can leverage peer navigators",
+            "evidence_type": "narrative",
+            "extraction_method": "text",
+            "confidence": 0.93
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Derived from WLHIV navigation and continuity-of-care guidance."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_user_type": "navigator",
+        "cds_output_role": "triggers_or_consumes_cds",
+        "clinical_review_status": "validated",
+        "cds_executable": false
+      },
+      {
+        "persona_id": "CC.PER.010",
+        "persona_name_label": "Community health worker / CHP / mentor mother / peer educator",
+        "actor_id": "CC.ACTOR.010",
+        "persona_type": "derived",
+        "role_and_context": "Community-based support personnel who promote awareness, linkage, and continuity of care.",
+        "typical_setting": "Community and HIV service platforms",
+        "digital_literacy": null,
+        "clinical_competencies": "Community engagement and navigation support.",
+        "goals": "Increase awareness and support linkage to screening and treatment.",
+        "key_tasks": "Create awareness; support navigation; reinforce follow-up.",
+        "pain_points_barriers": "Need for capacity building and coordination with facility services.",
+        "information_needs": "Screening age; referral pathways; follow-up schedules.",
+        "device_and_connectivity_context": null,
+        "language_accessibility_needs": null,
+        "privacy_and_safeguarding_considerations": null,
+        "linked_scenario_ids": null,
+        "notes": "Derived from systems-based approach.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 17,
+            "printed_page": "27",
+            "section_path": [
+              "Recommendations for screening in special populations"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Capacity building for client navigators, CHPs, mentor mothers, peer educators, etc.",
+            "evidence_type": "narrative",
+            "extraction_method": "text",
+            "confidence": 0.92
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Derived from systems-based approach and awareness creation guidance."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_user_type": "navigator",
+        "cds_output_role": "triggers_or_consumes_cds",
+        "clinical_review_status": "validated",
+        "cds_executable": false
+      },
+      {
+        "persona_id": "CC.PER.011",
+        "persona_name_label": "Programme manager / health system planner",
+        "actor_id": "CC.ACTOR.011",
+        "persona_type": "derived",
+        "role_and_context": "A programme-level decision-maker who selects screening approaches and strengthens service delivery systems.",
+        "typical_setting": "Programme and health system level",
+        "digital_literacy": null,
+        "clinical_competencies": "Understands screening algorithms, service delivery constraints, and referral systems.",
+        "goals": "Choose feasible screening and treatment approaches; improve coverage and linkage to care.",
+        "key_tasks": "Select approach based on context; strengthen HIS; expand devices; plan navigation and integration.",
+        "pain_points_barriers": "Resource constraints, loss to follow-up, equipment and reagent shortages.",
+        "information_needs": "Resource availability; training needs; service coverage; referral and follow-up performance.",
+        "device_and_connectivity_context": null,
+        "language_accessibility_needs": null,
+        "privacy_and_safeguarding_considerations": null,
+        "linked_scenario_ids": null,
+        "notes": "Derived from programmatic and systems-strengthening recommendations.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 1,
+            "printed_page": "11",
+            "section_path": [
+              "Key messages"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Decisions on screening and treatment approaches depend on factors such as risk of loss to follow-up, cost, and resource availability.",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Derived from programmatic decision-making and systems-based recommendations."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_user_type": "program_manager",
+        "cds_output_role": "monitors_reporting_outputs",
+        "clinical_review_status": "validated",
+        "cds_executable": false
+      }
+    ],
+    "persona_activity_mappings": [
+      {
+        "mapping_id": "CC.MAP.RI.001",
+        "persona_id": "CC.PER.001",
+        "actor_id": "CC.ACTOR.001",
+        "workflow_id": "CC.WF.01",
+        "activity_step_id": "CC.WF.01.STEP.001",
+        "role_in_activity": "recipient",
+        "create_permission": false,
+        "read_permission": true,
+        "update_permission": false,
+        "approve_validate_permission": false,
+        "referral_hand_off_role": "receives screening invitation and instructions",
+        "notes": "Client receives screening information and instructions.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 5,
+            "printed_page": "15",
+            "section_path": [
+              "Who should be screened and when?"
+            ],
+            "table_figure_id": "Table 4",
+            "evidence_excerpt": "In Kenya, for programmatic purposes, the target population for screening is every woman aged 25 – 49 years",
+            "evidence_type": "table",
+            "extraction_method": "text",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped client persona to screening workflow based on target population guidance."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "mapping_id": "CC.MAP.RI.002",
+        "persona_id": "CC.PER.002",
+        "actor_id": "CC.ACTOR.002",
+        "workflow_id": "CC.WF.01",
+        "activity_step_id": "CC.WF.01.STEP.002",
+        "role_in_activity": "performs",
+        "create_permission": true,
+        "read_permission": true,
+        "update_permission": true,
+        "approve_validate_permission": false,
+        "referral_hand_off_role": "may refer to higher-level provider or specialist",
+        "notes": "Nurse performs screening and sample collection.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 23,
+            "printed_page": "33",
+            "section_path": [
+              "Screening at various Healthcare Levels"
+            ],
+            "table_figure_id": "Table 8",
+            "evidence_excerpt": "Trained nurse",
+            "evidence_type": "table",
+            "extraction_method": "text",
+            "confidence": 0.94
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped nurse persona to screening activities explicitly listed in the guideline."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "mapping_id": "CC.MAP.RI.003",
+        "persona_id": "CC.PER.002",
+        "actor_id": "CC.ACTOR.002",
+        "workflow_id": "CC.WF.02",
+        "activity_step_id": "CC.WF.02.STEP.001",
+        "role_in_activity": "performs",
+        "create_permission": true,
+        "read_permission": true,
+        "update_permission": true,
+        "approve_validate_permission": false,
+        "referral_hand_off_role": "refers abnormal results as indicated",
+        "notes": "Nurse may perform VIA and document findings.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 12,
+            "printed_page": "22",
+            "section_path": [
+              "How to Perform VIA"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Document your findings",
+            "evidence_type": "narrative",
+            "extraction_method": "text",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped nurse persona to VIA workflow and documentation."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "mapping_id": "CC.MAP.RI.004",
+        "persona_id": "CC.PER.002",
+        "actor_id": "CC.ACTOR.002",
+        "workflow_id": "CC.WF.03",
+        "activity_step_id": "CC.WF.03.STEP.001",
+        "role_in_activity": "performs",
+        "create_permission": false,
+        "read_permission": true,
+        "update_permission": false,
+        "approve_validate_permission": false,
+        "referral_hand_off_role": "refers suspected cancer or ineligible cases",
+        "notes": "Nurse may perform cryotherapy if trained and eligible.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 19,
+            "printed_page": "29",
+            "section_path": [
+              "Ablative procedures",
+              "Cryotherapy"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "only healthcare providers (including nurses or midwives) trained in cryotherapy should perform the procedure",
+            "evidence_type": "narrative",
+            "extraction_method": "text",
+            "confidence": 0.96
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped nurse persona to treatment activity where training is explicitly required."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "mapping_id": "CC.MAP.RI.005",
+        "persona_id": "CC.PER.003",
+        "actor_id": "CC.ACTOR.003",
+        "workflow_id": "CC.WF.01",
+        "activity_step_id": "CC.WF.01.STEP.002",
+        "role_in_activity": "performs",
+        "create_permission": true,
+        "read_permission": true,
+        "update_permission": true,
+        "approve_validate_permission": false,
+        "referral_hand_off_role": "refers abnormal findings",
+        "notes": "Clinical officer performs sample collection and screening.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 23,
+            "printed_page": "33",
+            "section_path": [
+              "Screening at various Healthcare Levels"
+            ],
+            "table_figure_id": "Table 8",
+            "evidence_excerpt": "Sample collection: Client, Nurse, Clinical officer, medical officer",
+            "evidence_type": "table",
+            "extraction_method": "text",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped clinical officer to screening/sample collection activities."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "mapping_id": "CC.MAP.RI.006",
+        "persona_id": "CC.PER.004",
+        "actor_id": "CC.ACTOR.004",
+        "workflow_id": "CC.WF.01",
+        "activity_step_id": "CC.WF.01.STEP.002",
+        "role_in_activity": "performs",
+        "create_permission": true,
+        "read_permission": true,
+        "update_permission": true,
+        "approve_validate_permission": false,
+        "referral_hand_off_role": "refers abnormal findings",
+        "notes": "Medical officer performs sample collection and screening.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 23,
+            "printed_page": "33",
+            "section_path": [
+              "Screening at various Healthcare Levels"
+            ],
+            "table_figure_id": "Table 8",
+            "evidence_excerpt": "Sample collection: Client, Nurse, Clinical officer, medical officer",
+            "evidence_type": "table",
+            "extraction_method": "text",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped medical officer to screening/sample collection activities."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "mapping_id": "CC.MAP.RI.007",
+        "persona_id": "CC.PER.005",
+        "actor_id": "CC.ACTOR.005",
+        "workflow_id": "CC.WF.03",
+        "activity_step_id": "CC.WF.03.STEP.002",
+        "role_in_activity": "performs",
+        "create_permission": false,
+        "read_permission": true,
+        "update_permission": false,
+        "approve_validate_permission": true,
+        "referral_hand_off_role": "receives referrals for excision or complex lesions",
+        "notes": "Gynecologist performs cone biopsy and may manage LEEP-related care.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 20,
+            "printed_page": "30",
+            "section_path": [
+              "Loop electrosurgical excision procedure (LEEP)"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "by gynecologists and gynecologic oncologists trained in the procedure",
+            "evidence_type": "narrative",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped gynecologist to excisional treatment activities."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "mapping_id": "CC.MAP.RI.008",
+        "persona_id": "CC.PER.006",
+        "actor_id": "CC.ACTOR.006",
+        "workflow_id": "CC.WF.04",
+        "activity_step_id": "CC.WF.04.STEP.001",
+        "role_in_activity": "receives referral",
+        "create_permission": false,
+        "read_permission": true,
+        "update_permission": true,
+        "approve_validate_permission": true,
+        "referral_hand_off_role": "receives suspected cancer referral",
+        "notes": "Gynecologic oncologist receives immediate referral for suspected cancer.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 1,
+            "printed_page": "11",
+            "section_path": [
+              "Key messages"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "immediately referred to a gynecologic oncologist for diagnosis and treatment",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped specialist referral role from suspected cancer guidance."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "mapping_id": "CC.MAP.RI.009",
+        "persona_id": "CC.PER.007",
+        "actor_id": "CC.ACTOR.007",
+        "workflow_id": "CC.WF.02",
+        "activity_step_id": "CC.WF.02.STEP.002",
+        "role_in_activity": "performs",
+        "create_permission": false,
+        "read_permission": true,
+        "update_permission": true,
+        "approve_validate_permission": false,
+        "referral_hand_off_role": "reports abnormal cytology results",
+        "notes": "Laboratory cytotechnologist processes and interprets cytology samples.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 14,
+            "printed_page": "24",
+            "section_path": [
+              "How to screen using cytology"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Cytotechnologists in the laboratory process and interpret it.",
+            "evidence_type": "narrative",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped laboratory persona to cytology processing and interpretation."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "mapping_id": "CC.MAP.RI.010",
+        "persona_id": "CC.PER.008",
+        "actor_id": "CC.ACTOR.008",
+        "workflow_id": "CC.WF.02",
+        "activity_step_id": "CC.WF.02.STEP.003",
+        "role_in_activity": "performs",
+        "create_permission": false,
+        "read_permission": true,
+        "update_permission": true,
+        "approve_validate_permission": false,
+        "referral_hand_off_role": "returns processed laboratory results",
+        "notes": "Accredited laboratory processes samples.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 23,
+            "printed_page": "33",
+            "section_path": [
+              "Screening at various Healthcare Levels"
+            ],
+            "table_figure_id": "Table 8",
+            "evidence_excerpt": "Sample processing: Accredited lab by MOH",
+            "evidence_type": "table",
+            "extraction_method": "text",
+            "confidence": 0.96
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped accredited laboratory to sample processing activity."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "mapping_id": "CC.MAP.RI.011",
+        "persona_id": "CC.PER.009",
+        "actor_id": "CC.ACTOR.009",
+        "workflow_id": "CC.WF.04",
+        "activity_step_id": "CC.WF.04.STEP.002",
+        "role_in_activity": "supports",
+        "create_permission": false,
+        "read_permission": true,
+        "update_permission": false,
+        "approve_validate_permission": false,
+        "referral_hand_off_role": "supports linkage to HIV care and treatment follow-up",
+        "notes": "Peer navigator supports continuity of care for WLHIV.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 16,
+            "printed_page": "26",
+            "section_path": [
+              "Recommendations for screening in special populations"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "we can leverage peer navigators",
+            "evidence_type": "narrative",
+            "extraction_method": "text",
+            "confidence": 0.93
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped peer navigator to continuity-of-care support role."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "mapping_id": "CC.MAP.RI.012",
+        "persona_id": "CC.PER.010",
+        "actor_id": "CC.ACTOR.010",
+        "workflow_id": "CC.WF.04",
+        "activity_step_id": "CC.WF.04.STEP.003",
+        "role_in_activity": "supports",
+        "create_permission": false,
+        "read_permission": true,
+        "update_permission": false,
+        "approve_validate_permission": false,
+        "referral_hand_off_role": "supports community linkage and awareness",
+        "notes": "Community support roles are listed for capacity building.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 17,
+            "printed_page": "27",
+            "section_path": [
+              "Recommendations for screening in special populations"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Capacity building for client navigators, CHPs, mentor mothers, peer educators, etc.",
+            "evidence_type": "narrative",
+            "extraction_method": "text",
+            "confidence": 0.92
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped community support persona to navigation and awareness support."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "mapping_id": "CC.MAP.RI.013",
+        "persona_id": "CC.PER.011",
+        "actor_id": "CC.ACTOR.011",
+        "workflow_id": "CC.WF.01",
+        "activity_step_id": "CC.WF.01.STEP.003",
+        "role_in_activity": "plans",
+        "create_permission": true,
+        "read_permission": true,
+        "update_permission": true,
+        "approve_validate_permission": true,
+        "referral_hand_off_role": "sets service delivery and referral pathways",
+        "notes": "Programme manager selects approach based on context and resources.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 1,
+            "printed_page": "11",
+            "section_path": [
+              "Key messages"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Decisions on screening and treatment approaches depend on factors such as risk of loss to follow-up, cost, and resource availability.",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped programme manager to planning and system design activities."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "CC.REF.001",
+        "short_citation": "Ministry of Health Kenya, 2024",
+        "full_citation": "Ministry of Health Kenya. Kenya National Cancer Screening and Early Diagnosis Guidelines - Cervical Cancer. Second edition. 2024.",
+        "document_title": "Kenya National Cancer Screening and Early Diagnosis Guidelines - Cervical Cancer",
+        "version_publication_date": "2024",
+        "source_organization": "Ministry of Health Kenya",
+        "url_doi": null,
+        "access_date": "2026-06-22",
+        "relevant_sections_pages": "pp. 1-23",
+        "notes": "Primary source document for personas extraction.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 0,
+            "printed_page": null,
+            "section_path": [],
+            "table_figure_id": null,
+            "evidence_excerpt": "Kenya National Cancer Screening and Early Diagnosis Guidelines - Cervical Cancer",
+            "evidence_type": "annex",
+            "extraction_method": "text",
+            "confidence": 0.99
+          }
+        ],
+        " _derivation": {
+          "type": "direct",
+          "explanation": "Source-document register entry created from supplied metadata."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      }
+    ]
+  },
+  "validation": {
+    "fatal_errors": [],
+    "warnings": [
+      "Some persona and actor fields are derived from multiple source passages rather than a single explicit sentence.",
+      "Several workflow and step IDs are placeholders because the source did not provide a separate workflow artifact in the supplied materials.",
+      "The source text contains OCR/formatting issues and truncated phrases in a few places; short excerpts were used where possible."
+    ],
+    "information": [
+      "Personas artifact populated from explicit actors plus derived personas supported by workflow and service-delivery text.",
+      "No country adaptation information was supplied.",
+      "No separate workflow artifact was supplied, so workflow IDs were normalized placeholders for mapping purposes."
+    ],
+    "counts": {
+      "source_documents": 1,
+      "actors": 11,
+      "personas": 11,
+      "persona_activity_mappings": 13,
+      "references": 1
+    }
+  }
+}

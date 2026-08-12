@@ -1,0 +1,221 @@
+{
+  "artifact_folder": "02_personas",
+  "artifact_name": "02_personas",
+  "source_artifact_json": "artifact.json",
+  "cleaned_artifact_json": "02_personas_artifact.json",
+  "source_artifact_xlsx": "artifact.xlsx",
+  "cleaned_artifact_xlsx": "02_personas_artifact.xlsx",
+  "l1_source_of_truth": "l1_recommendations_clinician_validated(1).xlsx",
+  "l1_comparison_source": "l1_recommendations.xlsx",
+  "improvement_run_date": "2026-07-06",
+  "overall_change_summary": {
+    "records_reviewed": 150,
+    "records_updated": 11,
+    "records_added": 0,
+    "records_retired": 0,
+    "recommendation_links_corrected": 0,
+    "unresolved_items_remaining": 0,
+    "clinical_review_required": 0
+  },
+  "changes": [
+    {
+      "change_id": "02_personas.CHANGE.001",
+      "sheet_or_section": "personas",
+      "record_id": "CC.PER.001",
+      "change_type": "added_cds_user_type",
+      "severity": "minor",
+      "before": {
+        "cds_user_type": null
+      },
+      "after": {
+        "cds_user_type": "client"
+      },
+      "reason": "Added CDS-user classification to support downstream CDS Hooks roles.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "02_personas.CHANGE.002",
+      "sheet_or_section": "personas",
+      "record_id": "CC.PER.002",
+      "change_type": "added_cds_user_type",
+      "severity": "minor",
+      "before": {
+        "cds_user_type": null
+      },
+      "after": {
+        "cds_user_type": "clinician"
+      },
+      "reason": "Added CDS-user classification to support downstream CDS Hooks roles.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "02_personas.CHANGE.003",
+      "sheet_or_section": "personas",
+      "record_id": "CC.PER.003",
+      "change_type": "added_cds_user_type",
+      "severity": "minor",
+      "before": {
+        "cds_user_type": null
+      },
+      "after": {
+        "cds_user_type": "clinician"
+      },
+      "reason": "Added CDS-user classification to support downstream CDS Hooks roles.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "02_personas.CHANGE.004",
+      "sheet_or_section": "personas",
+      "record_id": "CC.PER.004",
+      "change_type": "added_cds_user_type",
+      "severity": "minor",
+      "before": {
+        "cds_user_type": null
+      },
+      "after": {
+        "cds_user_type": "clinician"
+      },
+      "reason": "Added CDS-user classification to support downstream CDS Hooks roles.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "02_personas.CHANGE.005",
+      "sheet_or_section": "personas",
+      "record_id": "CC.PER.005",
+      "change_type": "added_cds_user_type",
+      "severity": "minor",
+      "before": {
+        "cds_user_type": null
+      },
+      "after": {
+        "cds_user_type": "clinician"
+      },
+      "reason": "Added CDS-user classification to support downstream CDS Hooks roles.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "02_personas.CHANGE.006",
+      "sheet_or_section": "personas",
+      "record_id": "CC.PER.006",
+      "change_type": "added_cds_user_type",
+      "severity": "minor",
+      "before": {
+        "cds_user_type": null
+      },
+      "after": {
+        "cds_user_type": "referral_provider"
+      },
+      "reason": "Added CDS-user classification to support downstream CDS Hooks roles.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "02_personas.CHANGE.007",
+      "sheet_or_section": "personas",
+      "record_id": "CC.PER.007",
+      "change_type": "added_cds_user_type",
+      "severity": "minor",
+      "before": {
+        "cds_user_type": null
+      },
+      "after": {
+        "cds_user_type": "lab_user"
+      },
+      "reason": "Added CDS-user classification to support downstream CDS Hooks roles.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "02_personas.CHANGE.008",
+      "sheet_or_section": "personas",
+      "record_id": "CC.PER.008",
+      "change_type": "added_cds_user_type",
+      "severity": "minor",
+      "before": {
+        "cds_user_type": null
+      },
+      "after": {
+        "cds_user_type": "lab_user"
+      },
+      "reason": "Added CDS-user classification to support downstream CDS Hooks roles.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "02_personas.CHANGE.009",
+      "sheet_or_section": "personas",
+      "record_id": "CC.PER.009",
+      "change_type": "added_cds_user_type",
+      "severity": "minor",
+      "before": {
+        "cds_user_type": null
+      },
+      "after": {
+        "cds_user_type": "navigator"
+      },
+      "reason": "Added CDS-user classification to support downstream CDS Hooks roles.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "02_personas.CHANGE.010",
+      "sheet_or_section": "personas",
+      "record_id": "CC.PER.010",
+      "change_type": "added_cds_user_type",
+      "severity": "minor",
+      "before": {
+        "cds_user_type": null
+      },
+      "after": {
+        "cds_user_type": "navigator"
+      },
+      "reason": "Added CDS-user classification to support downstream CDS Hooks roles.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    },
+    {
+      "change_id": "02_personas.CHANGE.011",
+      "sheet_or_section": "personas",
+      "record_id": "CC.PER.011",
+      "change_type": "added_cds_user_type",
+      "severity": "minor",
+      "before": {
+        "cds_user_type": null
+      },
+      "after": {
+        "cds_user_type": "program_manager"
+      },
+      "reason": "Added CDS-user classification to support downstream CDS Hooks roles.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    }
+  ],
+  "unresolved_items": []
+}

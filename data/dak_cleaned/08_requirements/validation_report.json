@@ -1,0 +1,44 @@
+{
+  "artifact_id": "KEN.CC.DAK.L2.FUNCTIONAL_AND_NONFUNCTIONAL_REQUIREMENTS",
+  "generated_at": "2026-06-22T16:12:25Z",
+  "fatal_errors": [],
+  "warnings": [],
+  "information": [
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in requirement_traceability",
+    "row without _provenance in references"
+  ],
+  "counts": {
+    "functional_requirements": 15,
+    "nonfunctional_requirements": 8,
+    "requirement_traceability": 23,
+    "references": 1
+  },
+  "worksheet_row_counts": {
+    "Functional": 15,
+    "Non-functional": 8,
+    "Requirement Traceability": 23,
+    "References": 1
+  }
+}

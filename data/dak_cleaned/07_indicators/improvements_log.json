@@ -1,0 +1,564 @@
+{
+  "artifact_folder": "07_indicators",
+  "artifact_name": "07_indicators",
+  "source_artifact_json": "artifact.json",
+  "cleaned_artifact_json": "07_indicators_artifact.json",
+  "source_artifact_xlsx": "artifact.xlsx",
+  "cleaned_artifact_xlsx": "07_indicators_artifact.xlsx",
+  "l1_source_of_truth": "l1_recommendations_clinician_validated(1).xlsx",
+  "l1_comparison_source": "l1_recommendations.xlsx",
+  "improvement_run_date": "2026-07-06",
+  "overall_change_summary": {
+    "records_reviewed": 216,
+    "records_updated": 17,
+    "records_added": 0,
+    "records_retired": 0,
+    "recommendation_links_corrected": 16,
+    "unresolved_items_remaining": 22,
+    "clinical_review_required": 56
+  },
+  "changes": [
+    {
+      "change_id": "07_indicators.CHANGE.001",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.IND.001",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-b0523c7f2a",
+          "KEN-CC-L1-e1bc4a5522",
+          "KEN-CC-L1-1798235ee4"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-e1bc4a5522",
+          "KEN-CC-L1-1798235ee4"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-e1bc4a5522",
+        "validated_l1_text": "HPV testing is the recommended primary screening method perform HPV testing as primary screening method HPV testing is the recommended primary screening method"
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "07_indicators.CHANGE.002",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.IND.002",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-e43bb3111f",
+          "KEN-CC-L1-3141662ec6",
+          "KEN-CC-L1-49c280a525"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-3141662ec6"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-3141662ec6",
+        "validated_l1_text": "Strengthen the health information system •\t The health information system should be strengthened to ensure an effective\nfail-safe mechanism (linkage to treatment for those testing positive)"
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "07_indicators.CHANGE.003",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.IND.003",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-f395a252ff",
+          "KEN-CC-L1-a5016e2ef1",
+          "KEN-CC-L1-42375bada9"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-f395a252ff",
+          "KEN-CC-L1-a5016e2ef1"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-f395a252ff",
+        "validated_l1_text": "The ultimate objective is to expand the national cervical cancer screening program to achieve sufficient coverage, aiming to screen every woman aged 30-49 years nationwide at least twice (35 and 45 years), as recommended by the World Health Organization (WHO). expand the national cervical cancer screening program, screen every woman at least twice The ultimate objective is to expand the national cervical cancer screening program to achieve sufficient coverage, aiming to screen every woman aged 30-49 years nationwide at least twice (35 and 45 years), as recommended by the World Health Organization (WHO)."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "07_indicators.CHANGE.004",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.IND.007",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-d677004e38",
+          "KEN-CC-L1-aac993dd60",
+          "KEN-CC-L1-b06f0a71c1"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-aac993dd60",
+          "KEN-CC-L1-b06f0a71c1"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-aac993dd60",
+        "validated_l1_text": "These guidelines recommend the screen, triage and treat approach, as depicted in the algorithm. Use the screen, triage and treat approach These guidelines recommend the screen, triage and treat approach, as depicted in the algorithm."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "07_indicators.CHANGE.005",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.IND.008",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-f086e91726",
+          "KEN-CC-L1-0a842c066a",
+          "KEN-CC-L1-15a7f9454b"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-0a842c066a",
+          "KEN-CC-L1-15a7f9454b"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-0a842c066a",
+        "validated_l1_text": "Those who are ineligible for ablative treatment should be referred for excisional treatment or further evaluation. refer Those who are ineligible for ablative treatment should be referred for excisional treatment or further evaluation."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "07_indicators.CHANGE.006",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.IND.009",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-49c280a525",
+          "KEN-CC-L1-75f62bd020",
+          "KEN-CC-L1-73f280f8eb"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-73f280f8eb"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-73f280f8eb",
+        "validated_l1_text": "ALL women suspected to be having cancer should be referred immediately for colposcopy with biopsy and further management by a gynecologic oncologist. Refer immediately for colposcopy with biopsy, Arrange further management by a gynecologic oncologist Immediate Referral:  ALL women suspected to be having cancer should be referred immediately for  colposcopy with biopsy  and further management by a gynecologic oncologist."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "07_indicators.CHANGE.007",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.IND.011",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-c29107eec9",
+          "KEN-CC-L1-b7218334f8",
+          "KEN-CC-L1-a6f668daf2"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-c29107eec9"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-c29107eec9",
+        "validated_l1_text": "If the initial follow-up test is negative, cytology/continued monitoring with HPV is recommended as per national guidelines for routine screening. Continue cytology or HPV monitoring as per national guidelines for routine screening If the initial follow-up test is negative, cytology/continued monitoring with HPV is recommended as per national guidelines for routine screening."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "07_indicators.CHANGE.008",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.IND.012",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-87e49c886d",
+          "KEN-CC-L1-2af50d8d31",
+          "KEN-CC-L1-7efb044310"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-87e49c886d",
+          "KEN-CC-L1-2af50d8d31"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-87e49c886d",
+        "validated_l1_text": "If the follow-up test is positive, further evaluation and possible re-treatment may be necessary. Perform further evaluation, Consider possible re-treatment If the follow-up test is positive, further evaluation and possible re-treatment may be\nnecessary."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "07_indicators.CHANGE.009",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.IND.013",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-60360824e4",
+          "KEN-CC-L1-d7b7daec2a",
+          "KEN-CC-L1-bb102911ba"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-60360824e4",
+          "KEN-CC-L1-bb102911ba"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-60360824e4",
+        "validated_l1_text": "Women living with HIV (WLHIV) have higher risk of developing cervical cancer, hence the need for cervical cancer screen and treatment to be part of standard package of HIV care. Provide cervical cancer screening and treatment as part of standard HIV care. Women living with HIV (WLHIV) have higher risk of developing cervical cancer, hence\nthe need for cervical cancer screen and treatment to be part of standard package of\nHIV care."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "07_indicators.CHANGE.010",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.IND.014",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-fd31c56bf0",
+          "KEN-CC-L1-bb102911ba",
+          "KEN-CC-L1-ef9cc38bce"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-bb102911ba",
+          "KEN-CC-L1-ef9cc38bce"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-bb102911ba",
+        "validated_l1_text": "Screening should start at age 25 years (regardless of when they first turned HIV positive), with HPV test as the primary screening method. Start cervical cancer screening at age 25 years., Use HPV test as the primary screening method. Screening should start at age 25 years (regardless of when they first turned\nHIV positive), with HPV test as the primary screening method."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "07_indicators.CHANGE.011",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.IND.015",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-37b38016a6",
+          "KEN-CC-L1-a2f9758e95",
+          "KEN-CC-L1-a71686d842"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-37b38016a6"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-37b38016a6",
+        "validated_l1_text": "Women who turn screen positive, should be followed up with appropriate triaging strategy using either HPV16/18 genotyping, colposcopy, cytology, or VIA) to reduce the overall burden in this group (WHO, 2023). Follow up screen-positive women with an appropriate triaging strategy., Use HPV16/18 genotyping, colposcopy, cytology, or VIA for triage. Women who turn screen positive, should be followed up with\nappropriate triaging strategy using either HPV16/18 genotyping, colposcopy, cytology,\nor VIA) to reduce the overall burden in this group (WHO, 2023)."
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "07_indicators.CHANGE.012",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.IND.016",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-5717a7ca5b"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": []
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "07_indicators.CHANGE.013",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.IND.017",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-5717a7ca5b"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": []
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "07_indicators.CHANGE.014",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.IND.018",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-ef261707a7"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": []
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "07_indicators.CHANGE.015",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.IND.019",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-a5202d2e03",
+          "KEN-CC-L1-be3564c5d4",
+          "KEN-CC-L1-cb3c13da42"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": []
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "07_indicators.CHANGE.016",
+      "sheet_or_section": "sheets",
+      "record_id": "CC.IND.020",
+      "change_type": "normalized_l1_recommendation_link",
+      "severity": "major",
+      "before": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-90711d2c91",
+          "KEN-CC-L1-16733586ca"
+        ]
+      },
+      "after": {
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-90711d2c91"
+        ]
+      },
+      "reason": "Replaced legacy or invalid recommendation linkage with clinician-validated L1 IDs.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {
+        "validated_l1_id": "KEN-CC-L1-90711d2c91",
+        "validated_l1_text": "Women who have received the HPV vaccine should receive routine cervical cancer screening as per the national guidelines receive routine cervical cancer screening as per the national guidelines Women who have received the HPV vaccine should receive routine cervical cancer screening as per the national guidelines"
+      },
+      "original_l1_comparison": {},
+      "requires_clinical_review": true
+    },
+    {
+      "change_id": "07_indicators.CHANGE.017",
+      "sheet_or_section": "indicator_data_element_mappings",
+      "record_id": "CC.IND.006",
+      "change_type": "resolved_indicator_data_element_mapping",
+      "severity": "minor",
+      "before": {
+        "data_element_id": "cytology_primary_screening_test"
+      },
+      "after": {
+        "data_element_id": "CC.A.REG.DE.004.OPT.003"
+      },
+      "reason": "Mapped free-text indicator data element label to a core data dictionary ID.",
+      "audit_basis": "Automated cleanup per SKILL.md",
+      "clinical_basis": {},
+      "original_l1_comparison": {},
+      "requires_clinical_review": false
+    }
+  ],
+  "unresolved_items": [
+    {
+      "record_id": "CC.IND.001",
+      "issue": "Unresolved L1 reference KEN-CC-L1-b0523c7f2a",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.IND.002",
+      "issue": "Unresolved L1 reference KEN-CC-L1-e43bb3111f",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.IND.002",
+      "issue": "Unresolved L1 reference KEN-CC-L1-49c280a525",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.IND.003",
+      "issue": "Unresolved L1 reference KEN-CC-L1-42375bada9",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.IND.007",
+      "issue": "Unresolved L1 reference KEN-CC-L1-d677004e38",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.IND.008",
+      "issue": "Unresolved L1 reference KEN-CC-L1-f086e91726",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.IND.009",
+      "issue": "Unresolved L1 reference KEN-CC-L1-49c280a525",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.IND.009",
+      "issue": "Unresolved L1 reference KEN-CC-L1-75f62bd020",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.IND.011",
+      "issue": "Unresolved L1 reference KEN-CC-L1-b7218334f8",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.IND.011",
+      "issue": "Unresolved L1 reference KEN-CC-L1-a6f668daf2",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.IND.012",
+      "issue": "Unresolved L1 reference KEN-CC-L1-7efb044310",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.IND.013",
+      "issue": "Unresolved L1 reference KEN-CC-L1-d7b7daec2a",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.IND.014",
+      "issue": "Unresolved L1 reference KEN-CC-L1-fd31c56bf0",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.IND.015",
+      "issue": "Unresolved L1 reference KEN-CC-L1-a2f9758e95",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.IND.015",
+      "issue": "Unresolved L1 reference KEN-CC-L1-a71686d842",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.IND.016",
+      "issue": "Unresolved L1 reference KEN-CC-L1-5717a7ca5b",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.IND.017",
+      "issue": "Unresolved L1 reference KEN-CC-L1-5717a7ca5b",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.IND.018",
+      "issue": "Unresolved L1 reference KEN-CC-L1-ef261707a7",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.IND.019",
+      "issue": "Unresolved L1 reference KEN-CC-L1-a5202d2e03",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.IND.019",
+      "issue": "Unresolved L1 reference KEN-CC-L1-be3564c5d4",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.IND.019",
+      "issue": "Unresolved L1 reference KEN-CC-L1-cb3c13da42",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    },
+    {
+      "record_id": "CC.IND.020",
+      "issue": "Unresolved L1 reference KEN-CC-L1-16733586ca",
+      "recommended_next_action": "Review clinician-validated L1 workbook and source guideline manually."
+    }
+  ]
+}

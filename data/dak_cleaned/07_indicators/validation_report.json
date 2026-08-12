@@ -1,0 +1,40 @@
+{
+  "artifact_id": "KEN.CC.DAK.L2.INDICATORS_AND_PERFORMANCE_METRICS",
+  "generated_at": "2026-06-22T16:12:25Z",
+  "fatal_errors": [],
+  "warnings": [],
+  "information": [
+    "row without _provenance in indicators",
+    "row without _provenance in indicators",
+    "row without _provenance in indicators",
+    "row without _provenance in indicators",
+    "row without _provenance in indicators",
+    "row without _provenance in indicators",
+    "row without _provenance in indicators",
+    "row without _provenance in indicators",
+    "row without _provenance in indicators",
+    "row without _provenance in indicators",
+    "row without _provenance in indicators",
+    "row without _provenance in indicators",
+    "row without _provenance in indicators",
+    "row without _provenance in indicators",
+    "row without _provenance in indicators",
+    "row without _provenance in indicators",
+    "row without _provenance in indicators",
+    "row without _provenance in indicators",
+    "row without _provenance in indicators",
+    "row without _provenance in indicators",
+    "row without _provenance in indicators",
+    "row without _provenance in indicators"
+  ],
+  "counts": {
+    "indicators": 22,
+    "indicator_data_element_mappings": 41,
+    "references": 7
+  },
+  "worksheet_row_counts": {
+    "Indicator table": 22,
+    "Indicator-DE Map": 41,
+    "References": 7
+  }
+}

@@ -1,0 +1,2726 @@
+{
+  "artifact": {
+    "artifact_id": "KEN.CC.DAK.L2.INDICATORS_AND_PERFORMANCE_METRICS",
+    "artifact_name": "Indicators and Performance Metrics",
+    "dak_layer": "L2",
+    "country_or_adaptation": null,
+    "version": "0.1-draft",
+    "status": "Draft",
+    "generated_at": "2026-06-22T00:00:00Z"
+  },
+  "source_documents": [
+    {
+      "source_document_id": "SRC.001",
+      "file_name": "kenya_cervical_guideline.pdf",
+      "title": "Kenya National Cancer Screening and Early Diagnosis Guidelines - Cervical Cancer",
+      "issuing_organization": "Ministry of Health Kenya",
+      "edition": "Second edition",
+      "year": 2024,
+      "document_type": "normative guidance"
+    }
+  ],
+  "sheets": {
+    "indicators": [
+      {
+        "indicator_id": "CC.IND.001",
+        "indicator_name": "Women screened by a high-performance test",
+        "definition": "2030 target to achieve 70% of women screened by a high-performance test [Human Papillomavirus (HPV) test].",
+        "numerator_description": "Number of women screened by a high-performance test (HPV test).",
+        "numerator_computation": "count(women with HPV screening test performed during the reporting period)",
+        "denominator_description": "Number of women in the target population.",
+        "denominator_computation": "count(women in the target population during the reporting period)",
+        "disaggregations": "age group; HIV status; screening method; service delivery level",
+        "reporting_period": "Annual; target year 2030",
+        "data_source_event_date": "screening test date",
+        "indicator_type": "coverage",
+        "khis_dhis2_id": null,
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-e1bc4a5522",
+          "KEN-CC-L1-1798235ee4"
+        ],
+        "reference": "SRC.001",
+        "review_status": "Not started",
+        "notes": "Source states the 2030 target as 70% screened by HPV test. Denominator is not explicitly defined in the source and is normalized as women in the target population; this requires human review. No KHIS/DHIS2 ID was provided in the source.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-b0523c7f2a"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-b0523c7f2a"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "reporting_only": true,
+        "cds_executable": false
+      },
+      {
+        "indicator_id": "CC.IND.002",
+        "indicator_name": "Women with positive screen test who received treatment",
+        "definition": "Programmatic performance measure reflected in KHIS data: proportion of women with a positive screen test who received treatment.",
+        "numerator_description": "Number of women with a positive screen test who received treatment.",
+        "numerator_computation": "count(women with positive screening result and treatment received during the reporting period)",
+        "denominator_description": "Number of women with a positive screen test.",
+        "denominator_computation": "count(women with positive screening result during the reporting period)",
+        "disaggregations": "screening method; HIV status; age group; service delivery level",
+        "reporting_period": "Annual",
+        "data_source_event_date": "screening result date; treatment date",
+        "indicator_type": "coverage",
+        "khis_dhis2_id": null,
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-3141662ec6"
+        ],
+        "reference": "SRC.001",
+        "review_status": "Not started",
+        "notes": "The source reports that only 33% of those with a positive screen test received treatment according to KHIS 2024. This is a performance metric derived from narrative; denominator and event-date assignment are normalized and require review. No KHIS/DHIS2 ID was provided.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-e43bb3111f",
+          "KEN-CC-L1-49c280a525"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-e43bb3111f",
+          "KEN-CC-L1-49c280a525"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "reporting_only": true,
+        "cds_executable": false
+      },
+      {
+        "indicator_id": "CC.IND.003",
+        "indicator_name": "Women screened at least twice in the target age group",
+        "definition": "Ultimate objective to screen every woman aged 30-49 years nationwide at least twice (35 and 45 years).",
+        "numerator_description": "Number of women aged 30-49 years who have been screened at least twice.",
+        "numerator_computation": "count(women aged 30-49 years with at least 2 documented cervical cancer screening events)",
+        "denominator_description": "Number of women aged 30-49 years nationwide.",
+        "denominator_computation": "count(women aged 30-49 years nationwide during the reporting period)",
+        "disaggregations": "age group; screening method; HIV status; geography; service delivery level",
+        "reporting_period": "Lifetime / programme period",
+        "data_source_event_date": "screening test date",
+        "indicator_type": "coverage",
+        "khis_dhis2_id": null,
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-f395a252ff",
+          "KEN-CC-L1-a5016e2ef1"
+        ],
+        "reference": "SRC.001",
+        "review_status": "Not started",
+        "notes": "The source states an objective to screen every woman aged 30-49 years at least twice (35 and 45 years). This is not presented as a formal indicator in the source; it is normalized as a coverage metric for DAK purposes.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-42375bada9"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-42375bada9"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "reporting_only": true,
+        "cds_executable": false
+      },
+      {
+        "indicator_id": "CC.IND.004",
+        "indicator_name": "Women screened with HPV as primary screening method",
+        "definition": "HPV testing is the recommended primary screening method for women eligible for cervical cancer screening.",
+        "numerator_description": "Number of women screened using HPV as the primary screening method.",
+        "numerator_computation": "count(women with HPV screening test as primary method during the reporting period)",
+        "denominator_description": "Number of women eligible for cervical cancer screening.",
+        "denominator_computation": "count(women eligible for cervical cancer screening during the reporting period)",
+        "disaggregations": "age group; HIV status; self-collected vs provider-collected sample; service delivery level",
+        "reporting_period": "Annual",
+        "data_source_event_date": "screening test date",
+        "indicator_type": "coverage",
+        "khis_dhis2_id": null,
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-3b4850a337",
+          "KEN-CC-L1-e1bc4a5522",
+          "KEN-CC-L1-8b3dfbb428"
+        ],
+        "reference": "SRC.001",
+        "review_status": "Not started",
+        "notes": "The source strongly recommends HPV as primary screening. This indicator is normalized from guidance and not explicitly named in the source.",
+        "reporting_only": true,
+        "cds_executable": false,
+        "clinical_review_status": "validated"
+      },
+      {
+        "indicator_id": "CC.IND.005",
+        "indicator_name": "Women screened with VIA when HPV unavailable or loss to follow-up risk is high",
+        "definition": "Where HPV testing is not yet available, or loss-to-follow-up is a risk, VIA is an acceptable primary screening method.",
+        "numerator_description": "Number of women screened using VIA as the primary screening method in settings where HPV is unavailable or loss-to-follow-up risk is high.",
+        "numerator_computation": "count(women with VIA primary screening during the reporting period where HPV unavailable or loss-to-follow-up risk high)",
+        "denominator_description": "Number of women needing screening in settings where HPV is unavailable or loss-to-follow-up risk is high.",
+        "denominator_computation": "count(women eligible for screening in settings where HPV unavailable or loss-to-follow-up risk is high during the reporting period)",
+        "disaggregations": "age group; HIV status; service delivery level; reason for VIA use",
+        "reporting_period": "Annual",
+        "data_source_event_date": "screening test date",
+        "indicator_type": "coverage",
+        "khis_dhis2_id": null,
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-b6346355ba",
+          "KEN-CC-L1-81b6798c63"
+        ],
+        "reference": "SRC.001",
+        "review_status": "Not started",
+        "notes": "This is a normalized service-delivery indicator derived from the recommendation that VIA is acceptable when HPV is unavailable or loss-to-follow-up risk is high.",
+        "reporting_only": true,
+        "cds_executable": false,
+        "clinical_review_status": "validated"
+      },
+      {
+        "indicator_id": "CC.IND.006",
+        "indicator_name": "Women screened with cytology when HPV/VIA not suitable",
+        "definition": "Pap smear is recommended as a primary screening method for women not eligible for VIA because of a type 3 transformation zone and HPV screening not accessible, and as a primary test in women between <30 years of age.",
+        "numerator_description": "Number of women screened using cytology as the primary screening method.",
+        "numerator_computation": "count(women with cytology primary screening during the reporting period)",
+        "denominator_description": "Number of women for whom cytology is indicated as primary screening.",
+        "denominator_computation": "count(women meeting cytology primary screening criteria during the reporting period)",
+        "disaggregations": "age group; transformation zone status; HPV availability; HIV status",
+        "reporting_period": "Annual",
+        "data_source_event_date": "screening test date",
+        "indicator_type": "coverage",
+        "khis_dhis2_id": null,
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-a774061043",
+          "KEN-CC-L1-655c37bf83"
+        ],
+        "reference": "SRC.001",
+        "review_status": "Not started",
+        "notes": "The source provides two cytology primary-screening situations. This indicator combines them as a normalized metric; separate operational reporting may be needed.",
+        "reporting_only": true,
+        "cds_executable": false,
+        "clinical_review_status": "validated"
+      },
+      {
+        "indicator_id": "CC.IND.007",
+        "indicator_name": "HPV-positive women triaged with VIA",
+        "definition": "In the HPV test screen-triage-and-treat strategy, women who are HPV-positive undergo VIA as a triage test to determine whether they should be treated.",
+        "numerator_description": "Number of HPV-positive women who received VIA triage.",
+        "numerator_computation": "count(women with HPV-positive result and VIA triage performed during the reporting period)",
+        "denominator_description": "Number of women with HPV-positive screening results.",
+        "denominator_computation": "count(women with HPV-positive screening result during the reporting period)",
+        "disaggregations": "HIV status; age group; service delivery level; triage result",
+        "reporting_period": "Annual",
+        "data_source_event_date": "HPV test date; VIA triage date",
+        "indicator_type": "process",
+        "khis_dhis2_id": null,
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-aac993dd60",
+          "KEN-CC-L1-b06f0a71c1"
+        ],
+        "reference": "SRC.001",
+        "review_status": "Not started",
+        "notes": "This is a process indicator normalized from the HPV triage algorithm. The source does not provide a formal indicator name.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-d677004e38"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-d677004e38"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "reporting_only": true,
+        "cds_executable": false
+      },
+      {
+        "indicator_id": "CC.IND.008",
+        "indicator_name": "HPV-positive women treated or referred after triage",
+        "definition": "Women who are HPV-positive and VIA-positive will be treated with ablation if adequate, or referred for excisional treatment or further evaluation; women ineligible for ablative treatment should be referred for excisional treatment or further evaluation.",
+        "numerator_description": "Number of HPV-positive women who received treatment or referral after triage according to eligibility.",
+        "numerator_computation": "count(women with HPV-positive result and triage-positive result who were treated with ablation if adequate or referred for excisional treatment/further evaluation during the reporting period)",
+        "denominator_description": "Number of HPV-positive women with triage-positive results.",
+        "denominator_computation": "count(women with HPV-positive result and triage-positive result during the reporting period)",
+        "disaggregations": "treatment modality; HIV status; age group; referral destination",
+        "reporting_period": "Annual",
+        "data_source_event_date": "triage date; treatment date; referral date",
+        "indicator_type": "process",
+        "khis_dhis2_id": null,
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-0a842c066a",
+          "KEN-CC-L1-15a7f9454b"
+        ],
+        "reference": "SRC.001",
+        "review_status": "Not started",
+        "notes": "This combines treatment and referral outcomes after triage because the source presents them together in the algorithm.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-f086e91726"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-f086e91726"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "reporting_only": true,
+        "cds_executable": false
+      },
+      {
+        "indicator_id": "CC.IND.009",
+        "indicator_name": "Women with suspected cancer referred immediately",
+        "definition": "Any suspected cancer case after screening should be immediately referred to a gynecologic oncologist for diagnosis and treatment.",
+        "numerator_description": "Number of women with suspected cancer referred immediately for diagnosis and treatment.",
+        "numerator_computation": "count(women with suspected cancer and immediate referral to gynecologic oncologist during the reporting period)",
+        "denominator_description": "Number of women with suspected cancer identified after screening.",
+        "denominator_computation": "count(women with suspected cancer identified after screening during the reporting period)",
+        "disaggregations": "screening method; age group; HIV status; service delivery level",
+        "reporting_period": "Annual",
+        "data_source_event_date": "screening result date; referral date",
+        "indicator_type": "process",
+        "khis_dhis2_id": null,
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-73f280f8eb"
+        ],
+        "reference": "SRC.001",
+        "review_status": "Not started",
+        "notes": "Immediate referral is normative guidance. The denominator is normalized from the trigger condition and should be reviewed.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-49c280a525",
+          "KEN-CC-L1-75f62bd020"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-49c280a525",
+          "KEN-CC-L1-75f62bd020"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "reporting_only": true,
+        "cds_executable": false
+      },
+      {
+        "indicator_id": "CC.IND.010",
+        "indicator_name": "Women treated for precancerous lesions with 1-year post-treatment follow-up",
+        "definition": "Women who have undergone treatment for precancerous lesions should receive post-treatment follow-up screening at one year after treatment.",
+        "numerator_description": "Number of women treated for precancerous lesions who completed follow-up screening at 1 year.",
+        "numerator_computation": "count(women treated for precancerous lesions with follow-up screening performed approximately 12 months after treatment)",
+        "denominator_description": "Number of women treated for precancerous lesions.",
+        "denominator_computation": "count(women treated for precancerous lesions during the reporting period)",
+        "disaggregations": "treatment modality; HIV status; histopathology result; age group",
+        "reporting_period": "Annual",
+        "data_source_event_date": "treatment date; follow-up screening date",
+        "indicator_type": "process",
+        "khis_dhis2_id": null,
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-effb1be109",
+          "KEN-CC-L1-efa86cab3b",
+          "KEN-CC-L1-834a98103d"
+        ],
+        "reference": "SRC.001",
+        "review_status": "Not started",
+        "notes": "The source specifies 1-year follow-up after treatment. Event-date assignment uses treatment date as the anchor for the reporting interval.",
+        "reporting_only": true,
+        "cds_executable": false,
+        "clinical_review_status": "validated"
+      },
+      {
+        "indicator_id": "CC.IND.011",
+        "indicator_name": "Women with negative post-treatment follow-up returned to routine screening",
+        "definition": "If the initial follow-up test is negative, continued monitoring with HPV or cytology is recommended as per national screening guidelines; return to regular screening is indicated after negative follow-up in the algorithm.",
+        "numerator_description": "Number of women with negative post-treatment follow-up who returned to routine screening.",
+        "numerator_computation": "count(women with negative post-treatment follow-up result who returned to routine screening during the reporting period)",
+        "denominator_description": "Number of women with negative post-treatment follow-up results.",
+        "denominator_computation": "count(women with negative post-treatment follow-up result during the reporting period)",
+        "disaggregations": "follow-up test type; HIV status; treatment modality",
+        "reporting_period": "Annual",
+        "data_source_event_date": "follow-up test date",
+        "indicator_type": "process",
+        "khis_dhis2_id": null,
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-c29107eec9"
+        ],
+        "reference": "SRC.001",
+        "review_status": "Not started",
+        "notes": "This is a normalized follow-up outcome indicator. The source does not explicitly define a routine-screening return metric.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-b7218334f8",
+          "KEN-CC-L1-a6f668daf2"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-b7218334f8",
+          "KEN-CC-L1-a6f668daf2"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "reporting_only": true,
+        "cds_executable": false
+      },
+      {
+        "indicator_id": "CC.IND.012",
+        "indicator_name": "Women with positive post-treatment follow-up re-treated or referred",
+        "definition": "If the follow-up test is positive, further evaluation and possible re-treatment may be necessary; suspected cancer requires evaluation, biopsy and referral to an appropriate center.",
+        "numerator_description": "Number of women with positive post-treatment follow-up who were re-treated or referred for further evaluation.",
+        "numerator_computation": "count(women with positive post-treatment follow-up result who received re-treatment or referral for evaluation/biopsy during the reporting period)",
+        "denominator_description": "Number of women with positive post-treatment follow-up results.",
+        "denominator_computation": "count(women with positive post-treatment follow-up result during the reporting period)",
+        "disaggregations": "follow-up test type; treatment modality; HIV status; suspected cancer status",
+        "reporting_period": "Annual",
+        "data_source_event_date": "follow-up test date; re-treatment/referral date",
+        "indicator_type": "process",
+        "khis_dhis2_id": null,
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-87e49c886d",
+          "KEN-CC-L1-2af50d8d31"
+        ],
+        "reference": "SRC.001",
+        "review_status": "Not started",
+        "notes": "This indicator combines re-treatment and referral pathways because the source presents them as alternative actions after a positive follow-up test.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-7efb044310"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-7efb044310"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "reporting_only": true,
+        "cds_executable": false
+      },
+      {
+        "indicator_id": "CC.IND.013",
+        "indicator_name": "Women living with HIV screened starting at age 25",
+        "definition": "Women living with HIV should start cervical cancer screening at age 25 years, regardless of when they first turned HIV positive.",
+        "numerator_description": "Number of women living with HIV who were screened starting at age 25 years or later according to the guideline.",
+        "numerator_computation": "count(WLHIV screened at age >=25 years during the reporting period)",
+        "denominator_description": "Number of women living with HIV eligible for screening.",
+        "denominator_computation": "count(WLHIV eligible for screening during the reporting period)",
+        "disaggregations": "age group; ART status; screening method; service delivery level",
+        "reporting_period": "Annual",
+        "data_source_event_date": "screening test date",
+        "indicator_type": "coverage",
+        "khis_dhis2_id": null,
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-60360824e4",
+          "KEN-CC-L1-bb102911ba"
+        ],
+        "reference": "SRC.001",
+        "review_status": "Not started",
+        "notes": "The source gives a special-population initiation age. This is normalized as a coverage indicator for WLHIV.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-d7b7daec2a"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-d7b7daec2a"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "reporting_only": true,
+        "cds_executable": false
+      },
+      {
+        "indicator_id": "CC.IND.014",
+        "indicator_name": "Women living with HIV screened with HPV as primary test",
+        "definition": "Women living with HIV should have HPV-DNA as the primary screening test.",
+        "numerator_description": "Number of women living with HIV screened with HPV-DNA as the primary test.",
+        "numerator_computation": "count(WLHIV with HPV-DNA primary screening during the reporting period)",
+        "denominator_description": "Number of women living with HIV eligible for screening.",
+        "denominator_computation": "count(WLHIV eligible for screening during the reporting period)",
+        "disaggregations": "age group; ART status; sample collection mode; service delivery level",
+        "reporting_period": "Annual",
+        "data_source_event_date": "screening test date",
+        "indicator_type": "coverage",
+        "khis_dhis2_id": null,
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-bb102911ba",
+          "KEN-CC-L1-ef9cc38bce"
+        ],
+        "reference": "SRC.001",
+        "review_status": "Not started",
+        "notes": "The source states HPV-DNA as the primary test for WLHIV. No KHIS/DHIS2 ID is provided.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-fd31c56bf0"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-fd31c56bf0"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "reporting_only": true,
+        "cds_executable": false
+      },
+      {
+        "indicator_id": "CC.IND.015",
+        "indicator_name": "Women with HPV-positive result triaged using genotyping, colposcopy, cytology or VIA",
+        "definition": "Women who turn screen positive should be followed up with an appropriate triaging strategy using HPV16/18 genotyping, colposcopy, cytology, or VIA.",
+        "numerator_description": "Number of HPV-positive women who received triage using one of the recommended triage methods.",
+        "numerator_computation": "count(women with HPV-positive result and triage performed using genotyping or colposcopy or cytology or VIA during the reporting period)",
+        "denominator_description": "Number of women with HPV-positive screening results.",
+        "denominator_computation": "count(women with HPV-positive screening result during the reporting period)",
+        "disaggregations": "triage method; HIV status; age group; service delivery level",
+        "reporting_period": "Annual",
+        "data_source_event_date": "HPV test date; triage date",
+        "indicator_type": "process",
+        "khis_dhis2_id": null,
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-37b38016a6"
+        ],
+        "reference": "SRC.001",
+        "review_status": "Not started",
+        "notes": "This is a normalized triage indicator for WLHIV and other screen-positive women. The source does not specify a single preferred triage method.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-a2f9758e95",
+          "KEN-CC-L1-a71686d842"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-a2f9758e95",
+          "KEN-CC-L1-a71686d842"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "reporting_only": true,
+        "cds_executable": false
+      },
+      {
+        "indicator_id": "CC.IND.016",
+        "indicator_name": "Pregnant women screened in first trimester",
+        "definition": "Screening can be done in the first trimester (up to the end of week 12).",
+        "numerator_description": "Number of pregnant women screened in the first trimester.",
+        "numerator_computation": "count(pregnant women screened at gestational age <=12 weeks during the reporting period)",
+        "denominator_description": "Number of pregnant women eligible for screening.",
+        "denominator_computation": "count(pregnant women eligible for screening during the reporting period)",
+        "disaggregations": "gestational age; screening method; HIV status; service delivery level",
+        "reporting_period": "Annual",
+        "data_source_event_date": "screening test date",
+        "indicator_type": "coverage",
+        "khis_dhis2_id": null,
+        "linked_recommendation_ids": [],
+        "reference": "SRC.001",
+        "review_status": "Not started",
+        "notes": "The source allows screening in the first trimester only; treatment is not to be performed during pregnancy. This indicator is normalized from that guidance.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-5717a7ca5b"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-5717a7ca5b"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "reporting_only": true,
+        "cds_executable": false
+      },
+      {
+        "indicator_id": "CC.IND.017",
+        "indicator_name": "Women with suspicious lesions in pregnancy biopsied",
+        "definition": "For suspicious lesions in pregnancy, a biopsy can be done at any trimester by a skilled health care provider.",
+        "numerator_description": "Number of pregnant women with suspicious lesions who received biopsy.",
+        "numerator_computation": "count(pregnant women with suspicious cervical lesions and biopsy performed during the reporting period)",
+        "denominator_description": "Number of pregnant women with suspicious lesions.",
+        "denominator_computation": "count(pregnant women with suspicious cervical lesions during the reporting period)",
+        "disaggregations": "trimester; biopsy setting; provider cadre",
+        "reporting_period": "Annual",
+        "data_source_event_date": "biopsy date",
+        "indicator_type": "process",
+        "khis_dhis2_id": null,
+        "linked_recommendation_ids": [],
+        "reference": "SRC.001",
+        "review_status": "Not started",
+        "notes": "The source warns heavy bleeding could occur during biopsy in pregnancy; this is not a denominator modifier but should be considered in implementation review.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-5717a7ca5b"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-5717a7ca5b"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "reporting_only": true,
+        "cds_executable": false
+      },
+      {
+        "indicator_id": "CC.IND.018",
+        "indicator_name": "Post-partum women screened at 6 weeks after delivery",
+        "definition": "Cervical cancer screening should resume at 6 weeks after delivery.",
+        "numerator_description": "Number of post-partum women screened at or after 6 weeks after delivery according to the guideline.",
+        "numerator_computation": "count(post-partum women screened at gestational/postpartum age >=6 weeks during the reporting period)",
+        "denominator_description": "Number of post-partum women eligible for screening.",
+        "denominator_computation": "count(post-partum women eligible for screening during the reporting period)",
+        "disaggregations": "postpartum interval; screening method; HIV status",
+        "reporting_period": "Annual",
+        "data_source_event_date": "screening test date; delivery date",
+        "indicator_type": "coverage",
+        "khis_dhis2_id": null,
+        "linked_recommendation_ids": [],
+        "reference": "SRC.001",
+        "review_status": "Not started",
+        "notes": "Normalized from postpartum guidance; the source does not specify a formal indicator.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-ef261707a7"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-ef261707a7"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "reporting_only": true,
+        "cds_executable": false
+      },
+      {
+        "indicator_id": "CC.IND.019",
+        "indicator_name": "Women with total hysterectomy appropriately excluded or surveilled",
+        "definition": "Women who have had a total hysterectomy generally do not need cervical cancer screening unless hysterectomy was for cervical cancer or severe pre-cancerous lesion/dysplasia; if so, HPV testing or annual cytologic surveillance may continue.",
+        "numerator_description": "Number of women with total hysterectomy managed according to indication-specific screening guidance.",
+        "numerator_computation": "count(women with total hysterectomy who were either excluded from screening when appropriate or placed on HPV/annual cytology surveillance when indicated during the reporting period)",
+        "denominator_description": "Number of women with total hysterectomy.",
+        "denominator_computation": "count(women with total hysterectomy during the reporting period)",
+        "disaggregations": "hysterectomy indication; surveillance modality; history of CIN/cervical cancer",
+        "reporting_period": "Annual",
+        "data_source_event_date": "clinical history date; screening/surveillance date",
+        "indicator_type": "process",
+        "khis_dhis2_id": null,
+        "linked_recommendation_ids": [],
+        "reference": "SRC.001",
+        "review_status": "Not started",
+        "notes": "This is a normalized management indicator for a special population. The source does not define a formal reporting metric.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-a5202d2e03",
+          "KEN-CC-L1-be3564c5d4",
+          "KEN-CC-L1-cb3c13da42"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-a5202d2e03",
+          "KEN-CC-L1-be3564c5d4",
+          "KEN-CC-L1-cb3c13da42"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "reporting_only": true,
+        "cds_executable": false
+      },
+      {
+        "indicator_id": "CC.IND.020",
+        "indicator_name": "Women with HPV vaccination who continue routine screening",
+        "definition": "Women who have received the HPV vaccine should receive routine cervical cancer screening as per the national guidelines.",
+        "numerator_description": "Number of HPV-vaccinated women who continue routine cervical cancer screening.",
+        "numerator_computation": "count(women with HPV vaccination history and routine cervical cancer screening during the reporting period)",
+        "denominator_description": "Number of women with HPV vaccination history eligible for screening.",
+        "denominator_computation": "count(women with HPV vaccination history eligible for screening during the reporting period)",
+        "disaggregations": "age group; vaccination status; screening method",
+        "reporting_period": "Annual",
+        "data_source_event_date": "screening test date; vaccination history date",
+        "indicator_type": "coverage",
+        "khis_dhis2_id": null,
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-90711d2c91"
+        ],
+        "reference": "SRC.001",
+        "review_status": "Not started",
+        "notes": "The source explicitly states vaccinated women should still be screened. This is normalized as a coverage indicator.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-16733586ca"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-16733586ca"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "reporting_only": true,
+        "cds_executable": false
+      },
+      {
+        "indicator_id": "CC.IND.021",
+        "indicator_name": "Postmenopausal women screened until age 65",
+        "definition": "Postmenopausal women should continue cervical cancer screening with HPV every five years, or cytology every three years, until age 65.",
+        "numerator_description": "Number of postmenopausal women screened according to the recommended interval until age 65.",
+        "numerator_computation": "count(postmenopausal women screened with HPV every 5 years or cytology every 3 years before age 65 during the reporting period)",
+        "denominator_description": "Number of postmenopausal women eligible for screening.",
+        "denominator_computation": "count(postmenopausal women eligible for screening during the reporting period)",
+        "disaggregations": "age group; screening method; HIV status",
+        "reporting_period": "Annual",
+        "data_source_event_date": "screening test date",
+        "indicator_type": "coverage",
+        "khis_dhis2_id": null,
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-f41a906860",
+          "KEN-CC-L1-3d1aa774be"
+        ],
+        "reference": "SRC.001",
+        "review_status": "Not started",
+        "notes": "The source provides interval and stopping criteria. This is normalized as a coverage indicator.",
+        "reporting_only": true,
+        "cds_executable": false,
+        "clinical_review_status": "validated"
+      },
+      {
+        "indicator_id": "CC.IND.022",
+        "indicator_name": "Women with high-grade lesion or cervical cancer under lifelong screening",
+        "definition": "For women with a history of high-grade lesion or cervical cancer, screening will be lifelong and dependent on individual risks and history.",
+        "numerator_description": "Number of women with prior high-grade lesion or cervical cancer who remain under lifelong screening surveillance.",
+        "numerator_computation": "count(women with history of high-grade lesion or cervical cancer and ongoing screening surveillance during the reporting period)",
+        "denominator_description": "Number of women with history of high-grade lesion or cervical cancer.",
+        "denominator_computation": "count(women with history of high-grade lesion or cervical cancer during the reporting period)",
+        "disaggregations": "history of CIN/cervical cancer; screening method; age group",
+        "reporting_period": "Annual",
+        "data_source_event_date": "screening test date; history date",
+        "indicator_type": "coverage",
+        "khis_dhis2_id": null,
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-43d00aed32"
+        ],
+        "reference": "SRC.001",
+        "review_status": "Not started",
+        "notes": "Normalized from special-population guidance; no formal indicator name is provided.",
+        "reporting_only": true,
+        "cds_executable": false,
+        "clinical_review_status": "validated"
+      }
+    ],
+    "indicator_data_element_mappings": [
+      {
+        "mapping_id": "CC.MAP.RI.001",
+        "indicator_id": "CC.IND.001",
+        "indicator_component": "numerator",
+        "data_element_id": "HPV screening test performed",
+        "operator_condition": "equals",
+        "value_value_set": "performed",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique women once per reporting period using earliest screening event",
+        "exclusion_rule": "exclude women outside target population or with invalid/unreadable test records",
+        "disaggregation_role": "screening method",
+        "notes": "No canonical data element ID was provided in the source; this is a normalized placeholder requiring terminology review.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 5,
+            "printed_page": "15",
+            "section_path": [
+              "Rationale for cervical cancer screening",
+              "Who should be screened and when?"
+            ],
+            "table_figure_id": "Table 4",
+            "evidence_excerpt": "HPV testing is the recommended primary screening method",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.96
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped the HPV screening coverage indicator to the screening event because the source recommends HPV as the primary screening method and sets a 2030 coverage target."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.002",
+        "indicator_id": "CC.IND.001",
+        "indicator_component": "denominator",
+        "data_element_id": "target_population_women",
+        "operator_condition": "equals",
+        "value_value_set": "women in target population",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique women once",
+        "exclusion_rule": "exclude women not in target age group",
+        "disaggregation_role": "age group",
+        "notes": "Target population is normalized from narrative; exact denominator is not explicitly defined in the source.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 0,
+            "printed_page": "11",
+            "section_path": [
+              "Overview"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "achieve 70% of women screened by a high-performance test",
+            "evidence_type": "narrative",
+            "extraction_method": "text",
+            "confidence": 0.88
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "The denominator was normalized as women in the target population because the source states a coverage target but does not define the denominator explicitly."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.003",
+        "indicator_id": "CC.IND.002",
+        "indicator_component": "numerator",
+        "data_element_id": "positive_screen_test_and_treatment_received",
+        "operator_condition": "equals",
+        "value_value_set": "positive screen test and treated",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique women once per positive screening episode",
+        "exclusion_rule": "exclude duplicate treatment records for same screening episode",
+        "disaggregation_role": "screening method",
+        "notes": "Normalized from KHIS performance statement.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 0,
+            "printed_page": "11",
+            "section_path": [
+              "Overview"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "only 33% of those who had a positive screen test ... received treatment",
+            "evidence_type": "narrative",
+            "extraction_method": "text",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped the performance metric to a numerator of positive-screen women who received treatment."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.004",
+        "indicator_id": "CC.IND.002",
+        "indicator_component": "denominator",
+        "data_element_id": "positive_screen_test",
+        "operator_condition": "equals",
+        "value_value_set": "positive screen test",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique women once per screening episode",
+        "exclusion_rule": "exclude invalid tests",
+        "disaggregation_role": "screening method",
+        "notes": "No formal data element ID provided in source.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 0,
+            "printed_page": "11",
+            "section_path": [
+              "Overview"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "those who had a positive screen test",
+            "evidence_type": "narrative",
+            "extraction_method": "text",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped the denominator to women with a positive screen test because the source reports treatment among positive screens."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.005",
+        "indicator_id": "CC.IND.003",
+        "indicator_component": "numerator",
+        "data_element_id": "screening_event",
+        "operator_condition": "count_greater_or_equal",
+        "value_value_set": "2 screening events",
+        "temporal_constraint": "lifetime / programme period",
+        "aggregation_deduplication_rule": "count unique women with at least two documented screening events",
+        "exclusion_rule": "exclude duplicate events on same date unless source indicates separate episodes",
+        "disaggregation_role": "age group",
+        "notes": "Derived from narrative objective to screen every woman aged 30-49 years at least twice.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 4,
+            "printed_page": "15",
+            "section_path": [
+              "Rationale for cervical cancer screening"
+            ],
+            "table_figure_id": "Table 4",
+            "evidence_excerpt": "screen every woman aged 30-49 years nationwide at least twice",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.93
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Converted the twice-screened objective into a computable count of women with at least two screening events."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.006",
+        "indicator_id": "CC.IND.003",
+        "indicator_component": "denominator",
+        "data_element_id": "women_aged_30_49_years",
+        "operator_condition": "equals",
+        "value_value_set": "women aged 30-49 years",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique women once",
+        "exclusion_rule": "exclude women outside age range",
+        "disaggregation_role": "age group",
+        "notes": "Normalized denominator from target population statement.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 4,
+            "printed_page": "15",
+            "section_path": [
+              "Rationale for cervical cancer screening"
+            ],
+            "table_figure_id": "Table 4",
+            "evidence_excerpt": "every woman aged 30-49 years nationwide",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.92
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "The denominator is the target age group named in the objective."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.007",
+        "indicator_id": "CC.IND.004",
+        "indicator_component": "numerator",
+        "data_element_id": "hpv_primary_screening_test",
+        "operator_condition": "equals",
+        "value_value_set": "HPV primary screening",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique women once per screening episode",
+        "exclusion_rule": "exclude non-HPV screening methods",
+        "disaggregation_role": "screening method",
+        "notes": "Primary screening method indicator normalized from recommendation.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 4,
+            "printed_page": "15",
+            "section_path": [
+              "Who should be screened and when?"
+            ],
+            "table_figure_id": "Table 4",
+            "evidence_excerpt": "HPV testing is the recommended primary screening method",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped the recommendation to a count of women screened with HPV as the primary method."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.008",
+        "indicator_id": "CC.IND.004",
+        "indicator_component": "denominator",
+        "data_element_id": "women_eligible_for_screening",
+        "operator_condition": "equals",
+        "value_value_set": "eligible women",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique women once",
+        "exclusion_rule": "exclude women not eligible for screening",
+        "disaggregation_role": "age group",
+        "notes": "Eligibility criteria are not fully specified in the source for this indicator.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 4,
+            "printed_page": "15",
+            "section_path": [
+              "Who should be screened and when?"
+            ],
+            "table_figure_id": "Table 4",
+            "evidence_excerpt": "target population for screening",
+            "evidence_type": "narrative",
+            "extraction_method": "text",
+            "confidence": 0.84
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "The denominator is normalized as eligible women because the source frames the recommendation as a screening method for eligible women."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.009",
+        "indicator_id": "CC.IND.005",
+        "indicator_component": "numerator",
+        "data_element_id": "via_primary_screening_test",
+        "operator_condition": "equals",
+        "value_value_set": "VIA primary screening",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique women once per screening episode",
+        "exclusion_rule": "exclude HPV-available settings unless loss-to-follow-up risk is high",
+        "disaggregation_role": "reason_for_method_choice",
+        "notes": "Normalized from conditional recommendation.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 5,
+            "printed_page": "16",
+            "section_path": [
+              "Screening methods for cervical cancer"
+            ],
+            "table_figure_id": "Table 5",
+            "evidence_excerpt": "Where HPV testing is not yet available, or loss-to-follow-up is a risk",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.96
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped the conditional VIA recommendation to a count of VIA primary screenings in the specified contexts."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.010",
+        "indicator_id": "CC.IND.005",
+        "indicator_component": "denominator",
+        "data_element_id": "women_needing_screening_in_via_context",
+        "operator_condition": "equals",
+        "value_value_set": "women needing screening where HPV unavailable or loss-to-follow-up risk high",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique women once",
+        "exclusion_rule": "exclude women in HPV-available low-loss-to-follow-up settings",
+        "disaggregation_role": "reason_for_method_choice",
+        "notes": "Normalized denominator from conditional recommendation.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 5,
+            "printed_page": "16",
+            "section_path": [
+              "Screening methods for cervical cancer"
+            ],
+            "table_figure_id": "Table 5",
+            "evidence_excerpt": "Where HPV testing is not yet available, or loss-to-follow-up is a risk",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "The denominator is the subset of women for whom VIA is acceptable because HPV is unavailable or loss-to-follow-up risk is high."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.011",
+        "indicator_id": "CC.IND.006",
+        "indicator_component": "numerator",
+        "data_element_id": "CC.A.REG.DE.004.OPT.003",
+        "operator_condition": "equals",
+        "value_value_set": "cytology primary screening",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique women once per screening episode",
+        "exclusion_rule": "exclude non-cytology primary screening methods",
+        "disaggregation_role": "age group; transformation zone status",
+        "notes": "Normalized from cytology primary screening recommendation.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 5,
+            "printed_page": "16",
+            "section_path": [
+              "Screening methods for cervical cancer"
+            ],
+            "table_figure_id": "Table 5",
+            "evidence_excerpt": "Pap smear is recommended as a primary screening method",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.96
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped the cytology recommendation to a count of women screened with cytology as primary method."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": "CC.A.REG.DE.004.OPT.003",
+        "reporting_only": true,
+        "cds_executable": false
+      },
+      {
+        "mapping_id": "CC.MAP.RI.012",
+        "indicator_id": "CC.IND.006",
+        "indicator_component": "denominator",
+        "data_element_id": "women_for_whom_cytology_is_indicated",
+        "operator_condition": "equals",
+        "value_value_set": "women meeting cytology primary screening criteria",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique women once",
+        "exclusion_rule": "exclude women not meeting cytology criteria",
+        "disaggregation_role": "age group; transformation zone status",
+        "notes": "Normalized denominator from the two cytology indications in the source.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 5,
+            "printed_page": "16",
+            "section_path": [
+              "Screening methods for cervical cancer"
+            ],
+            "table_figure_id": "Table 5",
+            "evidence_excerpt": "For women not eligible for VIA because of a type 3 transformation zone",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.9
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "The denominator is women meeting the source-defined cytology indications."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.013",
+        "indicator_id": "CC.IND.007",
+        "indicator_component": "numerator",
+        "data_element_id": "hpv_positive_women_with_via_triage",
+        "operator_condition": "equals",
+        "value_value_set": "HPV-positive and VIA triaged",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique women once per HPV-positive episode",
+        "exclusion_rule": "exclude women without HPV-positive result",
+        "disaggregation_role": "triage result",
+        "notes": "Normalized from HPV triage algorithm.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 7,
+            "printed_page": "18",
+            "section_path": [
+              "Human papilloma virus (HPV) test"
+            ],
+            "table_figure_id": "Fig 6",
+            "evidence_excerpt": "Women who are HPV-positive undergo VIA as a triage test",
+            "evidence_type": "flowchart",
+            "extraction_method": "vision",
+            "confidence": 0.94
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped the triage step to a count of HPV-positive women who underwent VIA triage."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.014",
+        "indicator_id": "CC.IND.007",
+        "indicator_component": "denominator",
+        "data_element_id": "hpv_positive_women",
+        "operator_condition": "equals",
+        "value_value_set": "HPV-positive",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique women once per screening episode",
+        "exclusion_rule": "exclude HPV-negative women",
+        "disaggregation_role": "triage result",
+        "notes": "Normalized denominator from the triage pathway.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 7,
+            "printed_page": "18",
+            "section_path": [
+              "Human papilloma virus (HPV) test"
+            ],
+            "table_figure_id": "Fig 6",
+            "evidence_excerpt": "women who are HPV-positive",
+            "evidence_type": "flowchart",
+            "extraction_method": "vision",
+            "confidence": 0.94
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "The denominator is women with HPV-positive screening results because triage follows HPV positivity."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.015",
+        "indicator_id": "CC.IND.008",
+        "indicator_component": "numerator",
+        "data_element_id": "post_triage_treatment_or_referral",
+        "operator_condition": "in",
+        "value_value_set": "ablation; excisional treatment; further evaluation",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique women once per triage-positive episode",
+        "exclusion_rule": "exclude women without triage-positive result",
+        "disaggregation_role": "treatment modality",
+        "notes": "Combines treatment and referral outcomes after triage.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 7,
+            "printed_page": "18",
+            "section_path": [
+              "Human papilloma virus (HPV) test"
+            ],
+            "table_figure_id": "Fig 6",
+            "evidence_excerpt": "Women who are HPV-positive and VIA-positive will be treated with ablation if adequate, or referred",
+            "evidence_type": "flowchart",
+            "extraction_method": "vision",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped the post-triage action to treatment or referral outcomes."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.016",
+        "indicator_id": "CC.IND.008",
+        "indicator_component": "denominator",
+        "data_element_id": "triage_positive_women",
+        "operator_condition": "equals",
+        "value_value_set": "triage-positive",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique women once",
+        "exclusion_rule": "exclude triage-negative women",
+        "disaggregation_role": "treatment modality",
+        "notes": "Normalized denominator from the triage-positive branch.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 7,
+            "printed_page": "18",
+            "section_path": [
+              "Human papilloma virus (HPV) test"
+            ],
+            "table_figure_id": "Fig 6",
+            "evidence_excerpt": "Women who are HPV-positive and VIA-positive",
+            "evidence_type": "flowchart",
+            "extraction_method": "vision",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "The denominator is women with triage-positive results because the action applies to that branch."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.017",
+        "indicator_id": "CC.IND.009",
+        "indicator_component": "numerator",
+        "data_element_id": "suspected_cancer_referral",
+        "operator_condition": "equals",
+        "value_value_set": "immediate referral to gynecologic oncologist",
+        "temporal_constraint": "immediately after screening result",
+        "aggregation_deduplication_rule": "count unique women once per suspected-cancer episode",
+        "exclusion_rule": "exclude non-suspected cases",
+        "disaggregation_role": "screening method",
+        "notes": "Immediate referral metric normalized from guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 0,
+            "printed_page": "11",
+            "section_path": [
+              "Key messages"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Any suspected cancer case after screening should be immediately referred",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped the immediate referral recommendation to a count of referred suspected-cancer cases."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.018",
+        "indicator_id": "CC.IND.009",
+        "indicator_component": "denominator",
+        "data_element_id": "suspected_cancer_cases_after_screening",
+        "operator_condition": "equals",
+        "value_value_set": "suspected cancer after screening",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique women once",
+        "exclusion_rule": "exclude non-suspected cases",
+        "disaggregation_role": "screening method",
+        "notes": "Normalized denominator from the trigger condition.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 0,
+            "printed_page": "11",
+            "section_path": [
+              "Key messages"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Any suspected cancer case after screening",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.96
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "The denominator is women with suspected cancer after screening because the recommendation applies to them."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.019",
+        "indicator_id": "CC.IND.010",
+        "indicator_component": "numerator",
+        "data_element_id": "post_treatment_follow_up_completed",
+        "operator_condition": "equals",
+        "value_value_set": "follow-up screening at 1 year completed",
+        "temporal_constraint": "12 months after treatment date",
+        "aggregation_deduplication_rule": "count unique treated women once",
+        "exclusion_rule": "exclude women without treatment date or follow-up record",
+        "disaggregation_role": "treatment modality",
+        "notes": "Follow-up completion indicator normalized from post-treatment guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 18,
+            "printed_page": "29",
+            "section_path": [
+              "Management of cervical pre-cancerous lesions",
+              "Post-Treatment Follow-Up"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "post-treatment follow-up screening at one year after the treatment",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped the 1-year follow-up recommendation to a completion count."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.020",
+        "indicator_id": "CC.IND.010",
+        "indicator_component": "denominator",
+        "data_element_id": "treated_for_precancerous_lesions",
+        "operator_condition": "equals",
+        "value_value_set": "treated for precancerous lesions",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique women once",
+        "exclusion_rule": "exclude untreated women",
+        "disaggregation_role": "treatment modality",
+        "notes": "Normalized denominator from the source recommendation.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 18,
+            "printed_page": "29",
+            "section_path": [
+              "Management of cervical pre-cancerous lesions",
+              "Post-Treatment Follow-Up"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Women who have undergone treatment for precancerous lesions",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "The denominator is women treated for precancerous lesions because follow-up is recommended for them."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.021",
+        "indicator_id": "CC.IND.011",
+        "indicator_component": "numerator",
+        "data_element_id": "negative_post_treatment_follow_up_returned_to_routine_screening",
+        "operator_condition": "equals",
+        "value_value_set": "returned to routine screening",
+        "temporal_constraint": "after negative follow-up result",
+        "aggregation_deduplication_rule": "count unique women once",
+        "exclusion_rule": "exclude positive follow-up results",
+        "disaggregation_role": "follow-up test type",
+        "notes": "Normalized from routine-screening return guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 20,
+            "printed_page": "31",
+            "section_path": [
+              "Post-treatment follow-up"
+            ],
+            "table_figure_id": "Fig 11",
+            "evidence_excerpt": "Return to regular screening as per national screening guidelines",
+            "evidence_type": "flowchart",
+            "extraction_method": "vision",
+            "confidence": 0.93
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped the negative follow-up branch to return to routine screening."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.022",
+        "indicator_id": "CC.IND.011",
+        "indicator_component": "denominator",
+        "data_element_id": "negative_post_treatment_follow_up_result",
+        "operator_condition": "equals",
+        "value_value_set": "negative",
+        "temporal_constraint": "after treatment follow-up",
+        "aggregation_deduplication_rule": "count unique women once",
+        "exclusion_rule": "exclude positive or suspected cancer results",
+        "disaggregation_role": "follow-up test type",
+        "notes": "Normalized denominator from negative follow-up branch.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 20,
+            "printed_page": "31",
+            "section_path": [
+              "Post-treatment follow-up"
+            ],
+            "table_figure_id": "Fig 11",
+            "evidence_excerpt": "Negative",
+            "evidence_type": "flowchart",
+            "extraction_method": "vision",
+            "confidence": 0.9
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "The denominator is women with negative post-treatment follow-up results."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.023",
+        "indicator_id": "CC.IND.012",
+        "indicator_component": "numerator",
+        "data_element_id": "positive_post_treatment_follow_up_action",
+        "operator_condition": "in",
+        "value_value_set": "re-treated; referred for evaluation/biopsy",
+        "temporal_constraint": "after positive follow-up result",
+        "aggregation_deduplication_rule": "count unique women once",
+        "exclusion_rule": "exclude negative follow-up results",
+        "disaggregation_role": "follow-up test type",
+        "notes": "Normalized from positive follow-up branch.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 20,
+            "printed_page": "31",
+            "section_path": [
+              "Post-treatment follow-up"
+            ],
+            "table_figure_id": "Fig 11",
+            "evidence_excerpt": "Re-treat with LEEP (preferred) or cone biopsy",
+            "evidence_type": "flowchart",
+            "extraction_method": "vision",
+            "confidence": 0.94
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped the positive follow-up branch to re-treatment or referral outcomes."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.024",
+        "indicator_id": "CC.IND.012",
+        "indicator_component": "denominator",
+        "data_element_id": "positive_post_treatment_follow_up_result",
+        "operator_condition": "equals",
+        "value_value_set": "positive",
+        "temporal_constraint": "after treatment follow-up",
+        "aggregation_deduplication_rule": "count unique women once",
+        "exclusion_rule": "exclude negative results",
+        "disaggregation_role": "follow-up test type",
+        "notes": "Normalized denominator from positive follow-up branch.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 20,
+            "printed_page": "31",
+            "section_path": [
+              "Post-treatment follow-up"
+            ],
+            "table_figure_id": "Fig 11",
+            "evidence_excerpt": "Positive",
+            "evidence_type": "flowchart",
+            "extraction_method": "vision",
+            "confidence": 0.9
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "The denominator is women with positive post-treatment follow-up results."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.025",
+        "indicator_id": "CC.IND.013",
+        "indicator_component": "numerator",
+        "data_element_id": "wlhiv_screened_at_age_25_or_later",
+        "operator_condition": "equals",
+        "value_value_set": "screened at age >=25 years",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique WLHIV once",
+        "exclusion_rule": "exclude women without HIV infection",
+        "disaggregation_role": "age group",
+        "notes": "Normalized from special-population initiation age.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 15,
+            "printed_page": "26",
+            "section_path": [
+              "Recommendations for screening in special populations",
+              "Women Living with HIV"
+            ],
+            "table_figure_id": "Table 6",
+            "evidence_excerpt": "Screening should start at age 25 years",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped the WLHIV initiation age recommendation to a coverage numerator."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.026",
+        "indicator_id": "CC.IND.013",
+        "indicator_component": "denominator",
+        "data_element_id": "wlhiv_eligible_for_screening",
+        "operator_condition": "equals",
+        "value_value_set": "women living with HIV eligible for screening",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique WLHIV once",
+        "exclusion_rule": "exclude women without HIV infection",
+        "disaggregation_role": "age group",
+        "notes": "Normalized denominator from WLHIV guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 15,
+            "printed_page": "26",
+            "section_path": [
+              "Recommendations for screening in special populations",
+              "Women Living with HIV"
+            ],
+            "table_figure_id": "Table 6",
+            "evidence_excerpt": "Women living with HIV (WLHIV) have higher risk",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.9
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "The denominator is WLHIV eligible for screening because the recommendation applies to that population."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.027",
+        "indicator_id": "CC.IND.014",
+        "indicator_component": "numerator",
+        "data_element_id": "wlhiv_hpv_primary_screening",
+        "operator_condition": "equals",
+        "value_value_set": "HPV-DNA primary screening",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique WLHIV once",
+        "exclusion_rule": "exclude non-HIV women",
+        "disaggregation_role": "sample collection mode",
+        "notes": "Normalized from WLHIV primary test recommendation.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 15,
+            "printed_page": "26",
+            "section_path": [
+              "Recommendations for screening in special populations",
+              "Women Living with HIV"
+            ],
+            "table_figure_id": "Table 6",
+            "evidence_excerpt": "Primary test for screening HPV-DNA",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped the WLHIV primary test recommendation to a coverage numerator."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.028",
+        "indicator_id": "CC.IND.014",
+        "indicator_component": "denominator",
+        "data_element_id": "wlhiv_eligible_for_screening",
+        "operator_condition": "equals",
+        "value_value_set": "women living with HIV eligible for screening",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique WLHIV once",
+        "exclusion_rule": "exclude women without HIV infection",
+        "disaggregation_role": "sample collection mode",
+        "notes": "Same denominator as CC.IND.013.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 15,
+            "printed_page": "26",
+            "section_path": [
+              "Recommendations for screening in special populations",
+              "Women Living with HIV"
+            ],
+            "table_figure_id": "Table 6",
+            "evidence_excerpt": "Primary test for screening HPV-DNA",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.96
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "The denominator is WLHIV eligible for screening."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.029",
+        "indicator_id": "CC.IND.015",
+        "indicator_component": "numerator",
+        "data_element_id": "hpv_positive_women_triaged",
+        "operator_condition": "in",
+        "value_value_set": "HPV16/18 genotyping; colposcopy; cytology; VIA",
+        "temporal_constraint": "after positive HPV result",
+        "aggregation_deduplication_rule": "count unique women once",
+        "exclusion_rule": "exclude HPV-negative women",
+        "disaggregation_role": "triage method",
+        "notes": "Normalized from triage options for screen-positive women.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 15,
+            "printed_page": "26",
+            "section_path": [
+              "Recommendations for screening in special populations",
+              "Women Living with HIV"
+            ],
+            "table_figure_id": "Table 6",
+            "evidence_excerpt": "appropriate triaging strategy using either HPV16/18 genotyping, colposcopy, cytology, or VIA",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped the triage recommendation to a count of HPV-positive women triaged by recommended methods."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.030",
+        "indicator_id": "CC.IND.015",
+        "indicator_component": "denominator",
+        "data_element_id": "hpv_positive_women",
+        "operator_condition": "equals",
+        "value_value_set": "HPV-positive",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique women once",
+        "exclusion_rule": "exclude HPV-negative women",
+        "disaggregation_role": "triage method",
+        "notes": "Same denominator as HPV-positive triage indicators.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 15,
+            "printed_page": "26",
+            "section_path": [
+              "Recommendations for screening in special populations",
+              "Women Living with HIV"
+            ],
+            "table_figure_id": "Table 6",
+            "evidence_excerpt": "Women who turn screen positive",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.93
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "The denominator is women with HPV-positive screening results."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.031",
+        "indicator_id": "CC.IND.016",
+        "indicator_component": "numerator",
+        "data_element_id": "pregnant_women_screened_first_trimester",
+        "operator_condition": "equals",
+        "value_value_set": "screened in first trimester",
+        "temporal_constraint": "gestational age <=12 weeks",
+        "aggregation_deduplication_rule": "count unique pregnant women once",
+        "exclusion_rule": "exclude women beyond first trimester",
+        "disaggregation_role": "gestational age",
+        "notes": "Normalized from pregnancy guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 16,
+            "printed_page": "27",
+            "section_path": [
+              "Women who are pregnant"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Screening can be done in the first trimester (up to the end of week 12)",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.96
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped the first-trimester screening allowance to a coverage numerator."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.032",
+        "indicator_id": "CC.IND.016",
+        "indicator_component": "denominator",
+        "data_element_id": "pregnant_women_eligible_for_screening",
+        "operator_condition": "equals",
+        "value_value_set": "pregnant women eligible for screening",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique pregnant women once",
+        "exclusion_rule": "exclude women not pregnant",
+        "disaggregation_role": "gestational age",
+        "notes": "Normalized denominator from pregnancy guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 16,
+            "printed_page": "27",
+            "section_path": [
+              "Women who are pregnant"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Women who are pregnant",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.9
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "The denominator is pregnant women eligible for screening."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.033",
+        "indicator_id": "CC.IND.017",
+        "indicator_component": "numerator",
+        "data_element_id": "pregnant_women_biopsied_for_suspicious_lesions",
+        "operator_condition": "equals",
+        "value_value_set": "biopsy performed",
+        "temporal_constraint": "any trimester",
+        "aggregation_deduplication_rule": "count unique pregnant women once",
+        "exclusion_rule": "exclude non-pregnant women",
+        "disaggregation_role": "trimester",
+        "notes": "Normalized from pregnancy biopsy guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 16,
+            "printed_page": "27",
+            "section_path": [
+              "Women who are pregnant"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "For suspicious lesions in pregnancy, a biopsy can be done at any trimester",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped the pregnancy biopsy recommendation to a process numerator."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.034",
+        "indicator_id": "CC.IND.017",
+        "indicator_component": "denominator",
+        "data_element_id": "pregnant_women_with_suspicious_lesions",
+        "operator_condition": "equals",
+        "value_value_set": "suspicious lesions in pregnancy",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique pregnant women once",
+        "exclusion_rule": "exclude non-pregnant women",
+        "disaggregation_role": "trimester",
+        "notes": "Normalized denominator from pregnancy biopsy guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 16,
+            "printed_page": "27",
+            "section_path": [
+              "Women who are pregnant"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "For suspicious lesions in pregnancy",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.94
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "The denominator is pregnant women with suspicious lesions."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.035",
+        "indicator_id": "CC.IND.018",
+        "indicator_component": "numerator",
+        "data_element_id": "postpartum_women_screened_at_6_weeks",
+        "operator_condition": "equals",
+        "value_value_set": "screened at or after 6 weeks postpartum",
+        "temporal_constraint": ">=6 weeks after delivery",
+        "aggregation_deduplication_rule": "count unique postpartum women once",
+        "exclusion_rule": "exclude women before 6 weeks postpartum",
+        "disaggregation_role": "postpartum interval",
+        "notes": "Normalized from postpartum guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 16,
+            "printed_page": "27",
+            "section_path": [
+              "Post-partum women"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "screening should resume at 6 weeks after delivery",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.96
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped the postpartum resumption recommendation to a coverage numerator."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.036",
+        "indicator_id": "CC.IND.018",
+        "indicator_component": "denominator",
+        "data_element_id": "postpartum_women_eligible_for_screening",
+        "operator_condition": "equals",
+        "value_value_set": "post-partum women eligible for screening",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique postpartum women once",
+        "exclusion_rule": "exclude non-postpartum women",
+        "disaggregation_role": "postpartum interval",
+        "notes": "Normalized denominator from postpartum guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 16,
+            "printed_page": "27",
+            "section_path": [
+              "Post-partum women"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Post-partum women",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.9
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "The denominator is postpartum women eligible for screening."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.037",
+        "indicator_id": "CC.IND.019",
+        "indicator_component": "numerator",
+        "data_element_id": "total_hysterectomy_management_appropriate",
+        "operator_condition": "equals",
+        "value_value_set": "excluded from screening when appropriate or surveilled when indicated",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique women once",
+        "exclusion_rule": "exclude women without hysterectomy history",
+        "disaggregation_role": "hysterectomy indication",
+        "notes": "Normalized from hysterectomy guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 16,
+            "printed_page": "27",
+            "section_path": [
+              "Women who have had a total hysterectomy"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Generally, they do not need to continue with cervical cancer screening",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped the hysterectomy guidance to appropriate management of women with total hysterectomy."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.038",
+        "indicator_id": "CC.IND.019",
+        "indicator_component": "denominator",
+        "data_element_id": "women_with_total_hysterectomy",
+        "operator_condition": "equals",
+        "value_value_set": "total hysterectomy",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique women once",
+        "exclusion_rule": "exclude women without hysterectomy history",
+        "disaggregation_role": "hysterectomy indication",
+        "notes": "Normalized denominator from hysterectomy guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 16,
+            "printed_page": "27",
+            "section_path": [
+              "Women who have had a total hysterectomy"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Women who have had a total hysterectomy",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "The denominator is women with total hysterectomy."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.039",
+        "indicator_id": "CC.IND.020",
+        "indicator_component": "numerator",
+        "data_element_id": "hpv_vaccinated_women_screened",
+        "operator_condition": "equals",
+        "value_value_set": "routine cervical cancer screening performed",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique vaccinated women once",
+        "exclusion_rule": "exclude women without HPV vaccination history",
+        "disaggregation_role": "vaccination status",
+        "notes": "Normalized from vaccination guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 17,
+            "printed_page": "28",
+            "section_path": [
+              "Women who have received HPV vaccination"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "should receive routine cervical cancer screening",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "Mapped the vaccination guidance to a coverage numerator."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.040",
+        "indicator_id": "CC.IND.020",
+        "indicator_component": "denominator",
+        "data_element_id": "women_with_hpv_vaccination_history",
+        "operator_condition": "equals",
+        "value_value_set": "HPV vaccination history",
+        "temporal_constraint": "during reporting period",
+        "aggregation_deduplication_rule": "count unique women once",
+        "exclusion_rule": "exclude women without vaccination history",
+        "disaggregation_role": "vaccination status",
+        "notes": "Normalized denominator from vaccination guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 17,
+            "printed_page": "28",
+            "section_path": [
+              "Women who have received HPV vaccination"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Women who have received the HPV vaccine",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.96
+          }
+        ],
+        " _derivation": {
+          "type": "normalized",
+          "explanation": "The denominator is women with HPV vaccination history."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      },
+      {
+        "mapping_id": "CC.MAP.RI.041",
+        "indicator_id": "CC.IND.021",
+        "indicator_component": "numerator",
+        "data_element_id": "postmenopausal_women_screened_according_to_interval",
+        "operator_condition": "equals",
+        "value_value_set": "HPV every 5 years or cytology every 3 years",
+        "temporal_constraint": "until age 65",
+        "aggregation_deduplication_rule": "count unique women once",
+        "exclusion_rule": "exclude women older than 65 if stopping criteria met",
+        "disaggregation_role": "screening method",
+        "notes": "Normalized from postmenopausal guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 17,
+            "printed_page": "28",
+            "section_path": [
+              "Women who have received HPV vaccination"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Postmenopausal women should continue to undergo cervical cancer screening with HPV every five years, or cytology every three years, until the age of 65",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        "resolved_data_element_id": null,
+        "traceability_status": "needs_data_dictionary_review",
+        "clinical_review_status": "needs_clinical_review",
+        "cds_executable": false,
+        "cleanup_notes": "Indicator data element could not be mapped to a dictionary ID.",
+        "reporting_only": true
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "CC.REF.001",
+        "short_citation": "National Cancer Screening and Early Diagnosis Guidelines, cervical cancer screening section",
+        "full_citation": "National Cancer Screening and Early Diagnosis Guidelines. Cervical cancer screening section and references list as provided in the supplied guideline pages.",
+        "document_title": "National Cancer Screening and Early Diagnosis Guidelines",
+        "version_publication_date": null,
+        "source_organization": null,
+        "url_doi": null,
+        "access_date": null,
+        "relevant_sections_pages": "Pages 1-23; especially pages 23-23 (References section)",
+        "notes": "Source document register details were not fully stated in the supplied text. This reference row captures the guideline itself as the source for the extracted cervical cancer screening content and the references section shown on page 23.",
+        "_provenance": [
+          {
+            "source_document_id": "KEN_CC_GUIDE_2024",
+            "file_name": null,
+            "pdf_page_index": 22,
+            "printed_page": "23",
+            "section_path": [
+              "References"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "References",
+            "evidence_type": "annex",
+            "extraction_method": "text",
+            "confidence": 0.98
+          }
+        ],
+        " _derivation": {
+          "type": "direct",
+          "explanation": "Created as the source-document reference entry for the guideline text supplied in the prompt; publication metadata beyond the title and section pages was not stated."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "reference_id": "CC.REF.002",
+        "short_citation": "Moscicki et al., 2004",
+        "full_citation": "Moscicki AB, Shiboski S, Hills NK, et al. Regression of low-grade squamous intraepithelial lesions in young women. Lancet. 2004;364(9446):1678-1683.",
+        "document_title": "National Cancer Screening and Early Diagnosis Guidelines",
+        "version_publication_date": "2004",
+        "source_organization": "Lancet",
+        "url_doi": null,
+        "access_date": null,
+        "relevant_sections_pages": "Page 23; References list item 1",
+        "notes": "Cited in the guideline references list.",
+        "_provenance": [
+          {
+            "source_document_id": "KEN_CC_GUIDE_2024",
+            "file_name": null,
+            "pdf_page_index": 22,
+            "printed_page": "23",
+            "section_path": [
+              "References"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "A. B. Moscicki, S. Shiboski, N. K. Hills et al., “Regression of low-grade squamous intra-epithelial lesions in young women,”Lancet, vol. 364, no. 9446, pp. 1678–1683, 2004.",
+            "evidence_type": "annex",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "direct",
+          "explanation": "Transcribed from the references list shown on page 23."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "reference_id": "CC.REF.003",
+        "short_citation": "Abbas et al., 2024",
+        "full_citation": "Abbas K, Yoo KJ, Prem K, Jit M. Equity impact of HPV vaccination on lifetime projections of cervical cancer burden among cohorts in 84 countries by Global, regional, and income levels, 2010-22: A modelling study. eClinicalMedicine. 2024;70:102524. doi:10.1016/j.eclinm.2024.102524.",
+        "document_title": "National Cancer Screening and Early Diagnosis Guidelines",
+        "version_publication_date": "2024",
+        "source_organization": "eClinicalMedicine",
+        "url_doi": "10.1016/j.eclinm.2024.102524",
+        "access_date": null,
+        "relevant_sections_pages": "Page 23; References list item 2",
+        "notes": "Cited in the guideline references list.",
+        "_provenance": [
+          {
+            "source_document_id": "KEN_CC_GUIDE_2024",
+            "file_name": null,
+            "pdf_page_index": 22,
+            "printed_page": "23",
+            "section_path": [
+              "References"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Abbas, K., Yoo, K. J., Prem, K., & Jit, M. (2024). ... doi: 10.1016/j.eclinm.2024.102524",
+            "evidence_type": "annex",
+            "extraction_method": "text",
+            "confidence": 0.96
+          }
+        ],
+        " _derivation": {
+          "type": "direct",
+          "explanation": "Transcribed from the references list shown on page 23; DOI preserved where explicitly stated."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "reference_id": "CC.REF.004",
+        "short_citation": "ACS, 2020",
+        "full_citation": "American Cancer Society. Cervical cancer causes, risks, prevention: risk factors. 2020. URL as cited in the guideline references list.",
+        "document_title": "National Cancer Screening and Early Diagnosis Guidelines",
+        "version_publication_date": "2020",
+        "source_organization": "American Cancer Society",
+        "url_doi": null,
+        "access_date": null,
+        "relevant_sections_pages": "Page 23; References list item 3",
+        "notes": "The guideline provides a URL in the references list, but the supplied text truncates the full URL path; therefore the URL/DOI field is left null.",
+        "_provenance": [
+          {
+            "source_document_id": "KEN_CC_GUIDE_2024",
+            "file_name": null,
+            "pdf_page_index": 22,
+            "printed_page": "23",
+            "section_path": [
+              "References"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "ACS, 2020 https://www.cancer.org/cancer/types/cervical-cancer/causes-risks-prevention/risk-factors.html",
+            "evidence_type": "annex",
+            "extraction_method": "text",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "direct",
+          "explanation": "Created from the references list entry on page 23; the organization and year are explicit, while the URL was not fully normalized because the prompt text truncates the link."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "reference_id": "CC.REF.005",
+        "short_citation": "ACCP, 2004",
+        "full_citation": "Alliance for Cervical Cancer Prevention (ACCP). Planning and Implementing Cervical Cancer Prevention and Control Programs: A Manual for Managers. Seattle: ACCP; 2004.",
+        "document_title": "National Cancer Screening and Early Diagnosis Guidelines",
+        "version_publication_date": "2004",
+        "source_organization": "Alliance for Cervical Cancer Prevention",
+        "url_doi": null,
+        "access_date": null,
+        "relevant_sections_pages": "Page 23; References list item 4",
+        "notes": "Cited in the guideline references list.",
+        "_provenance": [
+          {
+            "source_document_id": "KEN_CC_GUIDE_2024",
+            "file_name": null,
+            "pdf_page_index": 22,
+            "printed_page": "23",
+            "section_path": [
+              "References"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Alliance for Cervical Cancer Prevention (ACCP). Planning and Implementing Cervical Cancer Prevention and Control Programs: A Manual for Managers. Seattle: ACCP; 2004.",
+            "evidence_type": "annex",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "direct",
+          "explanation": "Transcribed from the references list shown on page 23."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "reference_id": "CC.REF.006",
+        "short_citation": "Arbyn et al., 2015",
+        "full_citation": "Arbyn M, Haelens A, Desomer A, Verdoodt F, Thiry N, Francart J, Hanquet A, Robays J. Cervical cancer screening program and Human Papillomavirus (HPV) testing, part II: Update on HPV primary screening. Health Technology Assessment (HTA) Brussels: Belgian Health Care Knowledge Centre (KCE). 2015; KCE Reports 238. D/2015/10.273/17.",
+        "document_title": "National Cancer Screening and Early Diagnosis Guidelines",
+        "version_publication_date": "2015",
+        "source_organization": "Belgian Health Care Knowledge Centre (KCE)",
+        "url_doi": null,
+        "access_date": null,
+        "relevant_sections_pages": "Page 23; References list item 5",
+        "notes": "Cited in the guideline references list.",
+        "_provenance": [
+          {
+            "source_document_id": "KEN_CC_GUIDE_2024",
+            "file_name": null,
+            "pdf_page_index": 22,
+            "printed_page": "23",
+            "section_path": [
+              "References"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Arbyn M, Haelens A, Desomer A, Verdoodt F, Thiry N, Francart J, Hanquet J, Robays J. ... KCE Reports 238. D/2015/10.273/17.",
+            "evidence_type": "annex",
+            "extraction_method": "text",
+            "confidence": 0.93
+          }
+        ],
+        " _derivation": {
+          "type": "direct",
+          "explanation": "Transcribed from the references list shown on page 23; minor name normalization applied only to punctuation/spacing."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      },
+      {
+        "reference_id": "CC.REF.007",
+        "short_citation": "Austin et al., 2018",
+        "full_citation": "Austin RM, Onisko A, Zhao C. Enhanced detection of cervical cancer and precancer through use of imaged liquid-based cytology in routine cytology and HPV cotesting. American Journal of Clinical Pathology. 2018;150:385-392.",
+        "document_title": "National Cancer Screening and Early Diagnosis Guidelines",
+        "version_publication_date": "2018",
+        "source_organization": "American Journal of Clinical Pathology",
+        "url_doi": null,
+        "access_date": null,
+        "relevant_sections_pages": "Page 23; References list item 6",
+        "notes": "Cited in the guideline references list; the supplied text truncates after page numbers and does not include a DOI.",
+        "_provenance": [
+          {
+            "source_document_id": "KEN_CC_GUIDE_2024",
+            "file_name": null,
+            "pdf_page_index": 22,
+            "printed_page": "23",
+            "section_path": [
+              "References"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Austin, R. M., Onisko, A. & Zhao, C. Enhanced detection of cervical cancer and precancer ... Am J Clin Pathol 150, 385–392",
+            "evidence_type": "annex",
+            "extraction_method": "text",
+            "confidence": 0.94
+          }
+        ],
+        " _derivation": {
+          "type": "direct",
+          "explanation": "Transcribed from the references list shown on page 23; DOI not stated in the supplied text."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        }
+      }
+    ]
+  }
+}

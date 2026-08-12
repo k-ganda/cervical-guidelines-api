@@ -1,0 +1,1399 @@
+{
+  "generated_at": "2026-06-22T16:12:25Z",
+  "defined_ids": 1289,
+  "referenced_ids": 346,
+  "unresolved_references": {
+    "KEN-CC-L1-3b4850a337; KEN-CC-L1-e1bc4a5522; KEN-CC-L1-1798235ee4; KEN-CC-L1-8b3dfbb428": [
+      "01_health_interventions:health_interventions"
+    ],
+    "KEN_CC_GUIDE_2024_FC_p007; KEN_CC_GUIDE_2024_FC_p008; KEN_CC_GUIDE_2024_FC_p010": [
+      "01_health_interventions:health_interventions"
+    ],
+    "KEN-CC-L1-b6346355ba; KEN-CC-L1-2e4f00a4d4; KEN-CC-L1-afb0c3d6be; KEN-CC-L1-f11e0355f1; KEN-CC-L1-8cb770562f": [
+      "01_health_interventions:health_interventions"
+    ],
+    "KEN_CC_GUIDE_2024_FC_p013": [
+      "01_health_interventions:health_interventions"
+    ],
+    "KEN-CC-L1-a774061043; KEN-CC-L1-3686fcd69f; KEN-CC-L1-6960cbeb97; KEN-CC-L1-e91a9d6522; KEN-CC-L1-5365233d31": [
+      "01_health_interventions:health_interventions"
+    ],
+    "KEN_CC_GUIDE_2024_FC_p015": [
+      "01_health_interventions:health_interventions"
+    ],
+    "KEN-CC-L1-aac993dd60; KEN-CC-L1-46a1532a80; KEN-CC-L1-d677004e38; KEN-CC-L1-f086e91726; KEN-CC-L1-0a842c066a": [
+      "01_health_interventions:health_interventions"
+    ],
+    "KEN_CC_GUIDE_2024_FC_p008; KEN_CC_GUIDE_2024_FC_p010": [
+      "01_health_interventions:health_interventions"
+    ],
+    "KEN-CC-L1-2804bd92b4; KEN-CC-L1-55a08bcc17; KEN-CC-L1-a9274e0a3d; KEN-CC-L1-aa41664a5f": [
+      "01_health_interventions:health_interventions"
+    ],
+    "KEN-CC-L1-effb1be109; KEN-CC-L1-efa86cab3b; KEN-CC-L1-1ac807ee56; KEN-CC-L1-7d64cec275; KEN-CC-L1-834a98103d; KEN-CC-L1-202a6142ab; KEN-CC-L1-925f2cfdd7": [
+      "01_health_interventions:health_interventions"
+    ],
+    "KEN_CC_GUIDE_2024_FC_p022": [
+      "01_health_interventions:health_interventions"
+    ],
+    "KEN-CC-L1-f6df74edfa; KEN-CC-L1-08cf140146; KEN-CC-L1-5c8e4890d4; KEN-CC-L1-7c45071e7f; KEN-CC-L1-2fbded308b; KEN-CC-L1-d8d21b7ba1": [
+      "01_health_interventions:health_interventions"
+    ],
+    "KEN_CC_GUIDE_2024_FC_p010; KEN_CC_GUIDE_2024_FC_p013; KEN_CC_GUIDE_2024_FC_p015": [
+      "01_health_interventions:health_interventions",
+      "01_health_interventions:health_interventions"
+    ],
+    "KEN-CC-L1-0a842c066a; KEN-CC-L1-8836aedb01; KEN-CC-L1-134ee7a600; KEN-CC-L1-0457d98764; KEN-CC-L1-cfae4da3c2; KEN-CC-L1-7240081cfe; KEN-CC-L1-c93204c489": [
+      "01_health_interventions:health_interventions"
+    ],
+    "KEN-CC-L1-49c280a525; KEN-CC-L1-75f62bd020; KEN-CC-L1-26f957b598; KEN-CC-L1-73f280f8eb; KEN-CC-L1-7efb044310; KEN-CC-L1-b238460481": [
+      "01_health_interventions:health_interventions"
+    ],
+    "KEN_CC_GUIDE_2024_FC_p008; KEN_CC_GUIDE_2024_FC_p010; KEN_CC_GUIDE_2024_FC_p013; KEN_CC_GUIDE_2024_FC_p015; KEN_CC_GUIDE_2024_FC_p022": [
+      "01_health_interventions:health_interventions"
+    ],
+    "KEN-CC-L1-60360824e4; KEN-CC-L1-bb102911ba; KEN-CC-L1-ef53636137; KEN-CC-L1-37b38016a6; KEN-CC-L1-1ac2613c87; KEN-CC-L1-c7ffc4c711; KEN-CC-L1-e8c84a6267; KEN-CC-L1-31df0f3e5e; KEN-CC-L1-5c2d8603ce; KEN-CC-L1-bb5566f9d1": [
+      "01_health_interventions:health_interventions"
+    ],
+    "KEN-CC-L1-a5202d2e03; KEN-CC-L1-be3564c5d4; KEN-CC-L1-cb3c13da42": [
+      "01_health_interventions:health_interventions"
+    ],
+    "KEN-CC-L1-dd15866ff1; KEN-CC-L1-a98650925c; KEN-CC-L1-db57f8cf81; KEN-CC-L1-23c0b12575": [
+      "01_health_interventions:health_interventions"
+    ],
+    "KEN-CC-L1-37b38016a6; KEN-CC-L1-1ac2613c87; KEN-CC-L1-c7ffc4c711": [
+      "01_health_interventions:health_interventions"
+    ],
+    "KEN_CC_GUIDE_2024_FC_p010; KEN_CC_GUIDE_2024_FC_p015": [
+      "01_health_interventions:health_interventions"
+    ],
+    "KEN-CC-L1-e1bc4a5522": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "07_indicators:indicators",
+      "07_indicators:indicators"
+    ],
+    "KEN-CC-L1-1798235ee4": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_register",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "07_indicators:indicators",
+      "08_requirements:functional_requirements"
+    ],
+    "KEN-CC-L1-b6346355ba": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_register",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "07_indicators:indicators"
+    ],
+    "KEN-CC-L1-062af4ed58": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps"
+    ],
+    "KEN-CC-L1-8b3dfbb428": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "07_indicators:indicators"
+    ],
+    "KEN-CC-L1-81b6798c63": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "07_indicators:indicators"
+    ],
+    "KEN-CC-L1-46a1532a80": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps",
+      "08_requirements:functional_requirements"
+    ],
+    "KEN-CC-L1-0a842c066a": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_register",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "07_indicators:indicators",
+      "08_requirements:functional_requirements"
+    ],
+    "KEN-CC-L1-aac993dd60": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_register",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "07_indicators:indicators",
+      "08_requirements:functional_requirements"
+    ],
+    "KEN-CC-L1-b06f0a71c1": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_register",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "07_indicators:indicators"
+    ],
+    "KEN-CC-L1-834a98103d": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_register",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "07_indicators:indicators"
+    ],
+    "KEN-CC-L1-068631e899": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-50fb5b58dd": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "KEN-CC-L1-3686fcd69f": [
+      "03_user_scenarios:scenario_register",
+      "04_workflows:workflow_steps"
+    ],
+    "KEN-CC-L1-863f15e4d9": [
+      "03_user_scenarios:scenario_register"
+    ],
+    "KEN-CC-FC-41c82a97bf": [
+      "03_user_scenarios:scenario_register",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-FC-029c134c6b": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-FC-0a44bfcc7d": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-FC-15e35ff780": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-FC-22e57d643f": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-FC-bee2177e82": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-FC-1e3c7dc801": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-11fe2414e4": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:schedules"
+    ],
+    "KEN-CC-L1-b238460481": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:schedules"
+    ],
+    "KEN-CC-L1-73f280f8eb": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_register",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:schedules",
+      "07_indicators:indicators",
+      "08_requirements:functional_requirements"
+    ],
+    "KEN-CC-L1-26f957b598": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-FC-cc0fe57eec": [
+      "03_user_scenarios:scenario_register"
+    ],
+    "KEN-CC-L1-1ac807ee56": [
+      "03_user_scenarios:scenario_register",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:schedule_register",
+      "08_requirements:functional_requirements"
+    ],
+    "KEN-CC-L1-87e49c886d": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_register",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "07_indicators:indicators",
+      "08_requirements:functional_requirements"
+    ],
+    "KEN-CC-L1-7d64cec275": [
+      "03_user_scenarios:scenario_register",
+      "04_workflows:workflow_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "08_requirements:functional_requirements"
+    ],
+    "KEN-CC-L1-202a6142ab": [
+      "03_user_scenarios:scenario_register",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:schedules"
+    ],
+    "KEN-CC-L1-2af50d8d31": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:schedule_register",
+      "07_indicators:indicators"
+    ],
+    "KEN-CC-L1-7efb044310": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_register",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:schedules",
+      "07_indicators:indicators"
+    ],
+    "KEN-CC-L1-a6f668daf2": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "07_indicators:indicators"
+    ],
+    "KEN-CC-L1-72dfc87f81": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:schedules"
+    ],
+    "KEN-CC-L1-e8c84a6267": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-0042a6aa21": [
+      "03_user_scenarios:scenario_register",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps"
+    ],
+    "KEN-CC-L1-d677004e38": [
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "07_indicators:indicators"
+    ],
+    "KEN-CC-L1-f086e91726": [
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "07_indicators:indicators"
+    ],
+    "KEN-CC-L1-4c1adacc27": [
+      "03_user_scenarios:scenario_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:schedules"
+    ],
+    "KEN-CC-L1-5d64e6e46a": [
+      "03_user_scenarios:scenario_steps"
+    ],
+    "KEN-CC-L1-2c7ccf86d1": [
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-9a3aa109b3": [
+      "03_user_scenarios:scenario_steps",
+      "06_decision_support_scheduling:decision_table_register"
+    ],
+    "KEN-CC-L1-2fbded308b": [
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "KEN-CC-L1-134ee7a600": [
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-58d2a6bae3": [
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "KEN-CC-L1-14b53c0a71": [
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "KEN-CC-L1-64a462f7d9": [
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_register",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-b2b0e41692": [
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-77f5c36302": [
+      "03_user_scenarios:scenario_steps"
+    ],
+    "KEN-CC-L1-d10e2a1ce1": [
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:schedules"
+    ],
+    "KEN-CC-L1-6d3ef45331": [
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "KEN-CC-L1-c29107eec9": [
+      "03_user_scenarios:scenario_steps",
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_register",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:schedules",
+      "06_decision_support_scheduling:schedules",
+      "07_indicators:indicators"
+    ],
+    "KEN-CC-L1-f8362e29cf": [
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:schedules"
+    ],
+    "KEN-CC-L1-3b199465c4": [
+      "03_user_scenarios:scenario_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:schedule_register"
+    ],
+    "KEN-CC-L1-5c2d8603ce": [
+      "03_user_scenarios:scenario_steps"
+    ],
+    "KEN-CC-L1-29a2dcb753": [
+      "03_user_scenarios:scenario_steps"
+    ],
+    "KEN-CC-L1-a54c9b368d": [
+      "03_user_scenarios:scenario_steps"
+    ],
+    "KEN-CC-L1-85e488331a": [
+      "04_workflows:workflow_register",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-80f3ea0a93": [
+      "04_workflows:workflow_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-08cf140146": [
+      "04_workflows:workflow_register",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-0457d98764": [
+      "04_workflows:workflow_register",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-bb102911ba": [
+      "04_workflows:workflow_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "07_indicators:indicators",
+      "07_indicators:indicators",
+      "08_requirements:functional_requirements"
+    ],
+    "KEN-CC-L1-a5202d2e03": [
+      "04_workflows:workflow_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "07_indicators:indicators"
+    ],
+    "KEN-CC-L1-f41a906860": [
+      "04_workflows:workflow_register",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "07_indicators:indicators"
+    ],
+    "KEN-CC-L1-b7218334f8": [
+      "04_workflows:workflow_register",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "07_indicators:indicators"
+    ],
+    "CC.B.DE.001": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "CC.B.DE.002": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.B.DE.003": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.B.DE.004": [
+      "04_workflows:workflow_steps"
+    ],
+    "KEN-CC-L1-8cb26bede5": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register"
+    ],
+    "KEN-CC-FC-d7ee533994": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.B.DE.005": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "CC.B.DE.006": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.B.DE.007": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.B.DE.008": [
+      "04_workflows:workflow_steps"
+    ],
+    "KEN-CC-L1-349fbcdcd9": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "KEN-CC-L1-87cb84e421": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "08_requirements:functional_requirements"
+    ],
+    "KEN-CC-L1-ff1c9265ce": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:schedules"
+    ],
+    "KEN-CC-L1-49ead3e006": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "KEN-CC-L1-f6df74edfa": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-5c8e4890d4": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-7c45071e7f": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register"
+    ],
+    "KEN-CC-L1-925f2cfdd7": [
+      "04_workflows:workflow_steps"
+    ],
+    "KEN-CC-L1-3a08a48cce": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "KEN-CC-L1-6cda4da19b": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.D.HPV_TESTING.DE.001": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.D.HPV_TESTING.DE.002": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.D.HPV_TESTING.DE.003": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.D.HPV_TESTING.DE.004": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.D.HPV_TESTING.DE.005": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.D.HPV_TESTING.DE.006": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.D.HPV_TESTING.DE.007": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "CC.D.HPV_TESTING.DE.008": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "CC.D.HPV_TESTING.DE.009": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.D.HPV_TESTING.DE.010": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.D.HPV_TESTING.DE.011": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "CC.D.HPV_TESTING.DE.012": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.D.HPV_TESTING.DE.013": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.D.HPV_TESTING.DE.014": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "CC.D.HPV_TESTING.DE.015": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "CC.D.HPV_TESTING.DE.016": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "KEN-CC-L1-8836aedb01": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "CC.D.HPV_TESTING.DE.017": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.D.HPV_TESTING.DE.018": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "CC.D.HPV_TESTING.DE.019": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.D.HPV_TESTING.DE.020": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.D.HPV_TESTING.DE.021": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "CC.D.HPV_TESTING.DE.022": [
+      "04_workflows:workflow_steps"
+    ],
+    "KEN-CC-L1-c860f9e372": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-14bff622e5": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "KEN-CC-L1-a1a602042d": [
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:schedules"
+    ],
+    "KEN-CC-L1-0c7e4b6f2c": [
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-c93204c489": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "KEN-CC-L1-fb3d77f6f7": [
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-837fcfa53b": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-2d0e5651bb": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "KEN-CC-L1-49fde81811": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "KEN-CC-L1-e6862ac7f6": [
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "CC.I.DE.001": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.I.DE.002": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.I.DE.003": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.I.DE.004": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "CC.I.DE.005": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "CC.I.DE.006": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.I.DE.007": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.I.DE.008": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.I.DE.009": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.I.DE.010": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.I.DE.011": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.I.DE.012": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.I.DE.013": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "CC.I.DE.014": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.J.DE.001": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.J.DE.002": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "CC.J.DE.003": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "CC.J.DE.004": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "CC.J.DE.005": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "CC.J.DE.006": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.K.DE.001": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.K.DE.002": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "CC.K.DE.003": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "KEN-CC-L1-01139d8823": [
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:schedules",
+      "06_decision_support_scheduling:schedules",
+      "06_decision_support_scheduling:schedules",
+      "06_decision_support_scheduling:schedules",
+      "06_decision_support_scheduling:schedules"
+    ],
+    "CC.K.DE.004": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "CC.K.DE.005": [
+      "04_workflows:workflow_steps",
+      "04_workflows:workflow_steps"
+    ],
+    "CC.K.DE.006": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.K.DE.007": [
+      "04_workflows:workflow_steps"
+    ],
+    "KEN-CC-L1-43d00aed32": [
+      "04_workflows:workflow_steps",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:schedules",
+      "07_indicators:indicators"
+    ],
+    "CC.CLOSE.DE.001": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.CLOSE.DE.002": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.CLOSE.DE.003": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.CLOSE.DE.004": [
+      "04_workflows:workflow_steps"
+    ],
+    "CC.CLOSE.DE.005": [
+      "04_workflows:workflow_steps"
+    ],
+    "KEN-CC-L1-676d4c09cb": [
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-d7b7daec2a": [
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "07_indicators:indicators"
+    ],
+    "KEN-CC-L1-17d36a531c": [
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-a98650925c": [
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "08_requirements:functional_requirements"
+    ],
+    "KEN-CC-L1-db57f8cf81": [
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "08_requirements:functional_requirements"
+    ],
+    "KEN-CC-L1-23c0b12575": [
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "08_requirements:functional_requirements"
+    ],
+    "KEN-CC-L1-8804de68d5": [
+      "06_decision_support_scheduling:decision_table_register"
+    ],
+    "KEN-CC-L1-b69bb69f04": [
+      "06_decision_support_scheduling:decision_table_register",
+      "08_requirements:functional_requirements"
+    ],
+    "KEN-CC-L1-655c37bf83": [
+      "06_decision_support_scheduling:decision_table_register",
+      "07_indicators:indicators"
+    ],
+    "KEN-CC-L1-1ac2613c87": [
+      "06_decision_support_scheduling:decision_table_register"
+    ],
+    "KEN-CC-L1-c7ffc4c711": [
+      "06_decision_support_scheduling:decision_table_register",
+      "08_requirements:functional_requirements"
+    ],
+    "KEN-CC-L1-ef9cc38bce": [
+      "06_decision_support_scheduling:decision_table_register",
+      "07_indicators:indicators"
+    ],
+    "KEN-CC-L1-2f65d44b2d": [
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:schedules"
+    ],
+    "KEN-CC-L1-538ab66b15": [
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-4466158475": [
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:schedules"
+    ],
+    "KEN-CC-FC-08e968575a": [
+      "06_decision_support_scheduling:decision_table_register"
+    ],
+    "KEN-CC-FC-2d50cb38d1": [
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-FC-65d3e9a4b4": [
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-cfae4da3c2": [
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-bef97f325f": [
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-dfbc640015": [
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-9edf8228c2": [
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-5e41f3142c": [
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-22e57d643f": [
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:schedule_register",
+      "06_decision_support_scheduling:decision_tables"
+    ],
+    "KEN-CC-L1-cddb9d9603": [
+      "06_decision_support_scheduling:decision_table_register"
+    ],
+    "KEN-CC-L1-2f65d789f6": [
+      "06_decision_support_scheduling:decision_table_register",
+      "06_decision_support_scheduling:decision_tables"
+    ]
+  }
+}

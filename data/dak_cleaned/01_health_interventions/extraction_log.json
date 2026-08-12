@@ -1,0 +1,16 @@
+{
+  "artifact_id": "KEN.CC.DAK.L2.HEALTH_INTERVENTIONS_AND_RECOMMENDATIONS",
+  "model": "gpt-5.4-mini",
+  "provider": "openai",
+  "model_calls": 4,
+  "input_tokens": 324099,
+  "output_tokens": 32287,
+  "elapsed_sec": 0.3,
+  "generated_at": "2026-06-22T16:12:19Z",
+  "sheets_written": {
+    "L1 Recommendations": 54,
+    "Health Interventions": 16,
+    "Recommendation-Intervention": 22,
+    "References": 6
+  }
+}

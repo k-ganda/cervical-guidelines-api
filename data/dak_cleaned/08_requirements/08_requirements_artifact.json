@@ -1,0 +1,1950 @@
+{
+  "artifact": {
+    "artifact_id": "KEN.CC.DAK.L2.FUNCTIONAL_AND_NONFUNCTIONAL_REQUIREMENTS",
+    "artifact_name": "Functional and Non-functional Requirements",
+    "dak_layer": "L2",
+    "country_or_adaptation": null,
+    "version": "0.1-draft",
+    "status": "Draft",
+    "generated_at": "2026-06-22T00:00:00Z"
+  },
+  "source_documents": [
+    {
+      "source_document_id": "SRC.001",
+      "file_name": "kenya_cervical_guideline.pdf",
+      "title": "Kenya National Cancer Screening and Early Diagnosis Guidelines - Cervical Cancer",
+      "issuing_organization": "Ministry of Health Kenya",
+      "edition": "Second edition",
+      "year": 2024,
+      "document_type": "normative guidance"
+    }
+  ],
+  "sheets": {
+    "functional_requirements": [
+      {
+        "requirement_id": "CC.FXNREQ.001",
+        "business_process_activity_id_and_description": "Cervical cancer screening program: screen women in the target age group and treat detected precancerous lesions.",
+        "as_a": "programme implementer",
+        "i_want": "to screen women in the target age group and treat detected precancerous lesions",
+        "so_that": "the majority of cervical cancers can be prevented",
+        "acceptance_criteria": "The system supports recording screening and treatment for women in the target age group and links positive screens to treatment.",
+        "priority": "high",
+        "linked_workflow_step_ids": [
+          "CC.WF.01.STEP.001",
+          "CC.WF.01.STEP.002"
+        ],
+        "linked_data_element_ids": [],
+        "linked_decision_schedule_ids": [],
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-3dcff33642"
+        ],
+        "owner": "Ministry of Health / cervical screening programme",
+        "review_status": "Not started",
+        "notes": "Derived from the key message on screening and treatment; not a verbatim system requirement.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 0,
+            "printed_page": "11",
+            "section_path": [
+              "Cervical Cancer Screening",
+              "Key messages"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Screening all women in the target age group, followed by treatment of detected precancerous lesions, can prevent the majority of cervical cancers.",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Converted the normative screening-and-treatment message into a testable system capability requirement."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_relevant": true,
+        "clinical_review_status": "validated",
+        "cds_executable": true
+      },
+      {
+        "requirement_id": "CC.FXNREQ.002",
+        "business_process_activity_id_and_description": "Screening strategy selection: choose HPV, VIA or cytology based on availability, loss-to-follow-up risk, age and context.",
+        "as_a": "screening provider",
+        "i_want": "the system to help me choose the appropriate screening method",
+        "so_that": "the client receives a feasible and guideline-concordant screening approach",
+        "acceptance_criteria": "The system can present HPV as primary screening and offer VIA or cytology when HPV is unavailable or loss-to-follow-up risk is high, with age-based routing.",
+        "priority": "high",
+        "linked_workflow_step_ids": [
+          "CC.WF.01.STEP.003",
+          "CC.WF.01.STEP.004"
+        ],
+        "linked_data_element_ids": [],
+        "linked_decision_schedule_ids": [
+          "CC.DT.01"
+        ],
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-3b4850a337",
+          "KEN-CC-L1-b69bb69f04",
+          "KEN-CC-L1-1798235ee4",
+          "KEN-CC-L1-a774061043"
+        ],
+        "owner": "Ministry of Health / cervical screening programme",
+        "review_status": "Not started",
+        "notes": "Derived from age-based flowchart and screening-method recommendations.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 6,
+            "printed_page": "16-17",
+            "section_path": [
+              "Screening methods for cervical cancer",
+              "Clinician algorithm for choice of screening test"
+            ],
+            "table_figure_id": "Fig 6",
+            "evidence_excerpt": "HPV testing is recommended as the primary screening method for women above 30 years of age",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          },
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 6,
+            "printed_page": "16",
+            "section_path": [
+              "Screening methods for cervical cancer"
+            ],
+            "table_figure_id": "Table 5",
+            "evidence_excerpt": "Where HPV testing is not yet available, or loss-to-follow-up is a risk, then VIA is an acceptable primary screening method.",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.96
+          },
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 4,
+            "printed_page": "15",
+            "section_path": [
+              "Who should be screened and when?"
+            ],
+            "table_figure_id": "Table 4",
+            "evidence_excerpt": "In Kenya, for programmatic purposes, the target population for screening is every woman aged 25 – 49 years",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Combined age, availability and loss-to-follow-up guidance into a single user-facing capability."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_relevant": true,
+        "clinical_review_status": "validated",
+        "cds_executable": true
+      },
+      {
+        "requirement_id": "CC.FXNREQ.003",
+        "business_process_activity_id_and_description": "HPV screening workflow: record HPV test result and route HPV-negative clients to no further treatment/evaluation.",
+        "as_a": "screening provider",
+        "i_want": "the system to record HPV results and apply the correct next step",
+        "so_that": "HPV-negative clients are not over-managed",
+        "acceptance_criteria": "When HPV result is negative, the system records no treatment and no further evaluation in the HPV screen-and-treat pathway.",
+        "priority": "high",
+        "linked_workflow_step_ids": [
+          "CC.WF.01.STEP.005"
+        ],
+        "linked_data_element_ids": [],
+        "linked_decision_schedule_ids": [
+          "CC.DT.02"
+        ],
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-a32e131633"
+        ],
+        "owner": "Ministry of Health / cervical screening programme",
+        "review_status": "Not started",
+        "notes": "Derived from HPV screen-and-treat pathway.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 6,
+            "printed_page": "17",
+            "section_path": [
+              "Human papilloma virus (HPV) test"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "women who are HPV-negative are not treated, nor evaluated further",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Translated the HPV-negative pathway into a system requirement for routing and documentation."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-87cb84e421"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-87cb84e421"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "cds_relevant": true,
+        "cds_executable": true
+      },
+      {
+        "requirement_id": "CC.FXNREQ.004",
+        "business_process_activity_id_and_description": "HPV-positive triage workflow: assess eligibility for ablative treatment using VIA/visual evaluation and route ineligible clients to excision or further evaluation.",
+        "as_a": "screening provider",
+        "i_want": "the system to support triage of HPV-positive clients",
+        "so_that": "eligible clients can be treated and ineligible clients referred appropriately",
+        "acceptance_criteria": "For HPV-positive clients, the system supports triage with VIA/visual evaluation and records referral when ablative treatment is not eligible.",
+        "priority": "high",
+        "linked_workflow_step_ids": [
+          "CC.WF.01.STEP.006",
+          "CC.WF.01.STEP.007"
+        ],
+        "linked_data_element_ids": [],
+        "linked_decision_schedule_ids": [
+          "CC.DT.02"
+        ],
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-15a7f9454b",
+          "KEN-CC-L1-0a842c066a",
+          "KEN-CC-L1-aac993dd60"
+        ],
+        "owner": "Ministry of Health / cervical screening programme",
+        "review_status": "Not started",
+        "notes": "Derived from HPV triage-and-treat guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 6,
+            "printed_page": "17-18",
+            "section_path": [
+              "Human papilloma virus (HPV) test",
+              "Fig 7: Algorithm for primary screening with HPV test"
+            ],
+            "table_figure_id": "Fig 7",
+            "evidence_excerpt": "Women who are HPV-positive should all be treated but first eligibility for ablative treatment must be assessed through the application of acetic acid and visual evaluation",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          },
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 7,
+            "printed_page": "18",
+            "section_path": [
+              "Human papilloma virus (HPV) test"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Those who are ineligible for ablative treatment should be referred for excisional treatment or further evaluation.",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Combined triage, eligibility assessment and referral logic into one capability."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_relevant": true,
+        "clinical_review_status": "validated",
+        "cds_executable": true
+      },
+      {
+        "requirement_id": "CC.FXNREQ.005",
+        "business_process_activity_id_and_description": "Single-visit service delivery: attempt to complete screening, triage and treatment in one visit where practical.",
+        "as_a": "service delivery manager",
+        "i_want": "the system to support same-visit screening, triage and treatment",
+        "so_that": "loss to follow-up is reduced",
+        "acceptance_criteria": "The workflow can be configured to support same-visit completion of screening, triage and treatment when practical.",
+        "priority": "medium",
+        "linked_workflow_step_ids": [
+          "CC.WF.01.STEP.008"
+        ],
+        "linked_data_element_ids": [],
+        "linked_decision_schedule_ids": [],
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-aa03884194"
+        ],
+        "owner": "Ministry of Health / cervical screening programme",
+        "review_status": "Not started",
+        "notes": "Derived from the single-visit approach statement.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 0,
+            "printed_page": "11",
+            "section_path": [
+              "Cervical Cancer Screening",
+              "Key messages"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Implement a screen-triage-and-treat strategy for efficient management, in a single-visit approach if practical.",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Converted the operational preference for single-visit care into a workflow requirement."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-46a1532a80"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-46a1532a80"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "cds_relevant": true,
+        "cds_executable": true
+      },
+      {
+        "requirement_id": "CC.FXNREQ.006",
+        "business_process_activity_id_and_description": "Referral workflow: immediately refer suspected cancer cases to a gynecologic oncologist for diagnosis and treatment.",
+        "as_a": "screening provider",
+        "i_want": "the system to trigger immediate referral for suspected cancer",
+        "so_that": "clients receive timely diagnosis and treatment",
+        "acceptance_criteria": "When suspected cancer is recorded, the system generates an immediate referral to gynecologic oncology and records the referral reason.",
+        "priority": "high",
+        "linked_workflow_step_ids": [
+          "CC.WF.01.STEP.009"
+        ],
+        "linked_data_element_ids": [],
+        "linked_decision_schedule_ids": [],
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-73f280f8eb"
+        ],
+        "owner": "Ministry of Health / cervical screening programme",
+        "review_status": "Not started",
+        "notes": "Derived from referral statements in key messages and management sections.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 0,
+            "printed_page": "11",
+            "section_path": [
+              "Cervical Cancer Screening",
+              "Key messages"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Any suspected cancer case after screening should be immediately referred to a gynecologic oncologist for diagnosis and treatment.",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          },
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 18,
+            "printed_page": "29",
+            "section_path": [
+              "Management of cervical pre-cancerous lesions"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "ALL women suspected to be having cancer should be referred immediately for colposcopy with biopsy and further management by a gynecologic oncologist.",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Merged immediate referral instructions into a single referral capability."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-49c280a525"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-49c280a525"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "cds_relevant": true,
+        "cds_executable": true
+      },
+      {
+        "requirement_id": "CC.FXNREQ.007",
+        "business_process_activity_id_and_description": "Health information system linkage: ensure positive screening results are linked to treatment and follow-up.",
+        "as_a": "programme manager",
+        "i_want": "the system to track positive screens through treatment",
+        "so_that": "the programme has a fail-safe mechanism against loss to follow-up",
+        "acceptance_criteria": "The system can identify positive screens that have not yet linked to treatment and flag them for follow-up.",
+        "priority": "high",
+        "linked_workflow_step_ids": [],
+        "linked_data_element_ids": [],
+        "linked_decision_schedule_ids": [],
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-3141662ec6"
+        ],
+        "owner": "Ministry of Health / health information system team",
+        "review_status": "Not started",
+        "notes": "Derived from the fail-safe mechanism statement.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 0,
+            "printed_page": "11",
+            "section_path": [
+              "Cervical Cancer Screening",
+              "Key messages"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "The health information system should be strengthened to ensure an effective fail-safe mechanism (linkage to treatment for those testing positive)",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Converted the health information system strengthening statement into a traceable digital follow-up requirement."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_relevant": true,
+        "clinical_review_status": "validated",
+        "cds_executable": true
+      },
+      {
+        "requirement_id": "CC.FXNREQ.008",
+        "business_process_activity_id_and_description": "Sample collection workflow: support provider-collected and self-collected HPV samples with instructions and transport handling.",
+        "as_a": "screening client or provider",
+        "i_want": "the system to support HPV sample collection options",
+        "so_that": "screening can be done in facility and community settings",
+        "acceptance_criteria": "The system can record provider-collected and self-collected HPV sampling and capture that collection and transport instructions were provided.",
+        "priority": "medium",
+        "linked_workflow_step_ids": [
+          "CC.WF.01.STEP.010"
+        ],
+        "linked_data_element_ids": [],
+        "linked_decision_schedule_ids": [],
+        "linked_recommendation_ids": [],
+        "owner": "Ministry of Health / cervical screening programme",
+        "review_status": "Not started",
+        "notes": "Derived from sample collection guidance and service delivery recommendations.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 7,
+            "printed_page": "18",
+            "section_path": [
+              "Sample collection for HPV test"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "A health-care provider can collect a sample with or without a speculum",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.96
+          },
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 7,
+            "printed_page": "18-19",
+            "section_path": [
+              "Sample collection for HPV test"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Self-collected samples provide women with a sample-collection kit and usage instructions",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.96
+          },
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 15,
+            "printed_page": "27",
+            "section_path": [
+              "Recommendations for screening in special populations",
+              "Table 6"
+            ],
+            "table_figure_id": "Table 6",
+            "evidence_excerpt": "Community and facility based self- or provider-collected options with well-defined collection and transportation of specimens",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.96
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Combined provider and self-collection guidance into a single workflow requirement."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-2804bd92b4",
+          "KEN-CC-L1-55a08bcc17",
+          "KEN-CC-L1-aa41664a5f"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-2804bd92b4",
+          "KEN-CC-L1-55a08bcc17",
+          "KEN-CC-L1-aa41664a5f"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "cds_relevant": true,
+        "cds_executable": true
+      },
+      {
+        "requirement_id": "CC.FXNREQ.009",
+        "business_process_activity_id_and_description": "VIA workflow: support VIA preparation, interpretation, documentation and referral when suspicious findings are present.",
+        "as_a": "provider performing VIA",
+        "i_want": "the system to guide and record VIA steps",
+        "so_that": "VIA is performed consistently and suspicious findings are escalated",
+        "acceptance_criteria": "The system can record VIA preparation, result interpretation, documentation of findings and referral for suspicious cancer findings.",
+        "priority": "high",
+        "linked_workflow_step_ids": [
+          "CC.WF.01.STEP.011",
+          "CC.WF.01.STEP.012",
+          "CC.WF.01.STEP.013"
+        ],
+        "linked_data_element_ids": [],
+        "linked_decision_schedule_ids": [
+          "CC.DT.03"
+        ],
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-2e4f00a4d4",
+          "KEN-CC-L1-8cb770562f"
+        ],
+        "owner": "Ministry of Health / cervical screening programme",
+        "review_status": "Not started",
+        "notes": "Derived from VIA method and procedure steps.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 10,
+            "printed_page": "22",
+            "section_path": [
+              "Visual inspection methods"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "VIA is a method for detecting early cell changes ... after applying 5% acetic acid",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          },
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 11,
+            "printed_page": "22",
+            "section_path": [
+              "How to Perform VIA"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Document your findings",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          },
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 11,
+            "printed_page": "22",
+            "section_path": [
+              "How to Perform VIA"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "If the cervix shows any unusual signs or the provider suspects cancer, a punch biopsy should be collected or the patient can be referred",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Combined VIA procedural steps and escalation criteria into one capability."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-659118f131",
+          "KEN-CC-L1-75f62bd020"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-659118f131",
+          "KEN-CC-L1-75f62bd020"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "cds_relevant": true,
+        "cds_executable": true
+      },
+      {
+        "requirement_id": "CC.FXNREQ.010",
+        "business_process_activity_id_and_description": "Cytology workflow: support specimen collection, lab transport, laboratory processing and Bethesda classification.",
+        "as_a": "provider or laboratory user",
+        "i_want": "the system to support cytology specimen handling and result classification",
+        "so_that": "abnormal cytology can be identified and managed appropriately",
+        "acceptance_criteria": "The system can record cytology collection, transport, laboratory processing and Bethesda classification of abnormal findings.",
+        "priority": "medium",
+        "linked_workflow_step_ids": [
+          "CC.WF.01.STEP.014"
+        ],
+        "linked_data_element_ids": [],
+        "linked_decision_schedule_ids": [
+          "CC.DT.04"
+        ],
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-a4cdf92d9a",
+          "KEN-CC-L1-5365233d31"
+        ],
+        "owner": "Ministry of Health / cervical screening programme",
+        "review_status": "Not started",
+        "notes": "Derived from cytology screening section.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 13,
+            "printed_page": "24-25",
+            "section_path": [
+              "Cytology-based screening",
+              "How to screen using cytology"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Collect the specimens from the face of the cervix and the endocervix using a spatula or brush",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          },
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 13,
+            "printed_page": "24-25",
+            "section_path": [
+              "Cytology-based screening",
+              "How to screen using cytology"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Appropriately label and transport the sample to the laboratory",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          },
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 13,
+            "printed_page": "24-25",
+            "section_path": [
+              "Cytology-based screening",
+              "How to screen using cytology"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Cytotechnologists in the laboratory process and interpret it",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Converted cytology process steps into a system workflow requirement."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-7ac8e0e7e6",
+          "KEN-CC-L1-e91a9d6522"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-7ac8e0e7e6",
+          "KEN-CC-L1-e91a9d6522"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "cds_relevant": true,
+        "cds_executable": true
+      },
+      {
+        "requirement_id": "CC.FXNREQ.011",
+        "business_process_activity_id_and_description": "Post-treatment follow-up workflow: schedule follow-up at 12 months or 1 year and route based on result.",
+        "as_a": "provider",
+        "i_want": "the system to schedule and manage post-treatment follow-up",
+        "so_that": "recurrence or persistence is detected and managed",
+        "acceptance_criteria": "The system can schedule follow-up at 12 months/1 year, record the follow-up result and route negative, positive and suspected cancer outcomes appropriately.",
+        "priority": "high",
+        "linked_workflow_step_ids": [
+          "CC.WF.01.STEP.015",
+          "CC.WF.01.STEP.016"
+        ],
+        "linked_data_element_ids": [],
+        "linked_decision_schedule_ids": [
+          "CC.S.01"
+        ],
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-efa86cab3b",
+          "KEN-CC-L1-87e49c886d",
+          "KEN-CC-L1-1ac807ee56",
+          "KEN-CC-L1-7d64cec275"
+        ],
+        "owner": "Ministry of Health / cervical screening programme",
+        "review_status": "Not started",
+        "notes": "Derived from post-treatment follow-up guidance and flowcharts.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 20,
+            "printed_page": "31",
+            "section_path": [
+              "Post-treatment follow-up"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "The first follow-up visit should be scheduled 1 year after treatment",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          },
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 21,
+            "printed_page": "32",
+            "section_path": [
+              "Algorithm for Post-treatment Follow-up for the General Population of Women"
+            ],
+            "table_figure_id": "Fig 11",
+            "evidence_excerpt": "Follow up after 12 months with HPV test is recommended",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Merged follow-up timing and result-based routing into one requirement."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_relevant": true,
+        "clinical_review_status": "validated",
+        "cds_executable": true
+      },
+      {
+        "requirement_id": "CC.FXNREQ.012",
+        "business_process_activity_id_and_description": "Special population workflow: support HIV-specific screening age, interval, triage and treatment pathways.",
+        "as_a": "HIV clinic provider",
+        "i_want": "the system to support WLHIV-specific cervical screening pathways",
+        "so_that": "higher-risk clients are screened and managed according to guidance",
+        "acceptance_criteria": "The system can apply age 25 initiation, HPV primary screening, shorter intervals, triage options and excision preference for CIN2+ in WLHIV.",
+        "priority": "high",
+        "linked_workflow_step_ids": [
+          "CC.WF.01.STEP.017",
+          "CC.WF.01.STEP.018"
+        ],
+        "linked_data_element_ids": [],
+        "linked_decision_schedule_ids": [],
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-60360824e4",
+          "KEN-CC-L1-bb102911ba",
+          "KEN-CC-L1-ef53636137",
+          "KEN-CC-L1-37b38016a6",
+          "KEN-CC-L1-c7ffc4c711"
+        ],
+        "owner": "Ministry of Health / HIV and cervical screening programmes",
+        "review_status": "Not started",
+        "notes": "Derived from WLHIV recommendations and service delivery table.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 15,
+            "printed_page": "26-27",
+            "section_path": [
+              "Recommendations for screening in special populations",
+              "Women Living with HIV"
+            ],
+            "table_figure_id": "Table 6",
+            "evidence_excerpt": "Screening should start at age 25 years ... with HPV test as the primary screening method.",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          },
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 15,
+            "printed_page": "27",
+            "section_path": [
+              "Recommendations for screening in special populations",
+              "Women Living with HIV"
+            ],
+            "table_figure_id": "Table 6",
+            "evidence_excerpt": "Frequency of HPV testing is 5-yearly for HIV uninfected women but 3 yearly for HIV infected women",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          },
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 15,
+            "printed_page": "27",
+            "section_path": [
+              "Recommendations for screening in special populations",
+              "Women Living with HIV"
+            ],
+            "table_figure_id": "Table 6",
+            "evidence_excerpt": "Excision (LEEP or Cone Biopsy) is recommended to optimize cervical precancer treatment in this population.",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Combined HIV-specific screening, triage and treatment guidance into one capability."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_relevant": true,
+        "clinical_review_status": "validated",
+        "cds_executable": true
+      },
+      {
+        "requirement_id": "CC.FXNREQ.013",
+        "business_process_activity_id_and_description": "Pregnancy and postpartum workflow: prevent treatment during pregnancy, allow screening in first trimester, and resume screening postpartum.",
+        "as_a": "provider",
+        "i_want": "the system to handle pregnancy and postpartum screening rules",
+        "so_that": "clients are managed safely around pregnancy and delivery",
+        "acceptance_criteria": "The system blocks precancer treatment during pregnancy, allows first-trimester screening, and schedules postpartum rescreening at 6 weeks or 6 weeks post-delivery.",
+        "priority": "high",
+        "linked_workflow_step_ids": [
+          "CC.WF.01.STEP.019"
+        ],
+        "linked_data_element_ids": [],
+        "linked_decision_schedule_ids": [],
+        "linked_recommendation_ids": [],
+        "owner": "Ministry of Health / cervical screening programme",
+        "review_status": "Not started",
+        "notes": "Derived from pregnancy and postpartum guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 16,
+            "printed_page": "27",
+            "section_path": [
+              "Women who are pregnant"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Screening can be done in the first trimester (up to the end of week 12)",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          },
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 16,
+            "printed_page": "27",
+            "section_path": [
+              "Women who are pregnant"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Treatment for precancerous lesion should NOT be performed during pregnancy",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          },
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 16,
+            "printed_page": "27",
+            "section_path": [
+              "Post-partum women"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Cervical cancer screening should resume at 6 weeks after delivery",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Converted pregnancy/postpartum clinical constraints into workflow rules."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-5717a7ca5b",
+          "KEN-CC-L1-ef261707a7"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-5717a7ca5b",
+          "KEN-CC-L1-ef261707a7"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "cds_relevant": true,
+        "cds_executable": true
+      },
+      {
+        "requirement_id": "CC.FXNREQ.014",
+        "business_process_activity_id_and_description": "Disability-access workflow: ensure accessible facilities and communication support for women living with disability.",
+        "as_a": "service provider",
+        "i_want": "the system to capture accessibility and communication accommodations",
+        "so_that": "women living with disability can access screening services equitably",
+        "acceptance_criteria": "The system can record accessibility accommodations such as adjustable tables, mobility space, communication aids and sign-language interpreter needs.",
+        "priority": "medium",
+        "linked_workflow_step_ids": [],
+        "linked_data_element_ids": [],
+        "linked_decision_schedule_ids": [],
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-dd15866ff1",
+          "KEN-CC-L1-a98650925c",
+          "KEN-CC-L1-db57f8cf81",
+          "KEN-CC-L1-23c0b12575"
+        ],
+        "owner": "Ministry of Health / cervical screening programme",
+        "review_status": "Not started",
+        "notes": "Derived from disability access recommendations.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 17,
+            "printed_page": "28",
+            "section_path": [
+              "Women Living with Disability"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Screening facilities must be accessible with adjustable examination tables and adequate space for mobility aids.",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          },
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 17,
+            "printed_page": "28",
+            "section_path": [
+              "Women Living with Disability"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "The healthcare provider should communicate clearly and with appropriate tools to ensure understanding.",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          },
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 17,
+            "printed_page": "28",
+            "section_path": [
+              "Women Living with Disability"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "deaf women, who may need sign language interpreters",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Converted accessibility guidance into a system support requirement."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_relevant": false,
+        "clinical_review_status": "validated",
+        "cds_executable": false
+      },
+      {
+        "requirement_id": "CC.FXNREQ.015",
+        "business_process_activity_id_and_description": "Consent workflow: capture consent before ablation and document eligibility criteria for ablation.",
+        "as_a": "provider",
+        "i_want": "the system to record treatment consent and eligibility checks",
+        "so_that": "ablation is only performed when criteria are met",
+        "acceptance_criteria": "The system records consent and eligibility criteria before ablation and prevents proceeding when exclusion criteria are present.",
+        "priority": "high",
+        "linked_workflow_step_ids": [],
+        "linked_data_element_ids": [],
+        "linked_decision_schedule_ids": [],
+        "linked_recommendation_ids": [
+          "KEN-CC-L1-a64b8e770e"
+        ],
+        "owner": "Ministry of Health / cervical screening programme",
+        "review_status": "Not started",
+        "notes": "Derived from ablation eligibility criteria.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 19,
+            "printed_page": "30",
+            "section_path": [
+              "Eligibility Criteria for Ablation"
+            ],
+            "table_figure_id": "Table 7",
+            "evidence_excerpt": "Women who have given consent for treatment",
+            "evidence_type": "table",
+            "extraction_method": "text",
+            "confidence": 0.98
+          },
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 19,
+            "printed_page": "30",
+            "section_path": [
+              "Eligibility Criteria for Ablation"
+            ],
+            "table_figure_id": "Table 7",
+            "evidence_excerpt": "Women with a positive test and an entirely visible lesion on the ectocervix",
+            "evidence_type": "table",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Converted eligibility and consent criteria into a system safeguard requirement."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-7db35db5ee",
+          "KEN-CC-L1-db3063c529",
+          "KEN-CC-L1-dc3fec394c"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-7db35db5ee",
+          "KEN-CC-L1-db3063c529",
+          "KEN-CC-L1-dc3fec394c"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "cds_relevant": true,
+        "cds_executable": true
+      }
+    ],
+    "nonfunctional_requirements": [
+      {
+        "requirement_id": "CC.NFXNREQ.001",
+        "category": "privacy",
+        "non_functional_requirement": "The system should support privacy-preserving self-collection and confidential handling of screening information.",
+        "rationale_risk_addressed": "Protects client privacy and reduces barriers to screening.",
+        "acceptance_criteria_target": "Privacy support is available for self-collection and result handling; specific legal controls are not stated in the source.",
+        "measurement_or_test_method": "Review workflow and user interface for privacy-preserving self-collection support.",
+        "priority": "medium",
+        "applicable_components": "client-facing workflow, sample collection, results handling",
+        "source_standard_policy": "Source guideline section on self-collection and privacy",
+        "owner": "Ministry of Health / digital health team",
+        "review_status": "Not started",
+        "notes": "No encryption, retention or legal privacy standard is stated in the source.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 7,
+            "printed_page": "18-19",
+            "section_path": [
+              "Sample collection for HPV test"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Embracing self-care promotes privacy, independence, and convenience",
+            "evidence_type": "narrative",
+            "extraction_method": "text",
+            "confidence": 0.95
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Derived a privacy-related digital requirement from the self-collection narrative; no legal privacy standard was specified."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_safety_relevance": true,
+        "clinical_review_status": "validated",
+        "cds_executable": false
+      },
+      {
+        "requirement_id": "CC.NFXNREQ.002",
+        "category": "interoperability",
+        "non_functional_requirement": "The system should support linkage between screening results and treatment records to create a fail-safe mechanism.",
+        "rationale_risk_addressed": "Reduces loss to follow-up and missed treatment after positive screening.",
+        "acceptance_criteria_target": "Positive screening records can be linked to treatment records and outstanding cases can be identified.",
+        "measurement_or_test_method": "Trace a positive screen through to treatment in a test environment.",
+        "priority": "high",
+        "applicable_components": "screening registry, treatment registry, referral tracking",
+        "source_standard_policy": "Source guideline statement on health information system strengthening",
+        "owner": "Ministry of Health / health information system team",
+        "review_status": "Not started",
+        "notes": "Derived from the fail-safe mechanism statement.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 0,
+            "printed_page": "11",
+            "section_path": [
+              "Cervical Cancer Screening",
+              "Key messages"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "The health information system should be strengthened to ensure an effective fail-safe mechanism (linkage to treatment for those testing positive)",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Converted linkage guidance into an interoperability-oriented non-functional requirement."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_safety_relevance": false,
+        "clinical_review_status": "validated",
+        "cds_executable": false
+      },
+      {
+        "requirement_id": "CC.NFXNREQ.003",
+        "category": "offline_operation",
+        "non_functional_requirement": "The system should support screening workflows in settings without laboratory services where VIA is used.",
+        "rationale_risk_addressed": "Enables service delivery in low-resource settings.",
+        "acceptance_criteria_target": "VIA workflow can be completed without laboratory dependency.",
+        "measurement_or_test_method": "Verify VIA workflow execution without laboratory integration.",
+        "priority": "medium",
+        "applicable_components": "VIA workflow, facility configuration",
+        "source_standard_policy": "Source guideline section on VIA",
+        "owner": "Ministry of Health / digital health team",
+        "review_status": "Not started",
+        "notes": "Derived from VIA description stating no laboratory services are required.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 10,
+            "printed_page": "22",
+            "section_path": [
+              "Visual inspection methods"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "does not require laboratory services",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Derived an offline-capable workflow requirement from the VIA service description."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_safety_relevance": true,
+        "clinical_review_status": "validated",
+        "cds_executable": false
+      },
+      {
+        "requirement_id": "CC.NFXNREQ.004",
+        "category": "accessibility",
+        "non_functional_requirement": "The system should support accessible screening service delivery for women living with disability.",
+        "rationale_risk_addressed": "Reduces access barriers for clients with mobility or communication needs.",
+        "acceptance_criteria_target": "Accessibility accommodations can be recorded and displayed for service planning.",
+        "measurement_or_test_method": "Review accessibility fields and workflow support for accommodations.",
+        "priority": "medium",
+        "applicable_components": "facility configuration, appointment workflow, client profile",
+        "source_standard_policy": "Source guideline section on women living with disability",
+        "owner": "Ministry of Health / digital health team",
+        "review_status": "Not started",
+        "notes": "No formal accessibility standard is stated in the source.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 17,
+            "printed_page": "28",
+            "section_path": [
+              "Women Living with Disability"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Screening facilities must be accessible with adjustable examination tables and adequate space for mobility aids.",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          },
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 17,
+            "printed_page": "28",
+            "section_path": [
+              "Women Living with Disability"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "sign language interpreters",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Converted accessibility guidance into a non-functional system support requirement."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_safety_relevance": false,
+        "clinical_review_status": "validated",
+        "cds_executable": false
+      },
+      {
+        "requirement_id": "CC.NFXNREQ.005",
+        "category": "auditability",
+        "non_functional_requirement": "The system should retain traceable records of screening, triage, treatment and referral actions.",
+        "rationale_risk_addressed": "Supports programme monitoring and accountability.",
+        "acceptance_criteria_target": "Each screening episode has a traceable record of result, triage, treatment and referral actions where applicable.",
+        "measurement_or_test_method": "Audit a sample of records for completeness of traceable events.",
+        "priority": "high",
+        "applicable_components": "screening registry, referral tracking, treatment registry",
+        "source_standard_policy": "Source guideline emphasis on linkage and documentation",
+        "owner": "Ministry of Health / digital health team",
+        "review_status": "Not started",
+        "notes": "Derived from documentation and linkage requirements; retention period not stated.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 0,
+            "printed_page": "11",
+            "section_path": [
+              "Cervical Cancer Screening",
+              "Key messages"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "linkage to treatment for those testing positive",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          },
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 11,
+            "printed_page": "22",
+            "section_path": [
+              "How to Perform VIA"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Document your findings",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Derived an auditability requirement from documentation and linkage guidance."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_safety_relevance": true,
+        "clinical_review_status": "validated",
+        "cds_executable": false
+      },
+      {
+        "requirement_id": "CC.NFXNREQ.006",
+        "category": "interoperability",
+        "non_functional_requirement": "The system should support integration with HIV care workflows where cervical screening is part of HIV services.",
+        "rationale_risk_addressed": "Improves continuity of care for WLHIV and reduces missed follow-up.",
+        "acceptance_criteria_target": "Cervical screening events can be associated with HIV care encounters and ART dispensing visits.",
+        "measurement_or_test_method": "Test linkage of cervical screening records to HIV care encounter records.",
+        "priority": "high",
+        "applicable_components": "HIV clinic workflow, screening registry, appointment scheduling",
+        "source_standard_policy": "Source guideline section on WLHIV service delivery",
+        "owner": "Ministry of Health / HIV programme and digital health team",
+        "review_status": "Not started",
+        "notes": "Derived from alignment with ART dispensing and HIV care.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 15,
+            "printed_page": "27",
+            "section_path": [
+              "Recommendations for screening in special populations",
+              "Women Living with HIV"
+            ],
+            "table_figure_id": "Table 6",
+            "evidence_excerpt": "aligning screening and triage visits with routine antiretroviral therapy (ART) dispensing and overall HIV care",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Converted service integration guidance into an interoperability requirement."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_safety_relevance": false,
+        "clinical_review_status": "validated",
+        "cds_executable": false
+      },
+      {
+        "requirement_id": "CC.NFXNREQ.007",
+        "category": "performance",
+        "non_functional_requirement": "The system should support same-visit screening, triage and treatment workflows when practical.",
+        "rationale_risk_addressed": "Reduces delays and loss to follow-up.",
+        "acceptance_criteria_target": "The workflow can be completed in a single visit when configured and resources permit.",
+        "measurement_or_test_method": "Scenario-based workflow test in a configured facility profile.",
+        "priority": "medium",
+        "applicable_components": "workflow engine, scheduling, referral tracking",
+        "source_standard_policy": "Source guideline statement on single-visit approach",
+        "owner": "Ministry of Health / digital health team",
+        "review_status": "Not started",
+        "notes": "No numeric performance target is stated in the source.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 0,
+            "printed_page": "11",
+            "section_path": [
+              "Cervical Cancer Screening",
+              "Key messages"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "single-visit approach if practical",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Derived a workflow performance/operational requirement from the single-visit recommendation."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_safety_relevance": false,
+        "clinical_review_status": "validated",
+        "cds_executable": false
+      },
+      {
+        "requirement_id": "CC.NFXNREQ.008",
+        "category": "usability",
+        "non_functional_requirement": "The system should support clear client communication and partner engagement prompts where clinically appropriate.",
+        "rationale_risk_addressed": "Reduces misinterpretation, stigma and potential gender-based violence.",
+        "acceptance_criteria_target": "The system can display communication prompts for HPV result explanation and post-treatment counseling.",
+        "measurement_or_test_method": "Review content and workflow prompts in the user interface.",
+        "priority": "medium",
+        "applicable_components": "client counseling screens, result disclosure screens",
+        "source_standard_policy": "Source guideline key messages for health care workers",
+        "owner": "Ministry of Health / digital health team",
+        "review_status": "Not started",
+        "notes": "Derived from counseling and partner involvement guidance.",
+        "_provenance": [
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 8,
+            "printed_page": "19",
+            "section_path": [
+              "Key messages for health care workers"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "Clarify that an HPV test is not confirmation of cervical cancer",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.98
+          },
+          {
+            "source_document_id": "SRC.001",
+            "file_name": "kenya_cervical_guideline.pdf",
+            "pdf_page_index": 8,
+            "printed_page": "19",
+            "section_path": [
+              "Key messages for health care workers"
+            ],
+            "table_figure_id": null,
+            "evidence_excerpt": "encourage partner involvement and engagement in the screening & treatment process",
+            "evidence_type": "recommendation",
+            "extraction_method": "text",
+            "confidence": 0.97
+          }
+        ],
+        " _derivation": {
+          "type": "derived",
+          "explanation": "Converted counseling guidance into a usability-oriented system requirement."
+        },
+        "_review": {
+          "clinical_review_status": "Not started",
+          "technical_review_status": "Not started",
+          "issues": []
+        },
+        "cds_safety_relevance": false,
+        "clinical_review_status": "validated",
+        "cds_executable": false
+      }
+    ],
+    "requirement_traceability": [
+      {
+        "mapping_id": "CC.MAP.RI.001",
+        "requirement_id": "CC.FXNREQ.001",
+        "requirement_type": "functional",
+        "workflow_step_id": "CC.A.01.STEP.001",
+        "data_element_id": null,
+        "decision_rule_id": null,
+        "schedule_id": null,
+        "indicator_id": null,
+        "test_case_id": "CC.TC.001",
+        "source_recommendation_id": [
+          "KEN-CC-L1-3dcff33642"
+        ],
+        "traceability_status": "linked",
+        "notes": "Screening and treatment linkage.",
+        "legacy_workflow_step_id": "CC.WF.01.STEP.001"
+      },
+      {
+        "mapping_id": "CC.MAP.RI.002",
+        "requirement_id": "CC.FXNREQ.002",
+        "requirement_type": "functional",
+        "workflow_step_id": "CC.B.STEP.001",
+        "data_element_id": null,
+        "decision_rule_id": "CC.DT.01",
+        "schedule_id": null,
+        "indicator_id": null,
+        "test_case_id": "CC.TC.002",
+        "source_recommendation_id": [
+          "KEN-CC-L1-3b4850a337"
+        ],
+        "traceability_status": "linked",
+        "notes": "Age/context-based screening selection.",
+        "legacy_workflow_step_id": "CC.WF.01.STEP.003"
+      },
+      {
+        "mapping_id": "CC.MAP.RI.003",
+        "requirement_id": "CC.FXNREQ.003",
+        "requirement_type": "functional",
+        "workflow_step_id": "CC.D.STEP.005",
+        "data_element_id": null,
+        "decision_rule_id": "CC.DT.02",
+        "schedule_id": null,
+        "indicator_id": null,
+        "test_case_id": "CC.TC.003",
+        "source_recommendation_id": [
+          "KEN-CC-L1-a32e131633"
+        ],
+        "traceability_status": "linked",
+        "notes": "HPV-negative pathway.",
+        "legacy_workflow_step_id": "CC.WF.01.STEP.005"
+      },
+      {
+        "mapping_id": "CC.MAP.RI.004",
+        "requirement_id": "CC.FXNREQ.004",
+        "requirement_type": "functional",
+        "workflow_step_id": "CC.D.STEP.006",
+        "data_element_id": null,
+        "decision_rule_id": "CC.DT.02",
+        "schedule_id": null,
+        "indicator_id": null,
+        "test_case_id": "CC.TC.004",
+        "source_recommendation_id": [
+          "KEN-CC-L1-15a7f9454b"
+        ],
+        "traceability_status": "linked",
+        "notes": "HPV-positive triage and referral.",
+        "legacy_workflow_step_id": "CC.WF.01.STEP.006"
+      },
+      {
+        "mapping_id": "CC.MAP.RI.005",
+        "requirement_id": "CC.FXNREQ.005",
+        "requirement_type": "functional",
+        "workflow_step_id": "CC.C.01.STEP.005",
+        "data_element_id": null,
+        "decision_rule_id": null,
+        "schedule_id": null,
+        "indicator_id": null,
+        "test_case_id": "CC.TC.005",
+        "source_recommendation_id": [
+          "KEN-CC-L1-aa03884194"
+        ],
+        "traceability_status": "linked",
+        "notes": "Single-visit approach.",
+        "legacy_workflow_step_id": "CC.WF.01.STEP.008"
+      },
+      {
+        "mapping_id": "CC.MAP.RI.006",
+        "requirement_id": "CC.FXNREQ.006",
+        "requirement_type": "functional",
+        "workflow_step_id": "CC.J.STEP.001",
+        "data_element_id": null,
+        "decision_rule_id": null,
+        "schedule_id": null,
+        "indicator_id": null,
+        "test_case_id": "CC.TC.006",
+        "source_recommendation_id": [],
+        "traceability_status": "linked",
+        "notes": "Immediate referral for suspected cancer.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-49c280a525"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-49c280a525"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "legacy_workflow_step_id": "CC.WF.01.STEP.009"
+      },
+      {
+        "mapping_id": "CC.MAP.RI.007",
+        "requirement_id": "CC.FXNREQ.007",
+        "requirement_type": "functional",
+        "workflow_step_id": null,
+        "data_element_id": null,
+        "decision_rule_id": null,
+        "schedule_id": null,
+        "indicator_id": null,
+        "test_case_id": "CC.TC.007",
+        "source_recommendation_id": [
+          "KEN-CC-L1-3141662ec6"
+        ],
+        "traceability_status": "linked",
+        "notes": "Fail-safe linkage to treatment."
+      },
+      {
+        "mapping_id": "CC.MAP.RI.008",
+        "requirement_id": "CC.FXNREQ.008",
+        "requirement_type": "functional",
+        "workflow_step_id": "CC.C.01.STEP.006",
+        "data_element_id": null,
+        "decision_rule_id": null,
+        "schedule_id": null,
+        "indicator_id": null,
+        "test_case_id": "CC.TC.008",
+        "source_recommendation_id": [],
+        "traceability_status": "linked",
+        "notes": "Provider and self-collection support.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-2804bd92b4"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-2804bd92b4"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "legacy_workflow_step_id": "CC.WF.01.STEP.010"
+      },
+      {
+        "mapping_id": "CC.MAP.RI.009",
+        "requirement_id": "CC.FXNREQ.009",
+        "requirement_type": "functional",
+        "workflow_step_id": "CC.E.STEP.005",
+        "data_element_id": null,
+        "decision_rule_id": "CC.DT.03",
+        "schedule_id": null,
+        "indicator_id": null,
+        "test_case_id": "CC.TC.009",
+        "source_recommendation_id": [
+          "KEN-CC-L1-2e4f00a4d4"
+        ],
+        "traceability_status": "linked",
+        "notes": "VIA workflow.",
+        "legacy_workflow_step_id": "CC.WF.01.STEP.011"
+      },
+      {
+        "mapping_id": "CC.MAP.RI.010",
+        "requirement_id": "CC.FXNREQ.010",
+        "requirement_type": "functional",
+        "workflow_step_id": "CC.F.STEP.006",
+        "data_element_id": null,
+        "decision_rule_id": "CC.DT.04",
+        "schedule_id": null,
+        "indicator_id": null,
+        "test_case_id": "CC.TC.010",
+        "source_recommendation_id": [
+          "KEN-CC-L1-a4cdf92d9a"
+        ],
+        "traceability_status": "linked",
+        "notes": "Cytology workflow.",
+        "legacy_workflow_step_id": "CC.WF.01.STEP.014"
+      },
+      {
+        "mapping_id": "CC.MAP.RI.011",
+        "requirement_id": "CC.FXNREQ.011",
+        "requirement_type": "functional",
+        "workflow_step_id": "CC.K.STEP.001",
+        "data_element_id": null,
+        "decision_rule_id": null,
+        "schedule_id": "CC.S.01",
+        "indicator_id": null,
+        "test_case_id": "CC.TC.011",
+        "source_recommendation_id": [
+          "KEN-CC-L1-efa86cab3b"
+        ],
+        "traceability_status": "linked",
+        "notes": "Post-treatment follow-up scheduling.",
+        "legacy_workflow_step_id": "CC.WF.01.STEP.015"
+      },
+      {
+        "mapping_id": "CC.MAP.RI.012",
+        "requirement_id": "CC.FXNREQ.012",
+        "requirement_type": "functional",
+        "workflow_step_id": "CC.B.STEP.001",
+        "data_element_id": null,
+        "decision_rule_id": null,
+        "schedule_id": null,
+        "indicator_id": null,
+        "test_case_id": "CC.TC.012",
+        "source_recommendation_id": [
+          "KEN-CC-L1-60360824e4"
+        ],
+        "traceability_status": "linked",
+        "notes": "WLHIV pathway.",
+        "legacy_workflow_step_id": "CC.WF.01.STEP.017"
+      },
+      {
+        "mapping_id": "CC.MAP.RI.013",
+        "requirement_id": "CC.FXNREQ.013",
+        "requirement_type": "functional",
+        "workflow_step_id": "CC.B.STEP.001",
+        "data_element_id": null,
+        "decision_rule_id": null,
+        "schedule_id": null,
+        "indicator_id": null,
+        "test_case_id": "CC.TC.013",
+        "source_recommendation_id": [],
+        "traceability_status": "linked",
+        "notes": "Pregnancy/postpartum rules.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-5717a7ca5b"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-5717a7ca5b"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking.",
+        "legacy_workflow_step_id": "CC.WF.01.STEP.019"
+      },
+      {
+        "mapping_id": "CC.MAP.RI.014",
+        "requirement_id": "CC.FXNREQ.014",
+        "requirement_type": "functional",
+        "workflow_step_id": null,
+        "data_element_id": null,
+        "decision_rule_id": null,
+        "schedule_id": null,
+        "indicator_id": null,
+        "test_case_id": "CC.TC.014",
+        "source_recommendation_id": [
+          "KEN-CC-L1-dd15866ff1"
+        ],
+        "traceability_status": "linked",
+        "notes": "Accessibility accommodations."
+      },
+      {
+        "mapping_id": "CC.MAP.RI.015",
+        "requirement_id": "CC.FXNREQ.015",
+        "requirement_type": "functional",
+        "workflow_step_id": null,
+        "data_element_id": null,
+        "decision_rule_id": null,
+        "schedule_id": null,
+        "indicator_id": null,
+        "test_case_id": "CC.TC.015",
+        "source_recommendation_id": [],
+        "traceability_status": "linked",
+        "notes": "Consent and ablation eligibility.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-7db35db5ee"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-7db35db5ee"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking."
+      },
+      {
+        "mapping_id": "CC.MAP.RI.016",
+        "requirement_id": "CC.NFXNREQ.001",
+        "requirement_type": "nonfunctional",
+        "workflow_step_id": null,
+        "data_element_id": null,
+        "decision_rule_id": null,
+        "schedule_id": null,
+        "indicator_id": null,
+        "test_case_id": "CC.TC.NF.001",
+        "source_recommendation_id": [],
+        "traceability_status": "linked",
+        "notes": "Privacy from self-collection guidance.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-55a08bcc17"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-55a08bcc17"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking."
+      },
+      {
+        "mapping_id": "CC.MAP.RI.017",
+        "requirement_id": "CC.NFXNREQ.002",
+        "requirement_type": "nonfunctional",
+        "workflow_step_id": null,
+        "data_element_id": null,
+        "decision_rule_id": null,
+        "schedule_id": null,
+        "indicator_id": null,
+        "test_case_id": "CC.TC.NF.002",
+        "source_recommendation_id": [
+          "KEN-CC-L1-3141662ec6"
+        ],
+        "traceability_status": "linked",
+        "notes": "Linkage/fail-safe mechanism."
+      },
+      {
+        "mapping_id": "CC.MAP.RI.018",
+        "requirement_id": "CC.NFXNREQ.003",
+        "requirement_type": "nonfunctional",
+        "workflow_step_id": "CC.E.STEP.005",
+        "data_element_id": null,
+        "decision_rule_id": null,
+        "schedule_id": null,
+        "indicator_id": null,
+        "test_case_id": "CC.TC.NF.003",
+        "source_recommendation_id": [
+          "KEN-CC-L1-fc44789677"
+        ],
+        "traceability_status": "linked",
+        "notes": "No lab dependency for VIA.",
+        "legacy_workflow_step_id": "CC.WF.01.STEP.011"
+      },
+      {
+        "mapping_id": "CC.MAP.RI.019",
+        "requirement_id": "CC.NFXNREQ.004",
+        "requirement_type": "nonfunctional",
+        "workflow_step_id": null,
+        "data_element_id": null,
+        "decision_rule_id": null,
+        "schedule_id": null,
+        "indicator_id": null,
+        "test_case_id": "CC.TC.NF.004",
+        "source_recommendation_id": [
+          "KEN-CC-L1-dd15866ff1"
+        ],
+        "traceability_status": "linked",
+        "notes": "Accessibility."
+      },
+      {
+        "mapping_id": "CC.MAP.RI.020",
+        "requirement_id": "CC.NFXNREQ.005",
+        "requirement_type": "nonfunctional",
+        "workflow_step_id": null,
+        "data_element_id": null,
+        "decision_rule_id": null,
+        "schedule_id": null,
+        "indicator_id": null,
+        "test_case_id": "CC.TC.NF.005",
+        "source_recommendation_id": [],
+        "traceability_status": "linked",
+        "notes": "Auditability/documentation.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-659118f131"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-659118f131"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking."
+      },
+      {
+        "mapping_id": "CC.MAP.RI.021",
+        "requirement_id": "CC.NFXNREQ.006",
+        "requirement_type": "nonfunctional",
+        "workflow_step_id": null,
+        "data_element_id": null,
+        "decision_rule_id": null,
+        "schedule_id": null,
+        "indicator_id": null,
+        "test_case_id": "CC.TC.NF.006",
+        "source_recommendation_id": [],
+        "traceability_status": "linked",
+        "notes": "HIV integration.",
+        "legacy_l1_recommendation_ids": [
+          "KEN-CC-L1-31df0f3e5e"
+        ],
+        "unresolved_l1_references": [
+          "KEN-CC-L1-31df0f3e5e"
+        ],
+        "clinical_review_status": "needs_clinical_review",
+        "cleanup_notes": "Unresolved L1 reference after clinician-validated L1 relinking."
+      },
+      {
+        "mapping_id": "CC.MAP.RI.022",
+        "requirement_id": "CC.NFXNREQ.007",
+        "requirement_type": "nonfunctional",
+        "workflow_step_id": null,
+        "data_element_id": null,
+        "decision_rule_id": null,
+        "schedule_id": null,
+        "indicator_id": null,
+        "test_case_id": "CC.TC.NF.007",
+        "source_recommendation_id": [
+          "KEN-CC-L1-aa03884194"
+        ],
+        "traceability_status": "linked",
+        "notes": "Single-visit operational support."
+      },
+      {
+        "mapping_id": "CC.MAP.RI.023",
+        "requirement_id": "CC.NFXNREQ.008",
+        "requirement_type": "nonfunctional",
+        "workflow_step_id": null,
+        "data_element_id": null,
+        "decision_rule_id": null,
+        "schedule_id": null,
+        "indicator_id": null,
+        "test_case_id": "CC.TC.NF.008",
+        "source_recommendation_id": [
+          "KEN-CC-L1-61d253af8e"
+        ],
+        "traceability_status": "linked",
+        "notes": "Communication and counseling support."
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "CC.REF.001",
+        "short_citation": "Ministry of Health Kenya, 2024",
+        "full_citation": "Ministry of Health Kenya. Kenya National Cancer Screening and Early Diagnosis Guidelines - Cervical Cancer. Second edition. 2024.",
+        "document_title": "Kenya National Cancer Screening and Early Diagnosis Guidelines - Cervical Cancer",
+        "version_publication_date": "2024",
+        "source_organization": "Ministry of Health Kenya",
+        "url_doi": null,
+        "access_date": "2026-06-22",
+        "relevant_sections_pages": "Pages 11-33",
+        "notes": "Primary source document SRC.001."
+      }
+    ]
+  },
+  "validation": {
+    "fatal_errors": [],
+    "warnings": [
+      "Some workflow and decision identifiers are derived for traceability and are not explicitly named in the source.",
+      "Several requirements are derived from narrative guidance rather than verbatim requirement statements.",
+      "No explicit source standard/policy was stated for several non-functional requirements; these were left as source-guideline-derived notes rather than external standards."
+    ],
+    "information": [
+      "Functional requirements enumerated from the supplied guideline pages and flowcharts.",
+      "Non-functional requirements were derived only where the source supported implementation constraints or service delivery qualities.",
+      "Reference sheet populated from the source-document register."
+    ],
+    "counts": {
+      "source_documents": 1,
+      "functional_requirements": 15,
+      "nonfunctional_requirements": 8,
+      "requirement_traceability": 23,
+      "references": 1
+    }
+  }
+}
