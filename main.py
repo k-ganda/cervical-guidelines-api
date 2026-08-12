@@ -1,6 +1,6 @@
 """
-Cervical Cancer Guideline Rules API
-Complete, Audited 15-Rule API.
+Kenya Cervical and Breast Cancer Guideline Rules API
+Includes 15 Cervical Cancer rules and 2 Breast Cancer rules.
 """
 from enum import Enum
 from typing import Optional
@@ -11,15 +11,16 @@ from pydantic import BaseModel, Field
 from packages import curated_cds
 
 app = FastAPI(
-    title="Kenya Cervical Cancer Guideline Rules API",
+    title="Kenya Cervical and Breast Cancer Guideline Rules API",
     version="1.0.0",
-    description="Dedicated endpoints with full field sets for all 15 Kenya MOH Cervical Cancer Rules."
+    description="Dedicated decision support endpoints for Kenya MOH Cervical and Breast Cancer Screening Guidelines."
 )
 
-
+# =====================================================================
 # MASTER DROPDOWN ENUMS
+# =====================================================================
 
-
+# --- Cervical Enums ---
 class HpvResultEnum(str, Enum):
     not_recorded = "not_recorded"
     negative = "negative"
@@ -98,12 +99,25 @@ class ScreeningMethodEnum(str, Enum):
     cytology = "cytology"
     via = "via"
 
+# --- Breast Enums ---
+class BreastCbeResultEnum(str, Enum):
+    not_recorded = "not_recorded"
+    normal = "normal"
+    abnormal = "abnormal"
+
+class BreastSharedDecisionEnum(str, Enum):
+    not_recorded = "not_recorded"
+    continue_screening = "continue"
+    stop = "stop"
+    defer = "defer"
 
 
-# REQUEST SCHEMAS (FULL FIELD SETS FOR ALL 15 RULES)
+
+# REQUEST SCHEMAS
 
 
-# 1. HPV Interpretation
+# ---------------- CERVICAL CANCER SCHEMAS (15 RULES) ----------------
+
 class HpvInterpretationRequest(BaseModel):
     patient_id: str = "demo-patient-001"
     hpv_result: HpvResultEnum = Field(HpvResultEnum.negative, description="PRIMARY: Select HPV Result")
@@ -111,7 +125,6 @@ class HpvInterpretationRequest(BaseModel):
     sample_date: Optional[str] = Field("2026-08-11", description="DEPENDENT: Sample Collection Date (YYYY-MM-DD)")
     result_date: Optional[str] = Field("2026-08-20", description="DEPENDENT: Result Available Date (YYYY-MM-DD)")
 
-# 2. VIA Eligibility Pre-check
 class ViaEligibilityRequest(BaseModel):
     patient_id: str = "demo-patient-001"
     via_exam_date: Optional[str] = Field("2026-08-11", description="PRIMARY: VIA Exam Date (YYYY-MM-DD)")
@@ -125,21 +138,18 @@ class ViaEligibilityRequest(BaseModel):
     known_allergy_to_acetic_acid: YesNoEnum = Field(YesNoEnum.no, description="DEPENDENT: Known Acetic Acid Allergy")
     history_total_hysterectomy: YesNoEnum = Field(YesNoEnum.no, description="DEPENDENT: Total Hysterectomy")
 
-# 3. VIA Interpretation
 class ViaInterpretationRequest(BaseModel):
     patient_id: str = "demo-patient-001"
     via_result: ViaResultEnum = Field(ViaResultEnum.via_negative, description="PRIMARY: Select VIA Result")
     hiv_status: HivStatusEnum = Field(HivStatusEnum.negative, description="DEPENDENT: Select HIV Status")
     via_exam_date: Optional[str] = Field("2026-08-11", description="DEPENDENT: VIA Exam Date (YYYY-MM-DD)")
 
-# 4. Cytology Interpretation
 class CytologyRequest(BaseModel):
     patient_id: str = "demo-patient-001"
     cytology_result: CytologyResultEnum = Field(CytologyResultEnum.nilm, description="PRIMARY: Select Cytology Result")
     hr_hpv_triage_result: HivStatusEnum = Field(HivStatusEnum.not_recorded, description="DEPENDENT: HR-HPV Triage Result")
     cytology_sample_date: Optional[str] = Field("2026-08-11", description="DEPENDENT: Sample Date (YYYY-MM-DD)")
 
-# 5. Colposcopy Interpretation
 class ColposcopyRequest(BaseModel):
     patient_id: str = "demo-patient-001"
     colposcopy_result: ColposcopyResultEnum = Field(ColposcopyResultEnum.negative, description="PRIMARY: Select Colposcopy Result")
@@ -148,27 +158,23 @@ class ColposcopyRequest(BaseModel):
     biopsy_result: BiopsyResultEnum = Field(BiopsyResultEnum.not_recorded, description="DEPENDENT: Biopsy Result")
     colposcopy_date: Optional[str] = Field("2026-08-11", description="DEPENDENT: Colposcopy Date (YYYY-MM-DD)")
 
-# 6. Negative Colposcopy HPV Surveillance
 class ColposcopySurveillanceRequest(BaseModel):
     patient_id: str = "demo-patient-001"
     prior_negative_colposcopy_date: str = Field("2024-08-11", description="PRIMARY: Date of Negative Colposcopy (YYYY-MM-DD)")
     latest_hpv_result: HpvResultEnum = Field(HpvResultEnum.positive, description="DEPENDENT: Latest HPV Result")
     facility_provides_colposcopy: YesNoEnum = Field(YesNoEnum.yes, description="DEPENDENT: Facility Provides Colposcopy")
 
-# 7. Persistent HPV After Negative Colposcopy
 class PersistentHpvRequest(BaseModel):
     patient_id: str = "demo-patient-001"
     prior_negative_colposcopy_date: str = Field("2024-08-11", description="PRIMARY: Date of Negative Colposcopy (YYYY-MM-DD)")
     latest_hpv_result: HpvResultEnum = Field(HpvResultEnum.positive, description="DEPENDENT: Latest HPV Result")
     facility_provides_colposcopy: YesNoEnum = Field(YesNoEnum.yes, description="DEPENDENT: Facility Provides Colposcopy")
 
-# 8. Histology Interpretation
 class HistologyRequest(BaseModel):
     patient_id: str = "demo-patient-001"
     biopsy_result: BiopsyResultEnum = Field(BiopsyResultEnum.cin2, description="PRIMARY: Select Biopsy Result")
     biopsy_date: Optional[str] = Field("2026-08-11", description="DEPENDENT: Biopsy Date (YYYY-MM-DD)")
 
-# 9. Ablation Eligibility / Exclusions
 class AblationEligibilityRequest(BaseModel):
     patient_id: str = "demo-patient-001"
     ablation_c1_positive_screen_or_eligible_precancer: YesNoEnum = Field(YesNoEnum.yes, description="Criterion 1: Positive Screen")
@@ -182,7 +188,6 @@ class AblationEligibilityRequest(BaseModel):
     ablation_c9_no_prior_precancer_treatment: YesNoEnum = Field(YesNoEnum.yes, description="Criterion 9: No Prior Treatment")
     ablation_c10_informed_consent_given: YesNoEnum = Field(YesNoEnum.yes, description="Criterion 10: Informed Consent Given")
 
-# 10. Special Population — Pregnancy
 class PregnancyRequest(BaseModel):
     patient_id: str = "demo-patient-001"
     pregnancy_status: PregnancyStatusEnum = Field(PregnancyStatusEnum.pregnant, description="PRIMARY: Select Pregnancy Status")
@@ -191,26 +196,22 @@ class PregnancyRequest(BaseModel):
     precancer_treatment_indicated: YesNoEnum = Field(YesNoEnum.no, description="DEPENDENT: Precancer Treatment Indicated")
     date_of_delivery: Optional[str] = Field(None, description="DEPENDENT: Expected Delivery Date (YYYY-MM-DD)")
 
-# 11. Special Population — Postpartum
 class PostpartumRequest(BaseModel):
     patient_id: str = "demo-patient-001"
     postpartum_status: YesNoEnum = Field(YesNoEnum.yes, description="PRIMARY: Postpartum Status")
     postpartum_weeks_since_delivery: int = Field(4, description="DEPENDENT: Weeks Postpartum")
     date_of_delivery: Optional[str] = Field("2026-07-14", description="DEPENDENT: Date of Delivery (YYYY-MM-DD)")
 
-# 12. Special Population — Total Hysterectomy
 class HysterectomyRequest(BaseModel):
     patient_id: str = "demo-patient-001"
     history_total_hysterectomy: YesNoEnum = Field(YesNoEnum.yes, description="PRIMARY: Total Hysterectomy?")
     hysterectomy_indication: HysterectomyIndicationEnum = Field(HysterectomyIndicationEnum.benign, description="DEPENDENT: Indication")
     history_high_grade_cin_or_cervical_cancer: YesNoEnum = Field(YesNoEnum.no, description="DEPENDENT: Prior High-Grade CIN/Cancer")
 
-# 13. Special Population — HPV Vaccinated
 class HpvVaccinatedRequest(BaseModel):
     patient_id: str = "demo-patient-001"
     hpv_vaccination_status: VaccinationStatusEnum = Field(VaccinationStatusEnum.vaccinated, description="PRIMARY: HPV Vaccination Status")
 
-# 14. Special Population — Postmenopausal
 class PostmenopausalRequest(BaseModel):
     patient_id: str = "demo-patient-001"
     menopausal_status: MenopausalStatusEnum = Field(MenopausalStatusEnum.postmenopausal, description="PRIMARY: Menopausal Status")
@@ -219,7 +220,6 @@ class PostmenopausalRequest(BaseModel):
     cytology_sample_date: Optional[str] = Field(None, description="DEPENDENT: Cytology Sample Date (YYYY-MM-DD)")
     hpv_sample_collection_date: Optional[str] = Field("2026-08-11", description="DEPENDENT: HPV Sample Date (YYYY-MM-DD)")
 
-# 15. Special Population — Age 65+
 class Age65PlusRequest(BaseModel):
     patient_id: str = "demo-patient-001"
     age_years: int = Field(68, description="PRIMARY: Patient Age (>=65)")
@@ -229,14 +229,33 @@ class Age65PlusRequest(BaseModel):
     screening_history_complete_for_age65_exit_assessment: YesNoEnum = Field(YesNoEnum.yes, description="DEPENDENT: Screening History Complete")
 
 
+# ---------------- BREAST CANCER SCHEMAS (2 RULES) ----------------
 
-# CORE FACT RESOLVER & EVALUATOR WRAPPER
+class BreastRiskClassificationRequest(BaseModel):
+    patient_id: str = "demo-patient-001"
+    breast_first_degree_relative_affected: YesNoEnum = Field(YesNoEnum.no, description="First-degree relative with breast cancer")
+    breast_previous_abnormal_biopsy: YesNoEnum = Field(YesNoEnum.no, description="Previous abnormal breast biopsy")
+    breast_previous_chest_wall_radiation: YesNoEnum = Field(YesNoEnum.no, description="Previous chest wall radiation before age 30")
+    breast_previous_cancer: YesNoEnum = Field(YesNoEnum.no, description="Personal history of breast cancer")
+    breast_known_pathogenic_mutation: YesNoEnum = Field(YesNoEnum.no, description="Known BRCA1/BRCA2 or other mutation")
+    breast_cbe_result: BreastCbeResultEnum = Field(BreastCbeResultEnum.normal, description="Clinical Breast Exam Result")
+
+class BreastAverageRiskScreeningRequest(BaseModel):
+    patient_id: str = "demo-patient-001"
+    date_of_birth: Optional[str] = Field("1982-05-15", description="Patient Date of Birth (YYYY-MM-DD)")
+    age_years: Optional[int] = Field(44, description="Patient Age in Years")
+    breast_cbe_result: BreastCbeResultEnum = Field(BreastCbeResultEnum.normal, description="Clinical Breast Exam Result")
+    breast_screening_shared_decision: BreastSharedDecisionEnum = Field(BreastSharedDecisionEnum.not_recorded, description="Shared Decision for Age 75+")
 
 
-def _execute_rule_eval(rule_id: str, raw_facts: dict, patient_id: str):
+
+# CORE EVALUATION HELPERS
+
+
+def _execute_cervical_rule_eval(rule_id: str, raw_facts: dict, patient_id: str):
     facts = {}
     
-    # 1. Clean inputs & cast numeric types
+    # Clean inputs & cast numeric types
     for k, v in raw_facts.items():
         if v is not None and str(v) not in ("not_recorded", "string", ""):
             val = v.value if hasattr(v, "value") else v
@@ -249,19 +268,18 @@ def _execute_rule_eval(rule_id: str, raw_facts: dict, patient_id: str):
             else:
                 facts[k] = str(val)
 
-    # 2. Map aliases expected by  internal logic
+    # Map aliases expected by  internal logic
     if "sample_date" in facts:
         facts["hpv_sample_collection_date"] = facts["sample_date"]
     if "result_date" in facts:
         facts["hpv_result_available_date"] = facts["result_date"]
 
-    # 3. Direct execution via _DISPATCH table
+    # Direct execution via _DISPATCH table
     fn_dep = curated_cds._DISPATCH.get(rule_id)
     if fn_dep:
         fn, _primary = fn_dep
         card = fn(facts)
         
-        # If the rule produces an active card (not "silent")
         if card.get("severity_class") != "silent":
             return {
                 "patient_id": patient_id,
@@ -276,7 +294,6 @@ def _execute_rule_eval(rule_id: str, raw_facts: dict, patient_id: str):
                 "complete_card": card
             }
 
-    # "No recommendation" fallback when severity is "silent" or rule does not fire
     return {
         "patient_id": patient_id,
         "rule_id": rule_id,
@@ -288,85 +305,152 @@ def _execute_rule_eval(rule_id: str, raw_facts: dict, patient_id: str):
     }
 
 
-# API ENDPOINTS (All 15 Rules)
 
+# API ENDPOINTS
 
 @app.get("/api/v1/rules/catalog")
 def get_rule_catalog():
     """Returns the catalog directly loaded from curated_cds."""
-    return {"total_rules": len(curated_cds.catalog().get("rules", [])), "rules": curated_cds.catalog().get("rules", [])}
+    return {
+        "total_rules": len(curated_cds.catalog().get("rules", [])),
+        "rules": curated_cds.catalog().get("rules", [])
+    }
 
-# 1. HPV interpretation
-@app.post("/api/v1/rules/cc.hpv.interpretation", tags=["15 Individual Guideline Rules"])
+
+# ---------------- 15 CERVICAL CANCER ENDPOINTS ----------------
+
+@app.post("/api/v1/rules/cc.hpv.interpretation", tags=["15 Cervical Cancer Rules"])
 def evaluate_hpv_rule(req: HpvInterpretationRequest):
-    return _execute_rule_eval("cc.hpv.interpretation", req.dict(), req.patient_id)
+    return _execute_cervical_rule_eval("cc.hpv.interpretation", req.dict(), req.patient_id)
 
-# 2. VIA eligibility pre-check
-@app.post("/api/v1/rules/cc.via.eligibility", tags=["15 Individual Guideline Rules"])
+@app.post("/api/v1/rules/cc.via.eligibility", tags=["15 Cervical Cancer Rules"])
 def evaluate_via_eligibility(req: ViaEligibilityRequest):
-    return _execute_rule_eval("cc.via.eligibility", req.dict(), req.patient_id)
+    return _execute_cervical_rule_eval("cc.via.eligibility", req.dict(), req.patient_id)
 
-# 3. VIA interpretation
-@app.post("/api/v1/rules/cc.via.interpretation", tags=["15 Individual Guideline Rules"])
+@app.post("/api/v1/rules/cc.via.interpretation", tags=["15 Cervical Cancer Rules"])
 def evaluate_via_rule(req: ViaInterpretationRequest):
-    return _execute_rule_eval("cc.via.interpretation", req.dict(), req.patient_id)
+    return _execute_cervical_rule_eval("cc.via.interpretation", req.dict(), req.patient_id)
 
-# 4. Cytology interpretation
-@app.post("/api/v1/rules/cc.cytology.interpretation", tags=["15 Individual Guideline Rules"])
+@app.post("/api/v1/rules/cc.cytology.interpretation", tags=["15 Cervical Cancer Rules"])
 def evaluate_cytology_rule(req: CytologyRequest):
-    return _execute_rule_eval("cc.cytology.interpretation", req.dict(), req.patient_id)
+    return _execute_cervical_rule_eval("cc.cytology.interpretation", req.dict(), req.patient_id)
 
-# 5. Colposcopy interpretation
-@app.post("/api/v1/rules/cc.colposcopy.interpretation", tags=["15 Individual Guideline Rules"])
+@app.post("/api/v1/rules/cc.colposcopy.interpretation", tags=["15 Cervical Cancer Rules"])
 def evaluate_colposcopy_rule(req: ColposcopyRequest):
-    return _execute_rule_eval("cc.colposcopy.interpretation", req.dict(), req.patient_id)
+    return _execute_cervical_rule_eval("cc.colposcopy.interpretation", req.dict(), req.patient_id)
 
-# 6. Negative-colposcopy HPV surveillance
-@app.post("/api/v1/rules/cc.colposcopy.negative_surveillance", tags=["15 Individual Guideline Rules"])
+@app.post("/api/v1/rules/cc.colposcopy.negative_surveillance", tags=["15 Cervical Cancer Rules"])
 def evaluate_colposcopy_surveillance(req: ColposcopySurveillanceRequest):
-    return _execute_rule_eval("cc.colposcopy.negative_surveillance", req.dict(), req.patient_id)
+    return _execute_cervical_rule_eval("cc.colposcopy.negative_surveillance", req.dict(), req.patient_id)
 
-# 7. Persistent HPV after negative colposcopy
-@app.post("/api/v1/rules/cc.hpv.persistent_after_negative_colposcopy", tags=["15 Individual Guideline Rules"])
+@app.post("/api/v1/rules/cc.hpv.persistent_after_negative_colposcopy", tags=["15 Cervical Cancer Rules"])
 def evaluate_persistent_hpv(req: PersistentHpvRequest):
-    return _execute_rule_eval("cc.hpv.persistent_after_negative_colposcopy", req.dict(), req.patient_id)
+    return _execute_cervical_rule_eval("cc.hpv.persistent_after_negative_colposcopy", req.dict(), req.patient_id)
 
-# 8. Histology interpretation
-@app.post("/api/v1/rules/cc.histology.interpretation", tags=["15 Individual Guideline Rules"])
+@app.post("/api/v1/rules/cc.histology.interpretation", tags=["15 Cervical Cancer Rules"])
 def evaluate_histology_rule(req: HistologyRequest):
-    return _execute_rule_eval("cc.histology.interpretation", req.dict(), req.patient_id)
+    return _execute_cervical_rule_eval("cc.histology.interpretation", req.dict(), req.patient_id)
 
-# 9. Ablation eligibility
-@app.post("/api/v1/rules/cc.eligibility.exclusions", tags=["15 Individual Guideline Rules"])
+@app.post("/api/v1/rules/cc.eligibility.exclusions", tags=["15 Cervical Cancer Rules"])
 def evaluate_ablation_eligibility(req: AblationEligibilityRequest):
-    return _execute_rule_eval("cc.eligibility.exclusions", req.dict(), req.patient_id)
+    return _execute_cervical_rule_eval("cc.eligibility.exclusions", req.dict(), req.patient_id)
 
-# 10. Special population — pregnancy
-@app.post("/api/v1/rules/cc.special.pregnancy", tags=["15 Individual Guideline Rules"])
+@app.post("/api/v1/rules/cc.special.pregnancy", tags=["15 Cervical Cancer Rules"])
 def evaluate_pregnancy_rule(req: PregnancyRequest):
-    return _execute_rule_eval("cc.special.pregnancy", req.dict(), req.patient_id)
+    return _execute_cervical_rule_eval("cc.special.pregnancy", req.dict(), req.patient_id)
 
-# 11. Special population — postpartum
-@app.post("/api/v1/rules/cc.special.postpartum", tags=["15 Individual Guideline Rules"])
+@app.post("/api/v1/rules/cc.special.postpartum", tags=["15 Cervical Cancer Rules"])
 def evaluate_postpartum_rule(req: PostpartumRequest):
-    return _execute_rule_eval("cc.special.postpartum", req.dict(), req.patient_id)
+    return _execute_cervical_rule_eval("cc.special.postpartum", req.dict(), req.patient_id)
 
-# 12. Special population — total hysterectomy
-@app.post("/api/v1/rules/cc.special.total_hysterectomy", tags=["15 Individual Guideline Rules"])
+@app.post("/api/v1/rules/cc.special.total_hysterectomy", tags=["15 Cervical Cancer Rules"])
 def evaluate_hysterectomy_rule(req: HysterectomyRequest):
-    return _execute_rule_eval("cc.special.total_hysterectomy", req.dict(), req.patient_id)
+    return _execute_cervical_rule_eval("cc.special.total_hysterectomy", req.dict(), req.patient_id)
 
-# 13. Special population — HPV vaccinated
-@app.post("/api/v1/rules/cc.special.hpv_vaccinated", tags=["15 Individual Guideline Rules"])
+@app.post("/api/v1/rules/cc.special.hpv_vaccinated", tags=["15 Cervical Cancer Rules"])
 def evaluate_hpv_vaccinated(req: HpvVaccinatedRequest):
-    return _execute_rule_eval("cc.special.hpv_vaccinated", req.dict(), req.patient_id)
+    return _execute_cervical_rule_eval("cc.special.hpv_vaccinated", req.dict(), req.patient_id)
 
-# 14. Special population — postmenopausal
-@app.post("/api/v1/rules/cc.special.postmenopausal", tags=["15 Individual Guideline Rules"])
+@app.post("/api/v1/rules/cc.special.postmenopausal", tags=["15 Cervical Cancer Rules"])
 def evaluate_postmenopausal(req: PostmenopausalRequest):
-    return _execute_rule_eval("cc.special.postmenopausal", req.dict(), req.patient_id)
+    return _execute_cervical_rule_eval("cc.special.postmenopausal", req.dict(), req.patient_id)
 
-# 15. Special population — age 65+
-@app.post("/api/v1/rules/cc.special.age_65_plus", tags=["15 Individual Guideline Rules"])
+@app.post("/api/v1/rules/cc.special.age_65_plus", tags=["15 Cervical Cancer Rules"])
 def evaluate_age_65_plus(req: Age65PlusRequest):
-    return _execute_rule_eval("cc.special.age_65_plus", req.dict(), req.patient_id)
+    return _execute_cervical_rule_eval("cc.special.age_65_plus", req.dict(), req.patient_id)
+
+
+# ---------------- 2 BREAST CANCER ENDPOINTS ----------------
+
+@app.post("/api/v1/rules/bc.risk.classification", tags=["2 Breast Cancer Rules"])
+def evaluate_breast_risk_classification(req: BreastRiskClassificationRequest):
+    facts = {
+        k: (v.value if hasattr(v, "value") else v)
+        for k, v in req.dict().items()
+        if k != "patient_id" and v is not None and str(v) not in ("not_recorded", "string", "")
+    }
+    card = curated_cds.map_bc_risk_classification(facts)
+    
+    if card.get("severity_class") != "silent":
+        return {
+            "patient_id": req.patient_id,
+            "rule_id": "bc.risk.classification",
+            "fired": True,
+            "severity": card.get("severity_class"),
+            "recommendation": card.get("recommendation_text"),
+            "reason": card.get("reason_text"),
+            "action_code": card.get("action_code"),
+            "facts_used": card.get("facts_used", facts),
+            "guideline": card.get("guideline_page_refs", ["kenya_ncsedg_2024_breast"]),
+            "complete_card": card
+        }
+
+    return {
+        "patient_id": req.patient_id,
+        "rule_id": "bc.risk.classification",
+        "fired": False,
+        "message": "No recommendation for those inputs",
+        "recommendation": None,
+        "reason": None,
+        "facts_evaluated": facts
+    }
+
+
+@app.post("/api/v1/rules/bc.screening.average_risk", tags=["2 Breast Cancer Rules"])
+def evaluate_breast_average_risk_screening(req: BreastAverageRiskScreeningRequest):
+    facts = {
+        k: (v.value if hasattr(v, "value") else v)
+        for k, v in req.dict().items()
+        if k != "patient_id" and v is not None and str(v) not in ("not_recorded", "string", "")
+    }
+    if "age_years" in facts:
+        try:
+            facts["age_years"] = int(facts["age_years"])
+        except (ValueError, TypeError):
+            pass
+
+    card = curated_cds.map_bc_screening_average_risk(facts)
+    
+    if card.get("severity_class") != "silent":
+        return {
+            "patient_id": req.patient_id,
+            "rule_id": "bc.screening.average_risk",
+            "fired": True,
+            "severity": card.get("severity_class"),
+            "recommendation": card.get("recommendation_text"),
+            "reason": card.get("reason_text"),
+            "action_code": card.get("action_code"),
+            "facts_used": card.get("facts_used", facts),
+            "guideline": card.get("guideline_page_refs", ["kenya_ncsedg_2024_breast"]),
+            "complete_card": card
+        }
+
+    return {
+        "patient_id": req.patient_id,
+        "rule_id": "bc.screening.average_risk",
+        "fired": False,
+        "message": "No recommendation for those inputs",
+        "recommendation": None,
+        "reason": None,
+        "facts_evaluated": facts
+    }
