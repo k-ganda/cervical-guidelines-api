@@ -111,6 +111,11 @@ class BreastSharedDecisionEnum(str, Enum):
     stop = "stop"
     defer = "defer"
 
+class HrHpvTriageResultEnum(str, Enum):
+    not_recorded = "not_recorded"
+    positive = "positive"
+    negative = "negative"
+    not_applicable = "not_applicable"
 
 
 # REQUEST SCHEMAS
@@ -147,7 +152,7 @@ class ViaInterpretationRequest(BaseModel):
 class CytologyRequest(BaseModel):
     patient_id: str = "demo-patient-001"
     cytology_result: CytologyResultEnum = Field(CytologyResultEnum.nilm, description="PRIMARY: Select Cytology Result")
-    hr_hpv_triage_result: HivStatusEnum = Field(HivStatusEnum.not_recorded, description="DEPENDENT: HR-HPV Triage Result")
+    hr_hpv_triage_result: HrHpvTriageResultEnum = Field(HrHpvTriageResultEnum.not_recorded, description="DEPENDENT: HR-HPV Triage Result")
     cytology_sample_date: Optional[str] = Field("2026-08-11", description="DEPENDENT: Sample Date (YYYY-MM-DD)")
 
 class ColposcopyRequest(BaseModel):
