@@ -100,10 +100,10 @@ def test_catalog_endpoint():
 def test_api_hpv_endpoint_fires():
     payload = {
         "patient_id": "test-patient-001",
-        "hpv_result": "negative",
-        "hiv_status": "positive",
-        "sample_date": "2026-08-11",
-        "result_date": "2026-08-20"
+        "HPV Test Findings": "Negative",
+        "HIV Status": "Positive",
+        "Sample Date": "2026-08-11",
+        "Result Date": "2026-08-20"
     }
     response = client.post("/api/v1/rules/cc.hpv.interpretation", json=payload)
     assert response.status_code == 200
@@ -116,8 +116,8 @@ def test_api_hpv_endpoint_fires():
 def test_api_cytology_ascus_hpv_positive_endpoint():
     payload = {
         "patient_id": "test-patient-002",
-        "cytology_result": "ASC_US",
-        "hr_hpv_triage_result": "positive",
+        "Pap Smear": "ASCUS(Atypical squamous cells of undetermined significance)",
+        "HPV Test Findings": "Positive",
         "cytology_sample_date": "2026-08-11"
     }
     response = client.post("/api/v1/rules/cc.cytology.interpretation", json=payload)
@@ -131,11 +131,73 @@ def test_api_cytology_ascus_hpv_positive_endpoint():
 def test_api_silent_input_returns_no_recommendation():
     payload = {
         "patient_id": "test-patient-003",
-        "hpv_result": "not_recorded",
-        "hiv_status": "unknown"
+        "HPV Test Findings": "not_recorded",
+        "HIV Status": "Unknown"
     }
     response = client.post("/api/v1/rules/cc.hpv.interpretation", json=payload)
     assert response.status_code == 200
     data = response.json()
     assert data["fired"] is False
     assert data["message"] == "No recommendation for those inputs"
+
+# =====================================================================
+# 3. THE DATA DICTIONARY CONTRACT
+# =====================================================================
+
+BASE = "/api/v1/rules/"
+
+
+def test_every_curated_rule_has_an_endpoint():
+    """A rule the engine can evaluate but nothing can call is a rule nobody gets."""
+    exposed = {r.path.rsplit("/", 1)[-1] for r in app.routes
+               if "POST" in getattr(r, "methods", set())}
+    assert set(curated_cds._DISPATCH) - exposed == set()
+
+
+@pytest.mark.parametrize("rule_id", sorted(curated_cds._DISPATCH))
+def test_every_endpoint_answers_on_its_defaults(rule_id):
+    assert client.post(BASE + rule_id, json={}).status_code == 200
+
+
+def test_answers_are_matched_whatever_the_casing():
+    """A capital letter must never decide whether a woman gets advice."""
+    form = {"HPV Test Findings": "Negative", "HIV Status": "Positive", "Sample Date": "2026-08-11"}
+    lower = {k: (v.lower() if k != "Sample Date" else v) for k, v in form.items()}
+    a = client.post(BASE + "cc.hpv.interpretation", json=form).json()
+    b = client.post(BASE + "cc.hpv.interpretation", json=lower).json()
+    assert a["recommendation"] == b["recommendation"] == "Re-screen after 3 years"
+
+
+def test_the_old_short_field_names_are_rejected():
+    """Silently ignoring them would answer from the schema defaults instead of the data."""
+    r = client.post(BASE + "cc.hpv.interpretation", json={"hpv_result": "Negative"})
+    assert r.status_code == 422
+
+
+def test_an_answer_the_rule_does_not_know_is_rejected():
+    r = client.post(BASE + "cc.hpv.interpretation", json={"HIV Status": "reactive"})
+    assert r.status_code == 422
+
+
+def test_breast_high_risk_endpoints_fire():
+    d = client.post(BASE + "bc.screening.high_risk.family_history", json={
+        "breast_first_degree_relative_affected": "yes", "breast_first_degree_relatives_count": 1,
+        "breast_youngest_family_case_age": 40, "Client Age": 35}).json()
+    assert d["fired"] is True
+    assert d["action_code"] in ("schedule_followup", "open_required_form")
+
+
+def test_birads_5_is_red_and_blocking():
+    d = client.post(BASE + "bc.mammography.birads", json={
+        "Mammogram – BI-RADS": "BI-RADS 5", "mammography_date": "2026-08-11"}).json()
+    assert d["fired"] is True
+    assert d["severity"] == "red"
+    assert d["complete_card"]["blocking"] is True
+
+
+def test_the_card_reports_facts_in_dictionary_terms():
+    """The reply is read next to the request, so it uses the same names and wording."""
+    d = client.post(BASE + "cc.hpv.interpretation", json={
+        "HPV Test Findings": "negative", "HIV Status": "Positive", "Sample Date": "2026-08-11"}).json()
+    assert d["facts_used"]["HPV Test Findings"] == "Negative"
+    assert d["facts_used"]["HIV Status"] == "Positive"
