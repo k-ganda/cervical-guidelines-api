@@ -1,0 +1,754 @@
+{
+  "catalog_version": "0.8.0",
+  "note": "Curated CDS catalogue (v0.7.5): automatic executable CDS with decision-point dependent inputs.",
+  "rules": [
+    {
+      "rule_id": "cc.hpv.interpretation",
+      "category": "HPV interpretation",
+      "workflow_step": "screening_test",
+      "subsection": "HPV",
+      "primary_input": "hpv_result",
+      "dependent_inputs": [
+        "hiv_status",
+        "hpv_sample_collection_date",
+        "hpv_result_available_date"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "page_017",
+        "page_020"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "cc.via.eligibility",
+      "category": "VIA eligibility pre-check",
+      "workflow_step": "screening_test",
+      "subsection": "VIA",
+      "primary_input": "via_exam_date",
+      "dependent_inputs": [
+        "woman_very_ill",
+        "pregnancy_status",
+        "gestational_age_weeks",
+        "postpartum_status",
+        "postpartum_weeks_since_delivery",
+        "mass_suspicious_for_invasive_disease",
+        "history_treatment_precancer_or_cancer",
+        "known_allergy_to_acetic_acid",
+        "history_total_hysterectomy"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check",
+        "on_enter_section"
+      ],
+      "guideline_refs": [
+        "page_021",
+        "page_022"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "cc.via.interpretation",
+      "category": "VIA interpretation",
+      "workflow_step": "screening_test",
+      "subsection": "VIA",
+      "primary_input": "via_result",
+      "dependent_inputs": [
+        "hiv_status",
+        "via_exam_date"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "page_022",
+        "page_023"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "cc.cytology.interpretation",
+      "category": "Cytology interpretation",
+      "workflow_step": "screening_test",
+      "subsection": "Cytology",
+      "primary_input": "cytology_result",
+      "dependent_inputs": [
+        "hr_hpv_triage_result",
+        "cytology_sample_date"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "page_025"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "cc.colposcopy.interpretation",
+      "category": "Colposcopy interpretation",
+      "workflow_step": "diagnostic_assessment",
+      "subsection": "Colposcopy",
+      "primary_input": "colposcopy_result",
+      "dependent_inputs": [
+        "biopsy_kit_available",
+        "biopsy_done",
+        "biopsy_result",
+        "colposcopy_date"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "page_020"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "cc.colposcopy.negative_surveillance",
+      "category": "Negative-colposcopy HPV surveillance",
+      "workflow_step": "followup_surveillance",
+      "subsection": "Follow-up",
+      "primary_input": "prior_negative_colposcopy_date",
+      "dependent_inputs": [
+        "latest_hpv_result",
+        "hpv_result",
+        "facility_provides_colposcopy"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "page_027"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "cc.hpv.persistent_after_negative_colposcopy",
+      "category": "Persistent HPV after negative colposcopy",
+      "workflow_step": "followup_surveillance",
+      "subsection": "Follow-up",
+      "primary_input": "prior_negative_colposcopy_date",
+      "dependent_inputs": [
+        "latest_hpv_result",
+        "hpv_result"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "page_027"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "inactive"
+    },
+    {
+      "rule_id": "cc.histology.interpretation",
+      "category": "Histology interpretation",
+      "workflow_step": "diagnostic_assessment",
+      "subsection": "Histology / biopsy",
+      "primary_input": "biopsy_result",
+      "dependent_inputs": [
+        "biopsy_date"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "page_030"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "cc.eligibility.exclusions",
+      "category": "Ablation eligibility",
+      "workflow_step": "treatment_eligibility",
+      "subsection": "Ablation eligibility",
+      "primary_input": "ablative_therapy_eligibility",
+      "dependent_inputs": [
+        "ablation_positive_screen_or_test",
+        "lesion_entirely_visible_on_ectocervix",
+        "lesion_extends_to_vaginal_wall",
+        "lesion_extension_into_canal_mm",
+        "cryotherapy_probe_covers_lesion",
+        "probe_uncovered_margin_mm",
+        "lesion_surface_area_percent",
+        "pid_present",
+        "cervicitis_present",
+        "cervical_polyps_present",
+        "consent_for_treatment_given",
+        "pregnancy_status",
+        "postpartum_weeks_since_delivery",
+        "suspected_cancer_for_ablation",
+        "history_prior_treatment_precancer"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check",
+        "on_enter_section"
+      ],
+      "guideline_refs": [
+        "page_030"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "cc.special.pregnancy",
+      "category": "Special population \u2014 pregnancy",
+      "workflow_step": "screening_test",
+      "subsection": "VIA",
+      "primary_input": "pregnancy_status",
+      "dependent_inputs": [
+        "gestational_age_weeks",
+        "mass_suspicious_for_invasive_disease",
+        "precancer_treatment_indicated",
+        "date_of_delivery"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "page_032"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "cc.special.postpartum",
+      "category": "Special population \u2014 postpartum",
+      "workflow_step": "screening_test",
+      "subsection": "VIA",
+      "primary_input": "postpartum_status",
+      "dependent_inputs": [
+        "postpartum_weeks_since_delivery",
+        "date_of_delivery"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "page_032"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "cc.special.total_hysterectomy",
+      "category": "Special population \u2014 total hysterectomy",
+      "workflow_step": "register_client",
+      "subsection": "Relevant reproductive, medical & surgical history",
+      "primary_input": "history_total_hysterectomy",
+      "dependent_inputs": [
+        "hysterectomy_indication",
+        "history_high_grade_cin_or_cervical_cancer"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "page_033"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "cc.special.hpv_vaccinated",
+      "category": "Special population \u2014 HPV vaccinated",
+      "workflow_step": "register_client",
+      "subsection": "Risk factors",
+      "primary_input": "hpv_vaccination_status",
+      "dependent_inputs": [],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "page_015"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "cc.special.postmenopausal",
+      "category": "Special population \u2014 postmenopausal",
+      "workflow_step": "screening_test",
+      "subsection": "Screening Method / Test",
+      "primary_input": "menopausal_status",
+      "dependent_inputs": [
+        "age_years",
+        "screening_method"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "page_033"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "cc.special.age_65_plus",
+      "category": "Special population \u2014 age 65+",
+      "workflow_step": "screening_test",
+      "subsection": "Other",
+      "primary_input": "age_years",
+      "dependent_inputs": [
+        "history_high_grade_cin_or_cervical_cancer",
+        "negative_hpv_tests_last_10_years",
+        "negative_pap_tests_last_10_years",
+        "screening_history_complete_for_age65_exit_assessment"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "page_033"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "bc.risk.classification",
+      "category": "Breast risk classification",
+      "workflow_step": "register_client",
+      "subsection": "Breast cancer risk assessment and history",
+      "primary_input": "breast_family_history_present",
+      "dependent_inputs": [
+        "breast_first_degree_relative_affected",
+        "breast_previous_abnormal_biopsy",
+        "breast_previous_chest_wall_radiation",
+        "breast_previous_cancer",
+        "breast_known_pathogenic_mutation"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "kenya_ncsedg_2024_breast",
+        "table_9",
+        "section_7"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "bc.screening.average_risk",
+      "category": "Average-risk breast screening",
+      "workflow_step": "screening_test",
+      "subsection": "Breast CBE",
+      "primary_input": "age_years",
+      "dependent_inputs": [
+        "date_of_birth",
+        "last_breast_cbe_date",
+        "last_mammography_date",
+        "breast_high_risk_classification",
+        "breast_screening_shared_decision"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "kenya_ncsedg_2024_breast",
+        "table_9"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "bc.screening.high_risk.family_history",
+      "category": "High-risk breast screening (family history)",
+      "workflow_step": "screening_test",
+      "subsection": "Breast CBE",
+      "primary_input": "breast_first_degree_relative_affected",
+      "dependent_inputs": [
+        "breast_youngest_family_case_age",
+        "breast_first_degree_relatives_count",
+        "age_years"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "kenya_ncsedg_2024_breast",
+        "section_7"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "bc.screening.high_risk.abnormal_biopsy",
+      "category": "High-risk breast screening (abnormal biopsy)",
+      "workflow_step": "screening_test",
+      "subsection": "Breast CBE",
+      "primary_input": "breast_previous_abnormal_biopsy",
+      "dependent_inputs": [
+        "breast_previous_biopsy_finding",
+        "breast_invasive_carcinoma_ruled_out_after_biopsy",
+        "breast_high_risk_cbe_interval_months",
+        "last_mammography_date"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "kenya_ncsedg_2024_breast",
+        "section_7"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "bc.screening.high_risk.chest_radiation",
+      "category": "High-risk breast screening (chest radiation)",
+      "workflow_step": "screening_test",
+      "subsection": "Breast CBE",
+      "primary_input": "breast_previous_chest_wall_radiation",
+      "dependent_inputs": [
+        "breast_age_at_chest_wall_radiation",
+        "breast_chest_wall_radiation_date",
+        "age_years"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "kenya_ncsedg_2024_breast",
+        "section_7"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "bc.screening.high_risk.previous_breast_cancer",
+      "category": "High-risk breast screening (previous cancer)",
+      "workflow_step": "screening_test",
+      "subsection": "Breast CBE",
+      "primary_input": "breast_previous_cancer",
+      "dependent_inputs": [
+        "breast_previous_cancer_laterality",
+        "breast_high_risk_cbe_interval_months",
+        "last_mammography_date"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "kenya_ncsedg_2024_breast",
+        "section_7"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "bc.screening.high_risk.known_mutation",
+      "category": "High-risk breast screening (known mutation)",
+      "workflow_step": "screening_test",
+      "subsection": "Breast screening plan",
+      "primary_input": "breast_known_pathogenic_mutation",
+      "dependent_inputs": [
+        "breast_specialist_screening_plan",
+        "breast_specialist_screening_interval_months",
+        "breast_specialist_plan_date"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "kenya_ncsedg_2024_breast",
+        "section_7"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "bc.genetics.referral",
+      "category": "Genetic-counselling referral",
+      "workflow_step": "register_client",
+      "subsection": "Breast cancer risk assessment and history",
+      "primary_input": "breast_family_history_present",
+      "dependent_inputs": [
+        "breast_family_breast_ovarian_cases_count",
+        "breast_family_generations_affected_count",
+        "breast_family_any_onset_under_50",
+        "breast_bilateral_primary_cancer",
+        "breast_previous_cancer_diagnosis_age",
+        "breast_triple_negative_cancer",
+        "breast_primary_ovarian_cancer_history",
+        "breast_family_male_breast_cancer",
+        "breast_family_male_case_age",
+        "breast_family_male_case_close_family_history",
+        "breast_confirmed_brca1_brca2_in_family"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "kenya_ncsedg_2024_breast",
+        "section_10"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "bc.cbe.abnormal",
+      "category": "Abnormal/symptomatic CBE pathway",
+      "workflow_step": "screening_test",
+      "subsection": "Breast CBE",
+      "primary_input": "breast_cbe_result",
+      "dependent_inputs": [
+        "breast_cbe_lump",
+        "breast_cbe_pain",
+        "breast_cbe_nipple_discharge",
+        "breast_cbe_skin_changes",
+        "breast_cbe_axillary_nodes",
+        "breast_cbe_laterality"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "kenya_ncsedg_2024_breast",
+        "section_11"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "bc.mammography.birads",
+      "category": "Mammography BI-RADS interpretation",
+      "workflow_step": "screening_test",
+      "subsection": "Mammography",
+      "primary_input": "mammography_birads",
+      "dependent_inputs": [
+        "mammography_date",
+        "breast_high_risk_classification",
+        "age_years",
+        "last_breast_cbe_date",
+        "last_mammography_date"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "kenya_ncsedg_2024_breast",
+        "section_12",
+        "birads"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    },
+    {
+      "rule_id": "bc.histopathology.interpretation",
+      "category": "Breast histopathology interpretation",
+      "workflow_step": "diagnostic_assessment",
+      "subsection": "Breast Histopathology",
+      "primary_input": "breast_histopathology_result",
+      "dependent_inputs": [
+        "breast_er_status",
+        "breast_pr_status",
+        "breast_her2_status",
+        "breast_biopsy_date"
+      ],
+      "required_inputs": [],
+      "trigger_mode": [
+        "push",
+        "manual",
+        "close_check"
+      ],
+      "guideline_refs": [
+        "kenya_ncsedg_2024_breast",
+        "section_13"
+      ],
+      "admin_controls": {
+        "editable_severity": true,
+        "editable_text": true,
+        "editable_trigger": true
+      },
+      "status": "active"
+    }
+  ]
+}
